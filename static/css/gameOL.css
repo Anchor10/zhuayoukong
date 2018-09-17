@@ -1,0 +1,58 @@
+/* 面包屑 */
+.position { height: 15px; line-height: 15px; overflow: hidden; color: #999; padding-bottom: 13px;}
+.position .icon-cur { float: left; width: 15px; height: 15px; display: block; background: url("../images/inner_sprite.png") -160px 0 no-repeat; margin-right: 10px; }
+.position a { color: #666; }
+.position a:hover { color: #f60; }
+.main { width: 1120px; padding: 20px 20px 0px; margin: 0 auto; background: #fff; position: relative; z-index: 10; }
+
+/* 游戏导航 */
+.wrap1120{width:1120px;height:auto;margin-left:auto;margin-right:auto;margin-top: 5px;}
+.gamefl-tab{ height:49px; clear:both;zoom:1; border-bottom:2px solid #00bfb1; font-size:16px;position:relative;}
+.gamefl-tab a{ float:left; display:block;height:48px;line-height:48px;padding:0 25px 0 20px;font-weight:bold; margin-right:-1px; border:1px solid #ddd; border-bottom:none;background:#fff; cursor:pointer;}
+.gamefl-tab a i{ width:20px; height:21px; display:inline-block; vertical-align:-4px; margin-right:8px;background: url(../images/mb-sprite.png?v1) no-repeat;}
+.gamefl-tab a.active{height:58px;line-height:58px;font-size:20px;margin:-10px 0 0 0;color: #1ed6c9;margin-right:-1px;}
+.gamefl-tab a.active i{width:27px; height:31px; vertical-align:middle;}
+.gamefl-tab a i.android{background-position:0 -512px;}
+.gamefl-tab a i.ios{background-position:-32px -512px;}
+.gamefl-tab a i.wangyou{background-position:-185px -66px;}
+.gamefl-tab a i.danji{background-position:-208px -66px;}
+.gamefl-tab a i.ruanjian{background-position:-231px -66px;}
+.gamefl-tab a:hover{color: #1ed6c9;}
+.gamefl-tab a.active i.android{background-position:-190px -112px;}
+.gamefl-tab a.active i.wangyou{background-position:-60px -508px;}
+.gamefl-tab a.active i.danji{background-position:-92px -508px;}
+.gamefl-tab a.active i.ruanjian{background-position:-125px -508px;}
+.gamefl-tab a.active i.ios{background-position:-188px -148px;}
+
+/* 游戏类型选择 */
+.dj-tjfl dt{ width:60px; float:left; line-height:35px;}
+.dj-tjfl dd{width:1060px; float:left;}
+.dj-tjfl dd.dd1 a{ display:inline-block; width:85px; height:34px; line-height:34px; font-size:14px; color:#666; text-align:center; margin:0 0 15px 15px; border:1px solid #eaeaea; background:#fff;}
+.dj-tjfl dd.dd1 a:hover{ color:#00bfb1;}
+.dj-tjfl dd.dd1 a.active{background: #1ed6c9;color:#fff;border-color: #1ed6c9;}
+.dj-tjfl dd.dd2 a{background: url(../images/mb-sprite.png) no-repeat;display:inline-block;font-size:14px;width:82px;height:24px;line-height:24px;padding-left:10px;border: 1px solid #1ed6c9;text-align:left;color: #1ed6c9;background-color:#fff;background-position:75px -257px;margin:5px 0 15px 15px;}
+.dj-tjfl dd.dd2 a.active{background-color: #1ed6c9;background-position:75px -234px;color:#fff;}
+
+/* 游戏列表 */
+.mb-gamelist{ margin:10px -20px 0 0;}
+.mb-gamelist li{ border:1px solid #eaeaea; padding:4px 20px 12px; width:318px;position:relative;color:#999; background:#fff;margin:0 20px 20px 0; float:left;}
+.mb-gamelist li:hover{box-shadow:0px 5px 10px #ccc;transform:translateY(-5px);transition:0.2s;}
+.mb-gamelist li a.pic{width:90px; height:90px;display:block; float:left; position:relative;}
+.mb-gamelist li a.pic img{ width:90px; height:90px; border-radius:10px;display:block;}
+.mb-gamelist li .con{padding-left:13px;height:90px; overflow:hidden;}
+.mb-gamelist li h3{ height:40px; line-height:40px; font-size:16px;}
+.mb-gamelist li p.text{line-height:16px; margin-top:8px;}
+.mb-gamelist .btns a{ width:98px; height:30px; line-height:30px; text-align:center; color:#fff; display:inline-block;border-radius:5px;margin-right:8px;}
+.mb-gamelist .btns a.zt{ background:#fe7c7c;}
+.mb-gamelist .btns a.down{background: #1ed6c9;}
+.mb-gamelist .btns a.zt:hover{ background:#ff6060;}
+.mb-gamelist .btns a.down:hover{background: #24e6d8;}
+.mb-gamelist li.hover{box-shadow: 0 0 8px rgba(0,0,0,0.2);transition: all 0.3s ease 0s;}
+.mb-gamelist li p.instr{line-height:21px; height:42px; overflow:hidden; color:#666;}
+.f-mb { color: #666; }
+/* 分页 */
+.pb-pages{text-align:center;height:30px;padding:40px 0 0;clear: both;}
+.pb-pages a{display: inline-block;height:28px;line-height:28px;border:2px #DFDFE5 solid;background-color: #fff;color: #5c5d5f;padding: 0 10px;margin-right: 10px; font-size:14px;box-shadow:0 1px 1px #f0f0f4;transition: all 0.3s ease 0s;}
+.pb-pages b{display: inline-block;height:28px;line-height:28px;border:2px #DFDFE5 solid;background-color: #0095e1;color: #fff;padding: 0 10px;margin-right: 10px; font-size:14px;box-shadow:0 1px 1px #f0f0f4;transition: all 0.3s ease 0s;}
+.pb-pages a.on,.pb-pages a:hover{border-color:#0095e1;background-color:#0095e1;color:#fff;}
+

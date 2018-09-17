@@ -1,0 +1,679 @@
+/* 图片新闻 */
+.eye_top {
+    width: 640px;
+    height: 276px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img-news {
+    float: left;
+    width: 640px;
+    height: 276px;
+    position: relative;
+    overflow: hidden;
+}
+#swiper1 {
+    width: 640px;
+    height: 280px;
+    position: relative;
+}
+#swiper1 .swiper-slide {
+    position: relative;
+    width: 640px;
+    height: 280px;
+}
+#swiper1 .swiper-slide img {
+    width: 640px;
+    height: 280px;
+    display: block;
+}
+#swiper1 p {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-indent: 20px;
+    height: 36px;
+    line-height: 36px;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    padding-right: 120px;
+}
+#swiper1 .swiper-pagination-bullet {
+    border-radius: 0px;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 2px;
+    width: 15px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    background: #ccc;
+}
+#swiper1 .swiper-pagination-bullet-active {
+    background: #f60;
+    width: 25px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+#swiper1 .swiper-pagination {
+    text-align: right;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    bottom: 10px;
+    padding-right: 10px;
+}
+#prev1 {
+    background: url(../images/sprite.png) -120px top no-repeat;
+    width: 40px;
+    height: 90px;
+    left: 0;
+    top: 100px;
+}
+#next1 {
+    background: url(../images/sprite.png) -160px top no-repeat;
+    width: 40px;
+    height: 90px;
+    right: 0;
+    top: 100px;
+}
+/* 文字新闻 */
+/*top*/
+.row {
+    overflow: hidden;
+    zoom: 1;
+}
+.text-news {
+    float: left;
+    width: 460px;
+}
+.top-news {
+    height: 125px;
+    border-bottom: 1px dotted #d8d8d8;
+}
+.top-news h2 {
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.top-news h2 a {
+    color: #f60;
+}
+.top-news h2 a:hover {
+    text-decoration: none;
+}
+.top-news p {
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.top-news p a {
+    color: #666;
+}
+.top-news p a:hover {
+    text-decoration: none;
+}
+.top-news p span {
+    color: #e1e1e1;
+    margin: 0 13px;
+}
+.img-two {
+    height: 130px;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.img-two ul {
+    margin-left: -20px;
+    margin-top: -20px;
+    zoom: 1;
+    overflow: hidden;
+}
+.img-two li {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline;
+}
+.img-two li a {
+    width: 220px;
+    height: 130px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.img-two li a img {
+    width: 220px;
+    height: 130px;
+    transition: all .3s ease;
+}
+.img-two li a:hover img {
+    transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+}
+.img-two li a span,
+.img-news a span {
+    width: 100%;
+    height: 28px;
+    display: block;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    background: url("../images/mask_28.png") repeat;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.img-two li a:hover span {
+    color: #f60;
+}
+.news-list {
+    padding-top: 10px;
+}
+.news-list li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+.news-list li .kind {
+    float: left;
+    width: 48px;
+    height: 24px;
+    display: block;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+}
+.news-list li .kind.rd {
+    background: #2794ef;
+}
+.news-list li .kind.cy {
+    background: #997fdd;
+}
+.news-list li .kind.zx {
+    background: #f36161;
+}
+.news-list li .kind.zt {
+    background: #fd7317;
+}
+.news-list li .kind.kind23 {
+    background: #fd7317;
+}
+.news-list li .kind.kindall {
+    background: #fd7317;
+}
+.news-list li .kind.tj {
+    background: #2aca63;
+}
+.news-list li a {
+    float: left;
+    margin-left: 10px;
+    width: 75%;
+    font-size: 16px;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline;
+}
+.news-list li a:hover {
+    color: #f60;
+    text-decoration: none;
+}
+.news-list li em {
+    float: right;
+    color: #999;
+}
+.img-news {
+    float: right;
+    width: 640px;
+    height: 476px;
+    position: relative;
+}
+.img-news a {
+    width: 310px;
+    height: 180px;
+    display: block;
+    position: absolute;
+    overflow: hidden;
+}
+.img-news a img {
+    width: 310px;
+    height: 180px;
+    transition: all .3s ease;
+}
+.img-news a:hover img {
+    transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+}
+.img-news a.in1 {
+    width: 640px;
+    height: 276px;
+    top: 0;
+    left: 0;
+}
+.img-news a.in1 img {
+    width: 640px;
+    height: 276px;
+}
+.img-news a.in1:hover img {
+    transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+}
+.img-news a.in2 {
+    top: 296px;
+    left: 0;
+}
+.img-news a.in3 {
+    top: 296px;
+    right: 0;
+}
+.img-news a.in4 {
+    top: 471px;
+    left: 0;
+}
+.img-news a.in5 {
+    top: 471px;
+    right: 0;
+}
+.img-news a:hover span {
+    color: #f60;
+}
+/* 四图 */
+.adgame {
+    width: 1122px;
+    height: 208px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 25px;
+    border-bottom: 1px solid #efefef;
+}
+.adgame ul {
+    width: 1132px;
+    height: 208px
+}
+.adgame li {
+    width: 270px;
+    height: 208px;
+    background: #fff;
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+    border: 1px solid #efefef;
+}
+.adgame .adgame-bg {
+    display: inline-block;
+    width: 100%;
+    height: 146px
+}
+.adgame-bg img {
+    width: 270px;
+    height: 146px;
+    vertical-align: bottom
+}
+.adgame-des {
+    height: 34px;
+    padding: 9px 14px 0;
+    position: relative;
+    font-size: 14px;
+}
+.adgame-des .hot {
+    width: 130px;
+    vertical-align: bottom
+}
+.adgame-des .hot:hover {
+    color: #1ed6c9;
+}
+.hot {
+    color: #00bfb1;
+    line-height: 24px;
+    height: 24px;
+}
+.adgame-des p {
+    color: #999;
+    line-height: 18px;
+    width: 130px;
+    height: 18px;
+    overflow: hidden
+}
+.btn {
+    width: 58px;
+    height: 26px;
+    color: #666;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid #D2D2D2;
+    border-radius: 4px;
+    position: absolute
+}
+.btn:hover {
+    border: none;
+    width: 60px;
+    height: 28px;
+    line-height: 28px;
+    background: #1ed6c9;
+    color: #fff
+}
+.down {
+    top: 17px;
+    right: 80px
+}
+.gift {
+    top: 17px;
+    right: 10px
+}
+/* 猜你喜欢 */
+.ext_spot {
+    width: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.gulike {
+    margin: 40px auto 0;
+    overflow: hidden;
+    width: 1100px;
+    clear: both;
+}
+.gulike span {
+    background: rgba(0, 0, 0, 0) url(../images/backg0623.png) no-repeat scroll 1px 0;
+    display: block;
+    height: 35px;
+    width: 1100px;
+}
+.gulike ul {
+    display: block;
+    margin-top: 23px;
+    width: 1150px;
+}
+.gulike ul li {
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 32.3%
+}
+.gulike ul li a {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1
+}
+.gulike ul li a img {
+    margin-bottom: 13px;
+    transition: all .3s ease-in-out 0s;
+    width: 100%;
+    height: 181px;
+}
+.gulike ul li a:hover img {
+    transform: scale(1.05, 1.05);
+    transition: all .3s ease 0s
+}
+.gulike ul li a strong {
+    display: block;
+    height: 181px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999
+}
+.gulike ul li a:hover strong {
+    background: #000 none repeat scroll 0 0;
+    opacity: .3;
+    transition: background .5s ease-in-out 0s
+}
+.gulike ul li a p {
+    font-size: 16px;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+}
+.pag {
+    text-align: center;
+    height: 35px;
+    margin: 40px auto;
+}
+.pag a {
+    display: inline-block;
+    font-size: 14px;
+    background: #fff;
+    color: #333;
+    border: 1px solid #d7d7d7;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    vertical-align: top;
+    zoom: 1;
+    padding: 0 14px;
+    margin: 0 4px;
+}
+.pag a:hover,
+a.p_hov,
+a.p_hov:hover {
+    background: #f60;
+    border-color: #f60;
+    color: #fff;
+    text-decoration: none;
+}
+.pag b {
+    background: #f60;
+    border-color: #f60;
+    color: #fff;
+    text-decoration: none;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    padding: 0px 14px;
+    margin: 0 4px;
+    display: inline-block;
+}
+.pag span {
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    height: 32px;
+    line-height: 32px;
+    color: #666;
+    margin: 0 4px 0 10px;
+}
+.pag em {
+    float: left;
+}
+.pag-txt,
+.pag_txt {
+    float: left;
+    width: 22px;
+    height: 30px;
+    line-height: 30px9;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    font-size: 14px;
+    color: #333;
+    margin: 0 3px;
+}
+.pag-btn,
+.pag_btn {
+    float: left;
+    width: 50px;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+.pag-btn:hover,
+.pag_btn:hover {
+    background: #f60;
+    border-color: #f60;
+    color: #fff;
+}
+/* 游戏列表 */
+#mbody {
+    display: block;
+    width: 1120px;
+    margin: 0 auto
+}
+.mbox {
+    padding-top: 18px
+}
+.mbox img {
+    width: 90px;
+    height: 90px;
+    display: block;
+    border-radius: 20px;
+}
+.mbox div {
+    width: 772px;
+    float: left;
+}
+.mbox .rank {
+    width: 310px;
+    float: right;
+}
+.mbox div p,
+.rank dt {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 2px solid #25c88a;
+    font-size: 16px;
+}
+.mbox div p span {
+    font-size: 24px;
+}
+.mbox div ul {
+    width: 800px;
+}
+.mbox div li {
+    width: 90px;
+    float: left;
+    display: inline;
+    margin-right: 24px;
+    padding: 17px 0 0 0;
+    text-align: center;
+}
+.mbox div li a {
+    display: block;
+    height: 123px;
+    overflow: hidden;
+}
+.mbox div li span {
+    display: block;
+    color: #999;
+}
+.mbox div p a,
+.mbox div p i {
+    float: right;
+}
+.mbox div p i a {
+    float: none;
+    margin: 0 30px 0 0;
+}
+/* 排行榜 */
+.rank dt {
+    margin-bottom: 3px;
+}
+.rank dt a {
+    float: right;
+}
+.rank dt span {
+    font-size: 24px;
+}
+.rank dt b {
+    font-weight: 400;
+    color: #25c88a;
+}
+.rank .cur {
+    height: 98px;
+}
+.rank .cur em,
+.rank dd p {
+    display: none;
+}
+.rank .cur p,
+.rank dd em {
+    display: block;
+}
+.rank dd {
+    clear: both;
+    border-bottom: 1px dashed #ddd;
+    position: relative;
+    padding: 10px 0 10px 30px;
+    overflow: hidden;
+}
+.rank dd i {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #e5e5e5;
+    text-align: center;
+}
+.rank dd i.cloNum {
+    background: #25c88a;
+    color: #fff;
+}
+.rank dd img {
+    width: 98px;
+    height: 98px;
+    float: left;
+    display: inline;
+    margin-right: 10px;
+}
+.rank dd p b {
+    font-weight: 400;
+    line-height: 26px;
+}
+.rank dd p span {
+    display: block;
+    color: #999;
+    line-height: 26px;
+    height: 26px;
+    overflow: hidden;
+}
+.rank dd p span a {
+    color: #1da16e;
+    padding: 2px 6px;
+    white-space: nowrap;
+    border: 1px solid #1da16e;
+    margin-right: 5px;
+}
+.rank dd p span a:hover {
+    background: #1da16e;
+    color: #fff;
+}
+.rank dd em s {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: #999;
+    text-decoration: none;
+}

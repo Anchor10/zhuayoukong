@@ -1,0 +1,339 @@
+/* CSS Document */
+.mainDiv a {
+    color: #666;
+    text-decoration: none;
+}
+/*table style*/
+.mainDiv .kc_time,
+.float_nav a,
+.kc_time_td {
+    background: url(../images/comm_bg.png) no-repeat;
+}
+.mainDiv .kc_btn01,
+.kc_btn02,
+.kc_btn03,
+.kc_btn04,
+.kc_btn05,
+.kc_btn06 {
+    background-image: url(../images/comm_btn.png);
+}
+.mainDiv .tab_tit01,
+.tab_tit02,
+.tab_tit03 {
+    background: url(../images/ico_tit.png) no-repeat;
+}
+.mainDiv .tableA {
+    width: 1120px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+}
+.mainDiv .tableA th {
+    height: 40px;
+    line-height: 38px;
+    background: #f0f0f0;
+    color: #666;
+    border-top: #ddd 2px solid;
+}
+.mainDiv .tableA td {
+    border-bottom: 1px solid #e8e8e8;
+    height: 46px;
+    position: relative;
+}
+.mainDiv .kc_icon01 {
+    width: 13px;
+    height: 48px;
+    position: absolute;
+    left: -3px;
+    top: -1px;
+}
+.mainDiv .kc_icon02 {
+    width: 13px;
+    height: 46px;
+    position: absolute;
+    left: -3px;
+    top: 0;
+    _top: 1px;
+}
+.mainDiv .kc_icon03 {
+    width: 13px;
+    height: 46px;
+    position: absolute;
+    left: -3px;
+    top: 0;
+    _top: 1px;
+}
+.mainDiv .kc_date01 {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00ac9a;
+    text-indent: 24px;
+}
+.mainDiv .kc_date02 {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    text-indent: 24px;
+}
+.mainDiv .tableA .kc_date01:hover,
+.tableA .kc_date02:hover {
+    background: none;
+}
+.mainDiv .kc_time,
+.kc_time_td {
+    width: 85px;
+    height: 22px;
+    line-height: 22px;
+    float: left;
+    margin-left: 13px;
+    text-align: left;
+    text-indent: 28px;
+}
+.mainDiv .kc_time {
+    background-position: -110px -40px;
+    color: #999;
+}
+.mainDiv .kc_time_td {
+    background-position: 0 -70px;
+    color: #fff;
+}
+.mainDiv .kc_name {
+    font-weight: bold;
+    color: #f60;
+}
+.mainDiv .tableA i {
+    color: #ccc;
+}
+.mainDiv .kc_btn01,
+.kc_btn02,
+.kc_btn03,
+.kc_btn04,
+.kc_btn05,
+.kc_btn06 {
+    display: inline-block;
+    margin: 1px auto;
+    height: 28px;
+    line-height: 28px;
+    background-color: #fafafa;
+    background-repeat: no-repeat;
+    border: 1px solid #e8e8e8;
+    font-size: 14px;
+}
+.mainDiv .kc_btn01:hover,
+.kc_btn02:hover,
+.kc_btn03:hover,
+.kc_btn04:hover,
+.kc_btn05:hover,
+.kc_btn06:hover {
+    background-color: #f60;
+    border-color: #fff;
+    color: #fff;
+}
+.mainDiv .kc_btn01 {
+    padding: 0 9px 0 25px;
+    background-position: 8px 10px;
+}
+.mainDiv .kc_btn01:hover {
+    background-position: 8px -20px;
+}
+.mainDiv .kc_btn02 {
+    padding: 0 9px 0 25px;
+    background-position: 8px -52px;
+}
+.mainDiv .kc_btn02:hover {
+    background-position: 8px -82px;
+}
+.mainDiv .kc_btn03 {
+    padding: 0 9px 0 25px;
+    background-position: 7px -112px;
+}
+.mainDiv .kc_btn03:hover {
+    background-position: 7px -142px;
+}
+.mainDiv .kc_btn04 {
+    padding: 0 9px 0 23px;
+    background-position: 7px -172px;
+}
+.mainDiv .kc_btn04:hover {
+    background-position: 7px -202px;
+}
+.mainDiv .kc_btn05 {
+    background-color: #efffff;
+    border-color: #a0e2db;
+    padding: 0 5px 0 23px;
+    color: #fff;
+    background-position: 5px -233px;
+    margin-right: 10px;
+}
+.mainDiv .kc_btn05:hover {
+    background-color: #fff;
+    border-color: #fff;
+    background-position: 5px -263px;
+}
+.mainDiv .kc_btn06 {
+    padding: 0 9px 0 23px;
+    background-position: 7px -410px;
+}
+.mainDiv .kc_btn06:hover {
+    background-position: 7px -440px;
+}
+.mainDiv .tableA tr:hover {
+    background: #fef3e7;
+}
+.mainDiv .tableA tr:hover .kc_time {
+    background-position: 0 -40px;
+    color: #f60;
+}
+.mainDiv .tableA td .system_ios,
+.tableA td .system_android,
+.tableA td .system_all {
+    float: none;
+    display: block;
+    margin: 7px auto;
+}
+.mainDiv .table_more {
+    display: block;
+    border-top: #ddd 1px solid;
+    border-bottom: #ddd 1px solid;
+    background: #f8f8f8;
+    text-align: center;
+    line-height: 38px;
+    color: #666;
+}
+.mainDiv .table_more:hover {
+    background: #f2f2f2;
+}
+/*标题*/
+.mainDiv .tab_tit01,
+.tab_tit02,
+.tab_tit03 {
+    height: 24px;
+    line-height: 24px;
+    padding-left: 30px;
+}
+.mainDiv .tab_tit01 h2,
+.tab_tit02 h2,
+.tab_tit03 h2 {
+    font-weight: bold;
+    font-size: 24px;
+}
+.mainDiv .tab_tit01 {
+    background-position: 0 0;
+}
+.mainDiv .tab_tit02 {
+    background-position: 0 -40px;
+}
+.mainDiv .tab_tit03 {
+    background-position: 0 -80px;
+}
+.mainDiv .tab_tit01 h2 {
+    color: #f60;
+}
+.mainDiv .tab_tit02 h2 {
+    color: #00aca0;
+}
+.mainDiv .tab_tit03 h2 {
+    color: #666;
+}
+/* 悬浮导航 */
+.mainDiv .float_nav {
+    width: 102px;
+    position: fixed;
+    top: 306px;
+    left: 50%;
+    margin-left: -692px;
+    _position: absolute;
+}
+.mainDiv .float_nav a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #fff;
+    background-position: -110px 0;
+    text-indent: 17px;
+}
+.mainDiv .float_nav a:hover {
+    background-position: 0 0;
+    color: #fff;
+}
+.mainDiv .float_nav a.current {
+    background-position: 0 0;
+    color: #fff;
+    background: rgb(255, 102, 0);
+}
+/*main*/
+.mainDiv .main {
+    width: 1120px;
+    padding: 20px 20px 40px;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+    z-index: 10;
+}
+.mainDiv .position {
+    height: 15px;
+    line-height: 15px;
+    overflow: hidden;
+    color: #999;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #ededed;
+}
+.mainDiv .position .icon-cur {
+    float: left;
+    width: 15px;
+    height: 15px;
+    display: block;
+    background: url("../images/inner_sprite.png") -160px 0 no-repeat;
+    margin-right: 10px;
+}
+.mainDiv .position a {
+    color: #666;
+}
+.mainDiv .position a:hover {
+    color: #f60;
+}
+.mainDiv .system_ios,
+.system_android,
+.system_all {
+    float: left;
+    width: 34px;
+    height: 16px;
+    margin-top: 4px;
+    background: url(../images/system_icon.png) no-repeat;
+}
+.mainDiv .system_ios {
+    background-position: 0 0;
+}
+.mainDiv .system_android {
+    background-position: 0 -30px;
+}
+.mainDiv .system_all {
+    background-position: 0 -60px;
+}
+/*footer*/
+.mainDiv .footer {
+    margin-top: 50px;
+    background: #222;
+    padding: 28px 0;
+}
+.mainDiv .footer p {
+    line-height: 24px;
+    font-size: 12px;
+    color: #464646;
+    text-align: center;
+}
+.mainDiv .footer p a {
+    color: #464646;
+    margin: 0 8px;
+}
+.mainDiv .footer p a:hover {
+    color: #f90;
+    text-decoration: underline;
+}

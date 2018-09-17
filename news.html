@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>手机网游资讯_手机网游攻略_动态_活动_评测_视频 | 爪游控</title>
+    <meta name="keywords" content="手游资讯,手机网游资讯,手游活动资讯" />
+    <meta name="description" content="爪游控手游资讯,第一时间为您提供最新最热的手机新闻,包括最新手机游戏上架新闻、手机网游资讯、手游活动资讯、公测开服资讯等。" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="static/css/base.css" />
+    <link rel="stylesheet" href="static/css/news.css">
+    <script type="text/javascript" src="static/js/jquery.js"></script>
+    <script type="text/javascript" src="static/js/jquery.lazyload.js"></script>
+    <script type="text/javascript" src="static/js/mobile.js"></script>
+</head>
+<body>
+    <!--topNav:begin-->
+    <div id="siteNav">
+        <div class="layout">
+            <ul class="siteNavMenu">
+                <li class="rb">
+                    <a href='//www.zhuayoukong.com' target='_blank'>爪游控 | 新锐综合资讯媒体</a> |
+                    <a href="http://app.zhuayoukong.com/" style="color:#f60" target="_blank" title="爪游控游戏盒" class="tb_downyxh">下载爪游控游戏盒</a>
+                </li>
+            </ul>
+            <ul class="siteNavMenu fr">
+                <samp id="show_userinfo">
+                    <li class="rb" id="logined_li">
+                        <div class="menuShow">
+                            <a href="javascript:void(0);" class="login">用户登录</a>
+                            <span class="arrDrop"></span>
+                        </div>
+                        <div class="menuHide" id="topDMainBox" style="display: none;">
+                            <ul class="log">
+                                <p class="tipsText"></p>
+                                <form name="login" method="post" action="/e/member/doaction.php">
+                                    <input type="hidden" name="enews" value="login">
+                                    <input type="hidden" name="ecmsfrom" value="9">帐号：
+                                    <input name="username" type="text" value="" placeholder="用户名/邮箱" class="inputText">密码：
+                                    <input name="password" placeholder="输入密码" type="password" value="" class="inputText">
+                                    <input type="submit" value="登录" class="submit">
+                                </form>
+                                <div class="remember">
+                                    <label>
+                                        <input class="check" type="checkbox" id="keeplogin" checked="">
+                                        <span>自动登录</span>
+                                    </label>
+                                    <a href="http://www.zhuayoukong.com/e/member/GetPassword/" target="_blank">忘记密码？</a>&nbsp;|&nbsp;
+                                    <a href="http://www.zhuayoukong.com/e/member/register/?groupid=1">注册帐号</a>
+                                </div>
+                                <div id="errmsg"></div>
+                            </ul>
+                            <div class="thirdP">
+                                <p>使用合作网站帐号登录：</p>
+                                <a class="qq" href="http://www.zhuayoukong.com/e/ikaimi/qq_api/enews.php?enews=qzonelogin"
+                                    target="_blank">QQ账号</a>
+                            </div>
+                        </div>
+                    </li>
+                </samp>
+                <li>
+                    <div class="menuShow">
+                        <span class="navIcon">
+                        </span>
+                        <span>网站导航
+                        </span>
+                        <span class="arrDrop">
+                        </span>
+                    </div>
+                    <!-- common menu adv start-->
+                    <div class="menuHide r0" style="display: none;">
+                        <ul class="guideList">
+                            <li>
+                                <h4>
+                                    <img src="static/images/navpic1.png" alt="">
+                                    <a href="javascript:;" target="_blank">资讯中心</a>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="/news/gonglue/" target="_blank">游戏攻略</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="/news/dongtai/" target="_blank">游戏动态</a>
+                                    </li>
+                                    <li>
+                                        <a href="/news/huodong/" target="_blank">游戏活动</a>丨
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/top/" target="_blank">游戏排行</a>
+                                        </strong>
+                                    </li>
+                                    <li>
+                                        <a href="/ent/" target="_blank">娱乐八卦</a>丨
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/video/" target="_blank">游戏视频</a>
+                                        </strong>
+                                    </li>
+                                    <li>
+                                        <a href="/news/pingce/" target="_blank">游戏评测</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="/news1/" target="_blank">社会万象</a>
+                                    </li>
+                                    <li>
+                                        <a href="/news/xingye/" target="_blank">游戏产业</a>丨
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/kaifu/" target="_blank">游戏开服</a>
+                                        </strong>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="secli">
+                                <h4>
+                                    <img src="static/images/navpic2.png" alt="">
+                                    <a href="javascript:;" target="_blank">精品栏目</a>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="/youxi/" target="_blank">免费游戏</a>
+                                    </li>
+                                    <li>
+                                        <a href="/btyouxi/" target="_blank">变态游戏</a>
+                                    </li>
+                                    <li>
+                                        <a href="/mvshouyou/" target="_blank">满Vip游戏</a>
+                                    </li>
+                                    <li>
+                                        <a href="/gmshouyou/" target="_blank">GM游戏</a>
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/zhuanti/" target="_blank">游戏专题</a>
+                                        </strong>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="secli">
+                                <h4>
+                                    <img src="static/images/navpic3.png" alt="">
+                                    <a href="javascript:;" target="_blank">礼包中心</a>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <strong>
+                                            <a href="/card/libao.html" target="_blank">独家礼包</a>
+                                        </strong>
+                                    </li>
+                                    <li>
+                                        <a href="/card/xinshouka.html" target="_blank">新手卡</a>
+                                    </li>
+                                    <li>
+                                        <a href="/card/jihuoma.html" target="_blank">激活码</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="danli">
+                                <h4>
+                                    <img src="static/images/navpic4.png" alt="">
+                                    <a href="javascript:;" target="_blank">游戏下载</a>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="/game/" target="_blank">网游库</a>&nbsp;&nbsp;|&nbsp;
+                                        <a class="typea" href="/game/0-1-1-0.html">即时</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/game/0-1-2-0.html">回合</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/game/0-1-3-0.html">策略</a>
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/vip/" target="_blank">满V手游</a>
+                                        </strong>&nbsp;&nbsp;|&nbsp;
+                                        <a class="typea" href="/vip/0-65-4-0.html">放置</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/vip/0-65-5-0.html">动作</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/vip/0-65-7-0.html">二次元</a>
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/gm/" target="_blank">GM手游</a>
+                                        </strong>&nbsp;&nbsp;|&nbsp;
+                                        <a class="typea" href="/gm/0-54-2-0.html">角色</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/gm/0-54-4-0.html">放置</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/gm/0-54-3-0.html">策略</a>
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/btgame/" target="_blank">变态手游</a>
+                                        </strong>&nbsp;&nbsp;|&nbsp;
+                                        <a class="typea" href="/btgame/0-61-2-0.html">角色</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/btgame/0-61-1-0.html">卡牌</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/btgame/0-61-9-0.html">传奇</a>
+                                    </li>
+                                    <li>
+                                        <a href="/pojie/" target="_blank">破解版游戏</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="topli">
+                                <h4>
+                                    <img src="static/images/navpic5.png" alt="">
+                                    <a href="javascript:;" target="_blank">排行榜</a>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="/top/bt.html" target="_blank">变态手游排行榜</a>
+                                    </li>
+                                    <li>
+                                        <a href="/top/gm.html" target="_blank">GM手游排行榜</a>
+                                    </li>
+                                    <li>
+                                        <a href="/top/pojie.html" target="_blank">破解版游戏排行榜</a>
+                                    </li>
+                                    <li>
+                                        <a href="/top/mv.html" target="_blank">满级VIP手游排行榜</a>
+                                    </li>
+                                    <li>
+                                        <a href="/top/" target="_blank">更多排行榜></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>
+                                    <img src="static/images/navpic6.png" alt="">
+                                    <strong>
+                                        <a href="javascript:;" target="_blank">热门游戏</a>
+                                    </strong>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/game/1828.html" target="_blank">第五人格</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/vip/dgtx.html" target="_blank">独孤天下</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/vip/cmxywxb.html" target="_blank">超梦西游无限版</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/vip/fyxl.html" target="_blank">扶摇仙灵</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/game/1474.html" target="_blank">3733游戏盒子</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/vip/xdhh.html" target="_blank">寻道回合</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/vip/xjqxchh.html" target="_blank">仙剑奇侠传回合</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/vip/sqbbxy.html" target="_blank">神奇宝贝XY</a>丨
+                                    </li>
+                                    <li style="width: 100%;">
+                                        <a href="http://app.zhuayoukong.com" target="_blank">3733游戏盒子</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="ewmli">
+                                <h4>
+                                    <strong>
+                                        <a href="http://app.zhuayoukong.com" target="_blank">游戏盒下载</a>
+                                    </strong>
+                                </h4>
+                                <ul>
+                                    <img src="static/images/zykewm.png" alt="">
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- common menu adv end-->
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--topNav:end-->
+    <!--header:begin-->
+    <div class="header">
+        <a href="/" class="siteLogo" title="爪游控">爪游控</a>
+        <div class="search">
+            <form action="/e/search/search.php" method="post" onsubmit="if(document.getElementById('searchword').value=='请输入搜索内容')return false;">
+                <input type="hidden" name="show" value="title,keyboard" />
+                <div class="searchBor">
+                    <input type="text" name="keyboard" id="q" value="" style="color: rgb(153, 153, 153);"
+                        onwebkitspeechchange="jQuery(this).closest('form').submit();" x-webkit-speech="" onclick="clearCname()"
+                        class="txt">
+                    <input onClick="return dosearch($('#q').val());" type="submit" class="submit" value="搜索" />
+                </div>
+            </form>
+            <p>
+                <div class="S_hot">
+                    <a href="https://www.zhuayoukong.com/game/2640.html" title="3733gm助手" target="_blank">3733gm助手</a>
+                    <a href="https://www.zhuayoukong.com/game/604.html" title="王者荣耀" target="_blank">王者荣耀</a>
+                    <a href="https://www.zhuayoukong.com/game/2467.html" title="神奇宝贝XY" target="_blank">神奇宝贝XY</a>
+                    <a href="https://www.zhuayoukong.com/game/2209.html" title="绝地求生：全军出击" target="_blank">绝地求生：全军出击</a>
+                    <a href="https://www.zhuayoukong.com/game/2107.html" title="火柴人联盟2" target="_blank">火柴人联盟2</a>
+                    <a href="https://www.zhuayoukong.com/game/1538.html" title="宠物小精灵" target="_blank">宠物小精灵</a>
+                    <a href="https://www.zhuayoukong.com/game/1706.html" title="蜀门" target="_blank">蜀门</a>
+                    <a href="https://www.zhuayoukong.com/game/2296.html" title="QQ飞车手游" target="_blank">QQ飞车手游</a>
+                </div>
+            </p>
+        </div>
+    </div>
+    <!--header:end-->
+    <!--nav:begin-->
+    <div class="nav">
+        <ul>
+            <li id="t_home">
+                <a href="/" title="网游首页">首页</a>
+            </li>
+            <li id="t_game">
+                <a href="/game/" title="网游库">网游库</a>
+            </li>
+            <li id="t_newgame">
+                <a href="/youxi/" title="免费游戏">
+                    <span class="navIcon">
+                    </span>免费游戏</a>
+                <p>
+                    <a href="/btyouxi/" target="_self">变态游戏</a>
+                    <a href="/mvshouyou/" target="_self">满Vip游戏</a>
+                    <a href="/gmshouyou/" target="_self">GM游戏</a>
+                </p>
+                <img src="static/images/df.png" style="float:right;margin-top:-30px;">
+            </li>
+            <li id="t_time">
+                <a href="/kaifu/" title="网游开服表">开服表</a>
+            </li>
+            <li id="t_top">
+                <a href="/top/" title="网游排行榜">排行榜</a>
+            </li>
+            <li id="t_card">
+                <a href="/card/" title="网游礼包" target="_blank">礼包</a>
+            </li>
+            <li id="t_news">
+                <a href="/news/" title="网游资讯">资讯</a>
+            </li>
+            <li id="t_video">
+                <a href="/video/" title="网游视频">视频</a>
+            </li>
+            <li id="t_zhuanti">
+                <a href="/zhuanti/" title="网游专题">专题</a>
+            </li>
+        </ul>
+    </div>
+    <!--nav:end-->
+    <!--main:begin-->
+    <div id="wrap">
+        <div class="ngGprs">
+            <span class="gprs"></span>您的位置：<a href="https://www.zhuayoukong.com/index.html">首页</a>&nbsp;>&nbsp;<a href="https://www.zhuayoukong.com/news/">资讯</a>
+        </div>
+        <div class="layout clearfix">
+            <!--left:begin-->
+            <div class="newsLeft fl">
+                <ul class="newsngNav">
+                    <li id="nid6" class="xz"><a href="/news/">全部资讯</a></li>
+                    <span class="diaoyong">
+                        <li id="nid34"><a href="https://www.zhuayoukong.com/news/ziliao/">资料</a></li>
+                        <li id="nid30"><a href="https://www.zhuayoukong.com/news/xingye/">产业</a></li>
+                        <li id="nid21"><a href="https://www.zhuayoukong.com/news/dongtai/">动态</a></li>
+                        <li id="nid22"><a href="https://www.zhuayoukong.com/news/huodong/">活动</a></li>
+                        <li id="nid24"><a href="https://www.zhuayoukong.com/news/pingce/">评测</a></li>
+                        <li id="nid25"><a href="https://www.zhuayoukong.com/news/paixing/">排行</a></li>
+                        <li id="nid26"><a href="https://www.zhuayoukong.com/news/fangtan/">访谈</a></li>
+                        <li id="nid27"><a href="https://www.zhuayoukong.com/news/zt/">专题</a></li>
+                        <li id="nid28"><a href="https://www.zhuayoukong.com/news/zatan/">杂谈</a></li>
+                        <li id="nid29"><a href="https://www.zhuayoukong.com/news/xiaoshuo/">小说</a></li>
+                        <li id="nid40"><a href="https://www.zhuayoukong.com/life/">多彩生活</a></li>
+                        <li id="nid41"><a href="https://www.zhuayoukong.com/ent/">娱乐八卦</a></li>
+                        <li id="nid42"><a href="https://www.zhuayoukong.com/car/">汽车世界</a></li>
+                        <li id="nid43"><a href="https://www.zhuayoukong.com/tech/">科技产业</a></li>
+                        <li id="nid44"><a href="https://www.zhuayoukong.com/digi/">数码新品</a></li>
+                        <li id="nid46"><a href="https://www.zhuayoukong.com/tiyu/">体坛风云</a></li>
+                        <li id="nid47"><a href="https://www.zhuayoukong.com/mil/">军情解码</a></li>
+                        <li id="nid48"><a href="https://www.zhuayoukong.com/news1/">社会万象</a></li>
+                        <li id="nid49"><a href="https://www.zhuayoukong.com/health/">健康养生</a></li>
+                    </span>
+                </ul>
+                <div class="news-box">
+                    <div class="news-list">
+                        <ul>
+                            <li>
+                                <a class="news-img"><img data-original="https://pic.zhuayoukong.com/d/file/news/paixing/2018-08-31/3f73ad736486ef73e496e7fb4ef2f0d0.jpg"></a>
+                                <a href="https://www.zhuayoukong.com/news/140863.html" target="_blank" class="news-title"
+                                    title="什么手游职业比较多_多职业多技能的手游">什么手游职业比较多_多职业多技能的手游</a>
+                                <div class="news-brief">
+                                    <span class="news-time">2018-08-31</span>
+                                    <span class="news-editor">编辑：mili</span>
+                                </div>
+                                <p>什么手游职业比较多?很多玩家都喜欢玩职业多、技能多的游戏，不同的职业有不同的技能属性，玩起来也有不同的感受，所以那些多职业多技能的手游深...<a href="https://www.zhuayoukong.com/news/140863.html"
+                                        target="_blank" class="read-all">阅读全文</a></p>
+                            </li>
+                            <li>
+                                <a class="news-img"><img data-original="https://pic.zhuayoukong.com/d/file/news/gonglue/2018-08-31/e4409984ea7b1a1f18143ccc85249fdc.png"></a>
+                                <a href="https://www.zhuayoukong.com/news/140861.html" target="_blank" class="news-title"
+                                    title="遇见逆水寒花将离怎么送礼_花将离好感度提升攻略">遇见逆水寒花将离怎么送礼_花将离好感度提升攻略</a>
+                                <div class="news-brief">
+                                    <span class="news-time">2018-08-31</span>
+                                    <span class="news-editor">编辑：pp</span>
+                                </div>
+                                <p>遇见逆水寒花将离怎么送礼?花将离好感度怎么增加?相信很多玩家还不清楚吧，下面就和爪游控小编来看看遇见逆水寒花将离好感度提升攻略吧。...<a href="https://www.zhuayoukong.com/news/140861.html"
+                                        target="_blank" class="read-all">阅读全文</a></p>
+                            </li>
+                            <li>
+                                <a class="news-img"><img data-original="https://pic.zhuayoukong.com/d/file/news/gonglue/2018-08-31/8cae967e23a06d508ed6104bf48d5b6d.jpg"></a>
+                                <a href="https://www.zhuayoukong.com/news/140862.html" target="_blank" class="news-title"
+                                    title="梦幻模拟战手游怎么玩_玩法攻略大全">梦幻模拟战手游怎么玩_玩法攻略大全</a>
+                                <div class="news-brief">
+                                    <span class="news-time">2018-08-31</span>
+                                    <span class="news-editor">编辑：尘烟</span>
+                                </div>
+                                <p>梦幻模拟战手游怎么玩?梦幻模拟战是最近很火的日漫手游，玩法也是各种各样，很多小伙伴还不清楚要怎么玩好这个游戏，下面就给大家带来梦幻模拟战...<a href="https://www.zhuayoukong.com/news/140862.html"
+                                        target="_blank" class="read-all">阅读全文</a></p>
+                            </li>
+                            <li>
+                                <a class="news-img"><img data-original="https://pic.zhuayoukong.com/d/file/news/gonglue/2018-08-31/b5086c6927ea646dfb157899e00d5af3.png"></a>
+                                <a href="https://www.zhuayoukong.com/news/140860.html" target="_blank" class="news-title"
+                                    title="梦幻模拟战手游莉亚娜转什么职业好_莉亚娜转职推荐">梦幻模拟战手游莉亚娜转什么职业好_莉亚娜转职推荐</a>
+                                <div class="news-brief">
+                                    <span class="news-time">2018-08-31</span>
+                                    <span class="news-editor">编辑：尘烟</span>
+                                </div>
+                                <p>梦幻模拟战手游莉亚娜转什么职业好?在梦幻模拟战手游中，莉亚娜是一个SSR牧师职业，有多个路线可以进行转职，很多小伙伴还不清楚莉亚娜转哪个职业...<a href="https://www.zhuayoukong.com/news/140860.html"
+                                        target="_blank" class="read-all">阅读全文</a></p>
+                            </li>
+                            <li>
+                                <a class="news-img"><img data-original="https://pic.zhuayoukong.com/d/file/news/gonglue/2018-08-31/3f26a86933d697de979c1d6b962afad9.jpg"></a>
+                                <a href="https://www.zhuayoukong.com/news/140857.html" target="_blank" class="news-title"
+                                    title="遇见逆水寒无情怎么送礼_无情好感度提升攻略">遇见逆水寒无情怎么送礼_无情好感度提升攻略</a>
+                                <div class="news-brief">
+                                    <span class="news-time">2018-08-31</span>
+                                    <span class="news-editor">编辑：pp</span>
+                                </div>
+                                <p>遇见逆水寒无情怎么送礼?无情喜欢什么?相信很多玩家还不清楚吧，下面就和爪游控小编来看看遇见逆水寒无情好感度提升攻略吧。...<a href="https://www.zhuayoukong.com/news/140857.html"
+                                        target="_blank" class="read-all">阅读全文</a></p>
+                            </li>
+                            <li>
+                                <a class="news-img"><img data-original="https://pic.zhuayoukong.com/d/file/news/paixing/2018-08-31/b43c67da59241d95832134373a5007f7.jpg"></a>
+                                <a href="https://www.zhuayoukong.com/news/140858.html" target="_blank" class="news-title"
+                                    title="什么手游女生玩得多_女生十大网手游排行榜">什么手游女生玩得多_女生十大网手游排行榜</a>
+                                <div class="news-brief">
+                                    <span class="news-time">2018-08-31</span>
+                                    <span class="news-editor">编辑：mili</span>
+                                </div>
+                                <p>什么手游女生玩得多?很多游戏都是适合女生玩的，画面精致，人物形象饱满，充满乐趣，适合女生玩的游戏很多又好玩，接下来小编就为大家推荐下好玩的女...<a href="https://www.zhuayoukong.com/news/140858.html"
+                                        target="_blank" class="read-all">阅读全文</a></p>
+                            </li>
+                            <li>
+                                <a class="news-img"><img data-original="https://pic.zhuayoukong.com/d/file/news/gonglue/2018-08-31/47ea46eba7968d2dd98f9c84717745f5.png"></a>
+                                <a href="https://www.zhuayoukong.com/news/140859.html" target="_blank" class="news-title"
+                                    title="梦幻模拟战手游莉亚娜羁绊第三关怎么打_莉亚娜羁绊第三关打法攻略">梦幻模拟战手游莉亚娜羁绊第三关怎么打_莉亚娜羁绊第三关打法攻略</a>
+                                <div class="news-brief">
+                                    <span class="news-time">2018-08-31</span>
+                                    <span class="news-editor">编辑：尘烟</span>
+                                </div>
+                                <p>梦幻模拟战手游莉亚娜羁绊第三关怎么打?这关羁绊难度不小，很多小伙伴还不清楚具体打法，下面就给大家带来莉亚娜羁绊第三关打法攻略，希望能帮到...<a href="https://www.zhuayoukong.com/news/140859.html"
+                                        target="_blank" class="read-all">阅读全文</a></p>
+                            </li>
+                            <li>
+                                <a class="news-img"><img data-original="https://pic.zhuayoukong.com/d/file/news/dongtai/2018-08-31/63273e053d1ca6372ceca9f506945265.jpg"></a>
+                                <a href="https://www.zhuayoukong.com/news/140854.html" target="_blank" class="news-title"
+                                    title="《别跑小精灵》BT版上线送VIP7、钻石12888、金币100万">《别跑小精灵》BT版上线送VIP7、钻石12888、金币100万</a>
+                                <div class="news-brief">
+                                    <span class="news-time">2018-08-31</span>
+                                    <span class="news-editor">编辑：pp</span>
+                                </div>
+                                <p>《别跑小精灵BT版》是一款口袋妖怪为背景打造的卡牌养成手游，经典的游戏玩法，精彩的故事剧情，数百种小精灵等你收集，登陆游戏可免费领取VIP7、钻...<a href="https://www.zhuayoukong.com/news/140854.html"
+                                        target="_blank" class="read-all">阅读全文</a></p>
+                            </li>
+                            <li>
+                                <a class="news-img"><img data-original="https://pic.zhuayoukong.com/d/file/news/gonglue/2018-08-31/d1722e344ed73017735646ab1dd0159d.jpg"></a>
+                                <a href="https://www.zhuayoukong.com/news/140855.html" target="_blank" class="news-title"
+                                    title="王者荣耀S13赛季皮肤是哪个英雄_S13赛季皮肤介绍">王者荣耀S13赛季皮肤是哪个英雄_S13赛季皮肤介绍</a>
+                                <div class="news-brief">
+                                    <span class="news-time">2018-08-31</span>
+                                    <span class="news-editor">编辑：尘烟</span>
+                                </div>
+                                <p>王者荣耀S13赛季皮肤是哪个英雄?S12赛季已经即将结束，召唤师们都想知道S13赛季皮肤会是哪个英雄，很多小伙伴还不清楚，下面就给大家带来S13赛季...<a href="https://www.zhuayoukong.com/news/140855.html"
+                                        target="_blank" class="read-all">阅读全文</a></p>
+                            </li>
+                            <li>
+                                <a class="news-img"><img data-original="https://pic.zhuayoukong.com/d/file/news/dongtai/2018-08-31/60d3e0d413a13cc3f32b018d567caf6a.jpg"></a>
+                                <a href="https://www.zhuayoukong.com/news/140852.html" target="_blank" class="news-title"
+                                    title="《刺客天下》公益服上线送vip3、钻石38888、铜币100万">《刺客天下》公益服上线送vip3、钻石38888、铜币100万</a>
+                                <div class="news-brief">
+                                    <span class="news-time">2018-08-31</span>
+                                    <span class="news-editor">编辑：pp</span>
+                                </div>
+                                <p>《刺客天下公益服》是一款日漫风ARPG手游,你可以达里与各种虚拟的女性角色进行此动，从而找到自己的女神。现在登陆游戏就送vip3、钻石38888、...<a href="https://www.zhuayoukong.com/news/140852.html"
+                                        target="_blank" class="read-all">阅读全文</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pag">
+                        <span class="num">共132895条</span>&nbsp;&nbsp;&nbsp;<b>1</b>&nbsp;<a href="https://www.zhuayoukong.com/news/index_2.html">2</a>&nbsp;<a
+                            href="https://www.zhuayoukong.com/news/index_3.html">3</a>&nbsp;<a href="https://www.zhuayoukong.com/news/index_4.html">4</a>&nbsp;<a
+                            href="https://www.zhuayoukong.com/news/index_5.html">5</a>&nbsp;<a href="https://www.zhuayoukong.com/news/index_6.html">6</a>&nbsp;<a
+                            href="https://www.zhuayoukong.com/news/index_2.html">下一页</a>&nbsp;<a href="https://www.zhuayoukong.com/listinfo-6-13289.html">尾页</a>
+                    </div>
+                </div>
+            </div>
+            <!--left:end-->
+            <div class="zoneRight">
+                <div class="right-side">
+                    <div class="side-box">
+                        <!-- 排行切换 -->
+                        <div class="rank-tab">
+                            <div class="tit"><i class="icon-wyph"></i>网游排行</div>
+                            <div class="tit hover"><i class="icon-djph"></i>下载排行榜</div>
+                        </div>
+                        <div class="rank-list" style="display: block;">
+                            <ul>
+                                <li class="hover">
+                                    <span class="front">1</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/1828.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2017-07-27/4b2721d0d9ea09aca88c419a49261d5e.jpg"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/1828.html" target="_blank" title="第五人格">第五人格</a>
+                                            <p>类型：&nbsp;策略&nbsp;</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/1828.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/1828.html">第五人格</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="front">2</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/1474.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2017-02-10/e9e1223155df12dcafd4a10ac457f9a9.jpg"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/1474.html" target="_blank" title="3733游戏盒子">3733游戏盒子</a>
+                                            <p>类型：</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/1474.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/1474.html">3733游戏盒子</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="front">3</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/2046.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2017-10-11/a15375bdd2cbd132a18be855424948b8.png"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/2046.html" target="_blank" title="荒野行动">荒野行动</a>
+                                            <p>类型：&nbsp;竞技&nbsp;</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/2046.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/2046.html">荒野行动</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>4</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/832.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2016-11-07/fcb34c2d97664d9fc0d98622888c8a36.png"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/832.html" target="_blank" title="阴阳师">阴阳师</a>
+                                            <p>类型：&nbsp;回合&nbsp;策略&nbsp;</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/832.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/832.html">阴阳师</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>5</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/2151.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2018-02-27/6bdcdc5afeaff2aabc32ff20282f777d.png"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/2151.html" target="_blank" title="寻道回合">寻道回合</a>
+                                            <p>类型：&nbsp;回合&nbsp;</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/2151.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/2151.html">寻道回合</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>6</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/2391.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2018-04-13/38ad2356fbcb4e606fa9d46b4ded2893.png"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/2391.html" target="_blank" title="梦幻回合-爽玩版">梦幻回合-爽玩版</a>
+                                            <p>类型：&nbsp;即时&nbsp;回合&nbsp;</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/2391.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/2391.html">梦幻回合-爽玩版</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>7</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/592.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2016-06-12/55ea01b5e2baf546b0cf96bb98bee0f0.png"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/592.html" target="_blank" title="问道">问道</a>
+                                            <p>类型：&nbsp;回合&nbsp;</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/592.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/592.html">问道</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>8</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/1518.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2017-07-12/34d9f11ccb361936b4d63547adcaa733.png"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/1518.html" target="_blank" title="爪游控游戏盒子">爪游控游戏盒子</a>
+                                            <p>类型：&nbsp;策略&nbsp;</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/1518.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/1518.html">爪游控游戏盒子</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>9</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/525.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2016-07-07/e1b258b2188ef0c5b9ba5c5985a1034c.png"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/525.html" target="_blank" title="梦幻西游手游">梦幻西游手游</a>
+                                            <p>类型：&nbsp;回合&nbsp;</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/525.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/525.html">梦幻西游手游</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>10</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/1538.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2017-02-23/b89f3e9559f017c61fa04d1094e69648.png"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/1538.html" target="_blank" title="宠物小精灵">宠物小精灵</a>
+                                            <p>类型：&nbsp;回合&nbsp;</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/1538.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/1538.html">宠物小精灵</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="rank-list" style="display: none;">
+                            <ul>
+                                <li class="hover">
+                                    <span class="front">1</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/525.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2016-07-07/e1b258b2188ef0c5b9ba5c5985a1034c.png"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/525.html" target="_blank" title="梦幻西游手游">梦幻西游手游</a>
+                                            <p>类型：&nbsp;回合&nbsp;</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/525.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/525.html">梦幻西游手游</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="front">2</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/592.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2016-06-12/55ea01b5e2baf546b0cf96bb98bee0f0.png"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/592.html" target="_blank" title="问道">问道</a>
+                                            <p>类型：&nbsp;回合&nbsp;</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/592.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/592.html">问道</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="front">3</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/590.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2016-06-12/c3e827dd308b987cf9fa50dd539a6f95.gif"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/590.html" target="_blank" title="大话西游">大话西游</a>
+                                            <p>类型：&nbsp;回合&nbsp;</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/590.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/590.html">大话西游</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>4</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/1828.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2017-07-27/4b2721d0d9ea09aca88c419a49261d5e.jpg"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/1828.html" target="_blank" title="第五人格">第五人格</a>
+                                            <p>类型：&nbsp;策略&nbsp;</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/1828.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/1828.html">第五人格</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>5</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/847.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2016-10-13/36002317501ac104188abd3748ba3308.jpg"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/847.html" target="_blank" title="崩坏3">崩坏3</a>
+                                            <p>类型：</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/847.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/847.html">崩坏3</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>6</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/1247.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2016-11-04/6b7183296f757ccdf4dd06735632f7d3.png"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/1247.html" target="_blank" title="时空猎人">时空猎人</a>
+                                            <p>类型：&nbsp;策略&nbsp;</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/1247.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/1247.html">时空猎人</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>7</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/3159.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2018-08-23/fdea26a77d151cbe3eb3982fc4280164.png"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/3159.html" target="_blank" title="武动乾坤">武动乾坤</a>
+                                            <p>类型：&nbsp;即时&nbsp;</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/3159.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/3159.html">武动乾坤</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>8</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/2703.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2018-05-03/35b54fb9075dddcfcb2de0a970fd0ff8.png"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/2703.html" target="_blank" title="口袋妖怪日月">口袋妖怪日月</a>
+                                            <p>类型：&nbsp;休闲&nbsp;</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/2703.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/2703.html">口袋妖怪日月</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>9</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/2823.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2018-06-11/9d7183f0d3628d64e94bc7dd735d7de9.png"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/2823.html" target="_blank" title="莽荒纪2018">莽荒纪2018</a>
+                                            <p>类型：</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/2823.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/2823.html">莽荒纪2018</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>10</span>
+                                    <div class="rank-detail">
+                                        <a href="https://www.zhuayoukong.com/game/2477.html" target="_blank" class="rank-img"><img
+                                                data-original="https://pic.zhuayoukong.com/d/file/game/2018-02-27/1f01b8aa5a6d9521abfc90d3a818fed9.jpg"></a>
+                                        <div class="rank-info">
+                                            <a href="https://www.zhuayoukong.com/game/2477.html" target="_blank" title="大航海之路">大航海之路</a>
+                                            <p>类型：&nbsp;即时&nbsp;策略&nbsp;</p>
+                                        </div>
+                                        <a href="https://www.zhuayoukong.com/game/2477.html" target="_blank" class="download">下载</a>
+                                    </div>
+                                    <div class="rank-brief">
+                                        <a href="https://www.zhuayoukong.com/game/2477.html">大航海之路</a>
+                                        <i class="icon-download"></i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br /><br />
+                    <div class="side-box">
+                        <!-- 专题推荐 -->
+                        <div class="side-title">
+                            <div class="tit"><i class="icon-rmlb"></i>专题推荐</div><a href="/zhuanti/" target="_blank">更多专题<i
+                                    class="icon-more"></i></a>
+                        </div>
+                        <div class="hot-gift">
+                            <ul class="hot-ul">
+                                <li class="hover">
+                                    <a href="https://www.zhuayoukong.com/zhuanti/132.html" target="_blank" title="满级vip无限元宝手游大全">
+                                        <img data-original="https://pic.zhuayoukong.com/d/file/zhuanti/2018-05-21/c396917da42728aef7c43cec5b20d45d.jpg"
+                                            alt="满级vip无限元宝手游大全">
+                                    </a>
+                                    <h4><span>1</span><a href="https://www.zhuayoukong.com/zhuanti/132.html" target="_blank"
+                                            title="满级vip无限元宝手游大全">满级vip无限元宝手游大全</a></h4>
+                                </li>
+                                <li>
+                                    <a href="https://www.zhuayoukong.com/zhuanti/58.html" target="_blank" title="变态手游合集">
+                                        <img data-original="https://pic.zhuayoukong.com/d/file/zhuanti/2018-01-30/3fb3bdd2ebe779deec12eb32e19a48ec.jpg"
+                                            alt="变态手游合集">
+                                    </a>
+                                    <h4><span>2</span><a href="https://www.zhuayoukong.com/zhuanti/58.html" target="_blank"
+                                            title="变态手游合集">变态手游合集</a></h4>
+                                </li>
+                                <li>
+                                    <a href="https://www.zhuayoukong.com/zhuanti/622.html" target="_blank" title="没有vip的手机网游">
+                                        <img data-original="https://pic.zhuayoukong.com/d/file/zhuanti/2018-06-29/e068b8221b5868e90fede52bf8f6a690.jpg"
+                                            alt="没有vip的手机网游">
+                                    </a>
+                                    <h4><span>3</span><a href="https://www.zhuayoukong.com/zhuanti/622.html" target="_blank"
+                                            title="没有vip的手机网游">没有vip的手机网游</a></h4>
+                                </li>
+                                <li>
+                                    <a href="https://www.zhuayoukong.com/zhuanti/153.html" target="_blank" title="iOS手游公益服|私服|变态版">
+                                        <img data-original="https://pic.zhuayoukong.com/d/file/zhuanti/2017-07-19/53378f1f7050de7c82614255e63b948e.jpg"
+                                            alt="iOS手游公益服|私服|变态版">
+                                    </a>
+                                    <h4><span>4</span><a href="https://www.zhuayoukong.com/zhuanti/153.html" target="_blank"
+                                            title="iOS手游公益服|私服|变态版">iOS手游公益服|私服|变态版</a></h4>
+                                </li>
+                                <li>
+                                    <a href="https://www.zhuayoukong.com/zhuanti/502.html" target="_blank" title="ios满v手游">
+                                        <img data-original="https://pic.zhuayoukong.com/d/file/zhuanti/2018-05-25/34baa9c79ec2e3591d71867e33d6fcac.jpg"
+                                            alt="ios满v手游">
+                                    </a>
+                                    <h4><span>5</span><a href="https://www.zhuayoukong.com/zhuanti/502.html" target="_blank"
+                                            title="ios满v手游">ios满v手游</a></h4>
+                                </li>
+                                <li>
+                                    <a href="https://www.zhuayoukong.com/zhuanti/397.html" target="_blank" title="GM版手机网游">
+                                        <img data-original="https://pic.zhuayoukong.com/d/file/zhuanti/2018-04-23/f7cdb15969de7347202a32b2633a20ef.jpg"
+                                            alt="GM版手机网游">
+                                    </a>
+                                    <h4><span>6</span><a href="https://www.zhuayoukong.com/zhuanti/397.html" target="_blank"
+                                            title="GM版手机网游">GM版手机网游</a></h4>
+                                </li>
+                                <li>
+                                    <a href="https://www.zhuayoukong.com/zhuanti/352.html" target="_blank" title="破解游戏盒大全">
+                                        <img data-original="https://pic.zhuayoukong.com/d/file/zhuanti/2018-04-03/af074a660e6c750f7aa1a2cf312a7a70.jpg"
+                                            alt="破解游戏盒大全">
+                                    </a>
+                                    <h4><span>7</span><a href="https://www.zhuayoukong.com/zhuanti/352.html" target="_blank"
+                                            title="破解游戏盒大全">破解游戏盒大全</a></h4>
+                                </li>
+                                <li>
+                                    <a href="https://www.zhuayoukong.com/zhuanti/295.html" target="_blank" title="网易2018年手游">
+                                        <img data-original="https://pic.zhuayoukong.com/d/file/zhuanti/2018-01-29/717a66d8a8abedc693cdaf2fa7465d86.jpg"
+                                            alt="网易2018年手游">
+                                    </a>
+                                    <h4><span>8</span><a href="https://www.zhuayoukong.com/zhuanti/295.html" target="_blank"
+                                            title="网易2018年手游">网易2018年手游</a></h4>
+                                </li>
+                                <li>
+                                    <a href="https://www.zhuayoukong.com/zhuanti/322.html" target="_blank" title="单机无限内购破解游戏">
+                                        <img data-original="https://pic.zhuayoukong.com/d/file/zhuanti/2018-03-13/461ef7f155e2f9d265517bb473ba9558.jpg"
+                                            alt="单机无限内购破解游戏">
+                                    </a>
+                                    <h4><span>9</span><a href="https://www.zhuayoukong.com/zhuanti/322.html" target="_blank"
+                                            title="单机无限内购破解游戏">单机无限内购破解游戏</a></h4>
+                                </li>
+                                <li>
+                                    <a href="https://www.zhuayoukong.com/zhuanti/311.html" target="_blank" title="安卓破解游戏助手大全">
+                                        <img data-original="https://pic.zhuayoukong.com/d/file/zhuanti/2018-02-26/bdbf9a090e8f68810d9a133b824294d3.jpg"
+                                            alt="安卓破解游戏助手大全">
+                                    </a>
+                                    <h4><span>10</span><a href="https://www.zhuayoukong.com/zhuanti/311.html" target="_blank"
+                                            title="安卓破解游戏助手大全">安卓破解游戏助手大全</a></h4>
+                                </li>
+                                <li>
+                                    <a href="https://www.zhuayoukong.com/zhuanti/300.html" target="_blank" title="破解版游戏大型免内购">
+                                        <img data-original="https://pic.zhuayoukong.com/d/file/zhuanti/2018-02-05/c0a439dccdbce9e920f47b8335c4f06b.jpg"
+                                            alt="破解版游戏大型免内购">
+                                    </a>
+                                    <h4><span>11</span><a href="https://www.zhuayoukong.com/zhuanti/300.html" target="_blank"
+                                            title="破解版游戏大型免内购">破解版游戏大型免内购</a></h4>
+                                </li>
+                                <li>
+                                    <a href="https://www.zhuayoukong.com/zhuanti/292.html" target="_blank" title="2018年上架的手游">
+                                        <img data-original="https://pic.zhuayoukong.com/d/file/zhuanti/2018-01-24/9411d2c9504a62c8da12e9e2665ad5dd.jpg"
+                                            alt="2018年上架的手游">
+                                    </a>
+                                    <h4><span>12</span><a href="https://www.zhuayoukong.com/zhuanti/292.html" target="_blank"
+                                            title="2018年上架的手游">2018年上架的手游</a></h4>
+                                </li>
+                                <li>
+                                    <a href="https://www.zhuayoukong.com/zhuanti/130.html" target="_blank" title="上线送满级|顶级vip手游">
+                                        <img data-original="https://pic.zhuayoukong.com/d/file/zhuanti/2017-06-20/7908694196c8d5ec2a473a1d1563c1ab.jpg"
+                                            alt="上线送满级|顶级vip手游">
+                                    </a>
+                                    <h4><span>13</span><a href="https://www.zhuayoukong.com/zhuanti/130.html" target="_blank"
+                                            title="上线送满级|顶级vip手游">上线送满级|顶级vip手游</a></h4>
+                                </li>
+                                <li>
+                                    <a href="https://www.zhuayoukong.com/zhuanti/222.html" target="_blank" title="不氪金的手游">
+                                        <img data-original="https://pic.zhuayoukong.com/d/file/zhuanti/2017-10-13/f5de86366395e4ae23937432b4ddbcdd.jpg"
+                                            alt="不氪金的手游">
+                                    </a>
+                                    <h4><span>14</span><a href="https://www.zhuayoukong.com/zhuanti/222.html" target="_blank"
+                                            title="不氪金的手游">不氪金的手游</a></h4>
+                                </li>
+                                <li>
+                                    <a href="https://www.zhuayoukong.com/zhuanti/148.html" target="_blank" title="无限钻石手游私服|公益服">
+                                        <img data-original="https://pic.zhuayoukong.com/d/file/zhuanti/2017-07-12/0aadefb4af845b86ec52def6bb797efa.jpg"
+                                            alt="无限钻石手游私服|公益服">
+                                    </a>
+                                    <h4><span>15</span><a href="https://www.zhuayoukong.com/zhuanti/148.html" target="_blank"
+                                            title="无限钻石手游私服|公益服">无限钻石手游私服|公益服</a></h4>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--main:end-->
+    <div id="footer">
+            <div class="siteMap">
+                <div class="map">
+                    <p>
+                        <a href="/about/index.html" target="_blank">关于本站</a><em>|</em> 
+                        <a href="/about/contact.html" target="_blank">联系我们</a><em>|</em>
+                        <a href="/about/job.html" target="_blank">加入我们</a><em>|</em> 
+                        <a href="/about/adm.html" target="_blank">广告服务</a><em>|</em>
+                        <a href="/about/law.html" target="_blank">法律声明</a><em>|</em> 
+                        <a href="/about/link.html" target="_blank">友情链接</a><em>|</em> 
+                        <a href="/about/sitemap.html" target="_blank">网站地图</a><em>|</em> 
+                        <a target="_blank" href="/about/jianhu.html">
+                            <font class="observe">未成年人家长监护服务</font>
+                        </a>
+                    </p>
+                    <p>抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防上当受骗 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活<br />
+                        版权所有 Copyright &copy; 2016 
+                        <a href="/">www.zhuayoukong.com</a> 
+                        All rights reserved&nbsp;
+                        <a href="http://www.miitbeian.gov.cn/" target="_blank">备案号：闽ICP备16002893号</a>
+                        &nbsp;闽网文[2016]2519-045号 
+                        <a href="/">爪游控</a> 
+                        版权所有
+                    </p>
+                    <p>厦门悦游网络科技有限公司 地址：厦门市思明区软件园观日路30号之六
+                        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35020302024624" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                            <img class="beian-pic" src="static/images/beian.png" />
+                            <span class="beian">闽公网安备 35020302024624号</span>
+                            <span class="cnzz">
+                                <script type="text/javascript">
+                                    var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                                    document.write(unescape("%3Cspan id='cnzz_stat_icon_1259401503'%3E%3C/span%3E%3Cscript src='" +
+                                        cnzz_protocol +
+                                        "s95.cnzz.com/z_stat.php%3Fid%3D1259401503%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"
+                                    ));
+                                </script>
+                            </span>
+                        </a>
+                    </p>
+                    
+                </div>
+            </div>
+    </div>
+    <div id="erweipic" class="erweipic">
+        <script src="/e/code/?data=https://m.zhuayoukong.com/list-6.html" language="javascript"></script>
+    </div>
+    <script src="static/js/common.js"></script>
+<script src="static/js/news.js"></script>
+</body>
+
+</html>

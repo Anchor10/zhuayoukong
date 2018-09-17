@@ -1,0 +1,714 @@
+.content_container .leftContainer {
+  position: relative;
+  float: left;
+  width: 882px;
+}
+.detail_container .inner {
+  position: relative;
+  width: 840px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.detail_container .inner .iconOuter {
+  position: relative;
+  float: left;
+  width: 120px;
+  height: 120px;
+  margin-top: 10px;
+}
+
+.detail_container .inner .iconOuter .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 120px;
+}
+
+.detail_container .inner .detailInfo {
+  overflow: hidden;
+}
+
+.detail_container .inner .detailInfo .gametitle {
+  width: 470px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #4b4b4b;
+  margin-left: 10px;
+  margin-top: 18px;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+
+.detail_container .inner .detailInfo .normalline {
+  position: relative;
+  float: left;
+  width: 470px;
+  overflow: hidden;
+  height: 16px;
+  line-height: 16px;
+  color: #8b8b8b;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.detail_container .inner .detailInfo .verline {
+  margin-top: 10px;
+}
+
+.detail_container .inner .detailInfo .normalline span {
+  position: absolute;
+  left: 150px;
+}
+
+.detail_container .inner .detailInfo .wel {
+  float: left;
+  font-size: 14px;
+  color: #8b8b8b;
+  margin: 10px 0 0 10px;
+  width: 566px;
+}
+
+.detail_container .inner .detailInfo .wel span {
+  color: #000;
+}
+
+.detail_container .inner .btnOuter {
+  position: relative;
+  float: left;
+  width: 160px;
+  height: 40px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+/* 安卓版下载 */
+.detail_container .inner .apkbtnOuter .apkbtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../images/detail_apk_btn.png") 0 0 no-repeat;
+  width: 160px;
+  height: 40px;
+}
+
+/* ios版下载 */
+.detail_container .inner .iosbtnOuter .iosbtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../images/ios.png") 0 0 no-repeat;
+  width: 160px;
+  height: 40px;
+}
+
+/* 高速下载 */
+.detail_container .inner .dnbtnOuter .dnbtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../images/detail_dnb_btn.png") 0 0 no-repeat;
+  width: 160px;
+  height: 40px;
+}
+
+/* 玩家qq群 */
+.detail_container .inner .kefubtnOuter .kefubtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../images/kefu_s.png") 0 0 no-repeat;
+  width: 160px;
+  height: 40px;
+}
+
+#content_container .detail_container .inner ._btn:hover {
+  background-position: 0 -40px;
+}
+
+/* 扫一扫 */
+.detail_container .inner .mark_containerOuter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  background-color: #fff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  width: 160px;
+  height: 140px;
+}
+
+.detail_container .inner .mark_containerOuter .mark_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110px;
+  height: 141px;
+}
+
+.detail_container .inner .mark_containerOuter .mark_container .markImg {
+  width: 110px;
+  height: 110px;
+}
+
+.detail_container .inner .mark_containerOuter .mark_container .text {
+  text-align: center;
+  transform: scale(0.95);
+  width: 150px;
+  margin-left: -18px;
+}
+
+.detail_container .inner .spline {
+  width: 100%;
+  height: 1px;
+  background-color: #ebebeb;
+  position: relative;
+  font-size: 1px;
+  margin-top: 30px;
+}
+
+.detail_container .inner .importTips {
+  position: relative;
+  margin-top: 10px;
+  line-height: 20px;
+  color: #ffffff;
+  width: 100%;
+}
+
+.detail_container .inner .importTips .txt {
+  background-color: #ec800c;
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.detail_container .inner .controlHelp {
+  position: relative;
+  margin-top: 12px;
+}
+
+.detail_container .inner .controlHelp .title {
+  position: relative;
+  font-size: 14px;
+  color: #000;
+  width: 100%;
+  overflow: hidden;
+}
+
+.detail_container .inner .controlHelp .txt-orange {
+  position: relative;
+  color: #f05a2c;
+  margin-top: 15px;
+  line-height: 18px;
+}
+
+.detail_container .inner .controlHelp .txt-normal {
+  position: relative;
+  color: #4b4b4b;
+  margin-top: 15px;
+  line-height: 18px;
+}
+
+.detail_container .inner .descContent {
+  position: relative;
+  margin-top: 12px;
+}
+
+.detail_container .inner .descContent .title {
+  position: relative;
+  font-size: 16px;
+  color: #000;
+  width: 100%;
+  overflow: hidden;
+}
+
+.detail_container .inner .descContent .txt-normal {
+  position: relative;
+  margin-top: 15px;
+  color: rgb(127, 127, 127);
+  font-size: 18px;
+  line-height: 30px;
+  text-indent: 1em;
+  min-height: 2rem;
+}
+
+.detail_container .inner .descContent .txt-normal h2 {
+  margin-bottom: 10px;
+}
+
+.detail_container .inner .descContent .txt-normal h2 a span{
+  text-indent: 0;
+  font-size: 16px;
+  font-weight: normal;
+  float: right;
+  margin-right: 20px;
+  display: block;
+  border: 2px solid rgb(63, 178, 13);
+  color: rgb(63, 178, 13);
+  border-radius: 5px;
+  padding: 0px 15px;
+}
+
+
+.detail_container .inner .game_ii_info {
+  position: relative;
+  margin-top: 12px;
+  width: 840px;
+}
+
+.detail_container .inner .game_ii_info .title {
+  position: relative;
+  font-size: 16px;
+  color: #000;
+  width: 100%;
+  overflow: hidden;
+}
+
+.detail_container .inner .game_ii_info .infoList .item {
+  margin-top: 20px;
+}
+
+.detail_container .inner .game_ii_info .infoList .item .icon {
+  margin-left: 0;
+}
+
+.detail_container .inner .game_ii_info .infoList .item .title {
+  width: 444px;
+}
+
+.detail_container .inner .game_ii_info .infoList .item .detail {
+  width: 487px;
+}
+
+/* 相关资讯 */
+.slideGroup {
+  background: #FFF;
+  padding: 10px 0px 10px 0px;
+  margin-top: 10px;
+  display: inherit;
+  width: 100%
+}
+
+.slideGroup .parHd {
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px solid #eeeeee;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px
+}
+
+.rgt {
+  float: right;
+}
+
+.slideGroup .parHd ul {
+  height: 32px;
+  list-style: none;
+  padding: 0
+}
+
+.slideGroup .parHd ul li {
+  float: left;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.slideGroup .parHd ul li.on {
+  height: 30px;
+  background: #17b1f2;
+  color: #FFF
+}
+
+.slideGroup .parBd {
+  zoom: 1;
+  padding: 0
+}
+
+.slideGroup .nlike {
+  overflow: hidden;
+  zoom: 1;
+}
+
+.slideGroup .slideBox li{  float:left; _display:inline; overflow:hidden; text-align:center; line-height:24px; width:165px; height:160px; font-size:14px; margin:10px 20px 0px 0px}
+.slideGroup .nlike li img {
+  width: 165px;
+  height: 100px;
+  display: block;
+  margin-bottom: 5px
+}
+
+
+.slideGroup .nlike li {
+  list-style: none;
+  float: left;
+  _display: inline;
+  overflow: hidden;
+  text-align: center;
+  line-height: 24px;
+  width: 165px;
+  height: 160px;
+  font-size: 14px;
+  margin: 10px 20px 0px 0px;
+}
+
+.slideGroup .nlike li p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+
+.content_gamedetail .detail_container {
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  width: 880px;
+  position: relative;
+}
+
+
+/* 右边列表 */
+.content_container .rightContainer {
+  position: relative;
+  float: left;
+  width: 300px;
+  margin-left: 18px;
+}
+
+
+.content_container .remenpaihang {
+  position: relative;
+  border: 1px solid #ebebeb;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  width: 298px;
+  background-color: #fff;
+  float: left;
+}
+
+.content_container .remenpaihang .top_line {
+  position: relative;
+  width: 100%;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 17px;
+}
+
+.content_container .remenpaihang .top_line .icon {
+  float: left;
+  margin-left: 14px;
+}
+
+.content_container .remenpaihang .top_line .titleInner {
+  float: left;
+  width: 242px;
+  overflow: hidden;
+  margin-left: 5px;
+  height: 20px;
+}
+
+.content_container .remenpaihang .top_line .titleInner .title {
+  float: left;
+  font-size: 18px;
+  color: #4b4b4b;
+  font-weight: bold;
+}
+
+.content_container .remenpaihang .content {
+  position: relative;
+  float: left;
+  margin-top: 20px;
+  width: 268px;
+  margin-left: 15px;
+}
+
+.content_container .remenpaihang .content .item {
+  position: relative;
+  float: left;
+  width: 100%;
+  overflow: hidden;
+}
+
+.content_container .remenpaihang .content .item .sort {
+  float: left;
+  width: 16px;
+  height: 16px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #4b4b4b;
+  text-align: center;
+  line-height: 16px;
+  background-color: #f0f0f0;
+  margin-top: 7px;
+}
+
+.content_container .remenpaihang .content .item .sort1 {
+  color: #ffffff;
+  background-color: #f05a2c;
+}
+
+.content_container .remenpaihang .content .item .sort2 {
+  color: #ffffff;
+  background-color: #f09b2c;
+}
+
+.content_container .remenpaihang .content .item .sort3 {
+  color: #ffffff;
+  background-color: #8ec03f;
+}
+
+.content_container .remenpaihang .content .item .small_ph .icon {
+  position: relative;
+  float: left;
+  width: 30px;
+  height: 30px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-left: 8px;
+}
+
+.content_container .remenpaihang .content .item .small_ph .icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.content_container .remenpaihang .content .item .small_ph .title {
+  position: relative;
+  float: left;
+  width: 206px;
+  height: 20px;
+  line-height: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #4b4b4b;
+  margin-left: 8px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.content_container .remenpaihang .content .item .big_ph .icon {
+  position: relative;
+  float: left;
+  width: 64px;
+  height: 64px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-left: 8px;
+}
+
+.content_container .remenpaihang .content .item .big_ph .icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.content_container .remenpaihang .content .item .big_ph .title {
+  position: relative;
+  float: left;
+  width: 172px;
+  height: 20px;
+  line-height: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #4b4b4b;
+  margin-left: 8px;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+.content_container .remenpaihang .content .item .big_ph .title:hover {
+  color: #f05a2c;
+}
+
+.content_container .remenpaihang .content .item .big_ph .subtip {
+  position: relative;
+  float: left;
+  width: 172px;
+  height: 20px;
+  line-height: 20px;
+  color: #8b8b8b;
+  text-decoration: none;
+  margin-left: 8px;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+.content_container .remenpaihang .content .item .big_ph .setupBtn {
+  position: relative;
+  float: left;
+  width: 73px;
+  height: 20px;
+  margin-left: 8px;
+  background: url("../images/iconlist_setup.png") 0 0 no-repeat;
+  margin-top: 2px;
+}
+
+.content_container .remenpaihang .content .remen_split {
+  float: left;
+  font-size: 1px;
+  width: 100%;
+  height: 1px;
+  background-color: #f0f0f0;
+  margin-top: 7px;
+  margin-bottom: 8px;
+}
+
+.content_container .remenpaihang .content .ph_pos {
+  position: relative;
+  height: 15px;
+  width: 100%;
+  float: left;
+}
+
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.ricon_img {
+  width: 21px;
+  height: 20px;
+}
+
+.ricon_img1 {
+  width: 21px;
+  height: 20px;
+  background: url("../images/20160120102077_index_icon2.png") 0 0 no-repeat;
+}
+
+/*盒子下载弹出层*/
+#zzc {
+  background-color: rgb(0, 0, 0);
+  border-top: 1px solid rgb(230, 245, 255);
+  position: absolute;
+  height: 2849px;
+  z-index: 9998;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0.7;
+  display: none;
+}
+
+.zzc-download {
+  display: none;
+  visibility: visible;
+  position: fixed;
+  z-index: 9999;
+  left: 50%;
+  top: 50%;
+  margin-top: -146px;
+  margin-left: -290px;
+}
+
+.zzc-download .dia-con {
+  width: auto;
+  background: none;
+}
+
+.dia-download {
+  padding: 30px 76px 23px 48px;
+  background: #fff;
+}
+
+.zzc-download .code {
+  float: left;
+  margin-right: 36px;
+}
+
+.zzc-download .btnlist {
+  float: left;
+}
+
+.zzc-download .btnlist a {
+  width: 212px;
+  height: 46px;
+  display: block;
+  margin-bottom: 9px;
+  background: url(../images/down.png);
+}
+
+.zzc-download .dia-close {
+  width: 212px;
+  height: 46px;
+  display: block;
+  margin-bottom: 9px;
+  background: url(../images/close.png);
+}
+
+.zzc-download .btnlist .pc {
+  background-position: 0 -112px;
+}
+
+.zzc-download .btnlist .zzc-ios {
+  background-position: 0 -56px;
+  margin-top: 50px;
+}
+
+.zzc-download .btnlist .zzc-android {
+  background-position: 0 0;
+  margin-top: 30px;
+}
+
+.zzc-download .btnlist .android1 {
+  background-position: 0 -169px;
+}
+
+.zzc-download .dia-close {
+  position: absolute;
+  top: 10px;
+  right: 18px;
+  width: 36px;
+  height: 36px;
+  background-position: -264px -17px;
+}
+
+.dia-download .code img {
+  width: 197px;
+  margin-left: 13px;
+}
+
+.dia-download .code p {
+  color: #111;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.dia-download .btnlist p {
+  font-size: 15px;
+  color: red;
+  cursor: pointer;
+}
+
