@@ -34,7 +34,6 @@ $(function(){
             var swiper = new Swiper('#swiper2', {
                 paginationClickable: true,
                 initialSlide:thisIndex,
-                loop:true,
                 slidesPerView : 1,
                 centeredSlides : true,
                 navigation: {
