@@ -88,27 +88,27 @@ function addFav() {
     }
 }
 // 百度统计
-var _hmt = _hmt || [];
-(function () {
-    var hm = document.createElement("script");
-    hm.src = "https://hm.baidu.com/hm.js?cdc7b9d439ebb877ba1fca79ac6c2683";
-    // var s = document.getElementsByTagName("script")[0];
-    // s.parentNode.insertBefore(hm, s);
-    document.body.appendChild(hm);
-})();
-(function () {
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-    } else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    // var s = document.getElementsByTagName("script")[0];
-    // s.parentNode.insertBefore(bp, s);
-    document.body.appendChild(bp);
-})();
-(function () {
-    var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?d158df339357da7586e198a50b78c863" : "https://jspassport.ssl.qhimg.com/11.0.1.js?d158df339357da7586e198a50b78c863";
-    document.write('<script src="' + src + '" id="sozz"><\/script>');
-})();
+// var _hmt = _hmt || [];
+// (function () {
+//     var hm = document.createElement("script");
+//     hm.src = "https://hm.baidu.com/hm.js?cdc7b9d439ebb877ba1fca79ac6c2683";
+//     // var s = document.getElementsByTagName("script")[0];
+//     // s.parentNode.insertBefore(hm, s);
+//     document.body.appendChild(hm);
+// })();
+// (function () {
+//     var bp = document.createElement('script');
+//     var curProtocol = window.location.protocol.split(':')[0];
+//     if (curProtocol === 'https') {
+//         bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+//     } else {
+//         bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+//     }
+//     // var s = document.getElementsByTagName("script")[0];
+//     // s.parentNode.insertBefore(bp, s);
+//     document.body.appendChild(bp);
+// })();
+// (function () {
+//     var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?d158df339357da7586e198a50b78c863" : "https://jspassport.ssl.qhimg.com/11.0.1.js?d158df339357da7586e198a50b78c863";
+//     document.write('<script src="' + src + '" id="sozz"><\/script>');
+// })();

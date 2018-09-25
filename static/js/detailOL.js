@@ -24,7 +24,7 @@ $(function(){
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
-          },
+        },
     })
     $('#swiper1 .swiper-slide').each(function(index){
         $(this).click(function(){
@@ -39,13 +39,12 @@ $(function(){
                 navigation: {
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
-                  },
+                },
             });
         });
     });
     $(".swiper-close").on("click",function(){
         $('.mask').hide();
         $('#swiper2').hide();
-    })
-    
+    })  
 })

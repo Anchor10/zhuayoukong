@@ -4,8 +4,8 @@ $(function () {
 })
 //首页游戏tab
 $("#test_iqzt").on("mouseover", "li", function () {
-    $(this).delay(8000).addClass("last").siblings().delay(8000).removeClass("last");
-    $(".iqzt_list .iqzt").delay(8000).eq($(this).index()).delay(8000).show().siblings().delay(8000).hide();
+    $(this).addClass("last").siblings().removeClass("last");
+    $(".iqzt_list .iqzt").eq($(this).index()).show().siblings().hide();
 })
 //排行榜
 $(function () {
