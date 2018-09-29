@@ -28,60 +28,69 @@ $(".back-top").click(function () {
     return false;
 });
 // 轮播图
-$(function(){
-    $(".swiper-container").hover(function(){
+$(function () {
+    $("#swiper1,#swiper2,#swiper3").hover(function () {
         $(this).find(".swiper-button-prev").show();
         $(this).find(".swiper-button-next").show();
-    },function(){
+    }, function () {
         $(this).find(".swiper-button-prev").hide();
         $(this).find(".swiper-button-next").hide();
     })
     var mySwiper1 = new Swiper('#swiper1', {
-        autoplay:{
-        delay:2000,
-        disableOnInteraction: false,
-        waitForTransition: false,
-        },    
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+            waitForTransition: false,
+        },
         pagination: {
-    el: '.swiper-pagination',
-    clickable :true,
-    },
-    // loop:true,
-    navigation: {
-        nextEl: '#next1',
-        prevEl: '#prev1',
-      },
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        // loop:true,
+        navigation: {
+            nextEl: '#next1',
+            prevEl: '#prev1',
+        },
     })
     var mySwiper2 = new Swiper('#swiper2', {
-        autoplay:{
-        delay:2000,
-        disableOnInteraction: false,
-        waitForTransition: false,
-        },     
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+            waitForTransition: false,
+        },
         pagination: {
-    el: '.swiper-pagination',
-    clickable :true,
-    },
-    // loop:true,
-    navigation: {
-        nextEl: '#next2',
-        prevEl: '#prev2',
-      },
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        // loop:true,
+        navigation: {
+            nextEl: '#next2',
+            prevEl: '#prev2',
+        },
     })
     var mySwiper3 = new Swiper('#swiper3', {
-        autoplay:{
-        delay:2000,
-        disableOnInteraction: false,
-        waitForTransition: false,
-        },     
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+            waitForTransition: false,
+        },
         pagination: {
-    el: '.swiper-pagination',
-    clickable :true,
-    },
-    // loop:true,
-    navigation: {
-        nextEl: '#next3',
-        prevEl: '#prev3',
-      },
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        // loop:true,
+        navigation: {
+            nextEl: '#next3',
+            prevEl: '#prev3',
+        },
+    })
+    var mySwiper4 = new Swiper('#swiper4', {
+        loop: true,
+        navigation: {
+            nextEl: '#next4',
+            prevEl: '#prev4',
+        },
+        slidesPerView: 4,
+        spaceBetween: 25,
     })
 })
