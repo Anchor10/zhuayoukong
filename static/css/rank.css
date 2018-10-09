@@ -356,7 +356,7 @@ hr {
 }
 .btn.btn-lb {
 	background-color: #ff6652;
-	margin-top:-33px;
+	/* margin-top:-33px; */
 }
 .btn.btn-lb:hover {
 	width: 48px;
@@ -989,7 +989,7 @@ hr {
 	float: left;
 	overflow: hidden
 }
-.zx-list .lqlb {
+/* .zx-list .lqlb {
 	width: 65px;
 	height: 20px;
 	line-height: 20px;
@@ -1004,8 +1004,8 @@ hr {
 	color: #ff6652;
 	background-color: #fff;
 	border: 1px solid #ff6652
-}
-.btn-p6 {
+} */
+/* .btn-p6 {
 	width: 125px;
 	height: 28px;
 	line-height: 28px;
@@ -1022,7 +1022,7 @@ hr {
 	color: #fff;
 	background-color: #ff6652;
 	border: none
-}
+} */
 .friendly {
 	height: 120px;
 	overflow: hidden;
@@ -1106,127 +1106,9 @@ hr {
 	color: #fff;
 	background-color: #ff6652
 }
-.tabs-bar {
-	width: 100%;
-	margin-top: 17px
-}
-.tabs-bar li {
-	float: left;
-	width: 50%;
-	color: #fff;
-	text-align: center;
-	background-color: #5c5761;
-	cursor: pointer
-}
-.tabs-bar li.active {
-	background-color: #ff6652
-}
-.tabs-bar.tabs-big li {
-	font-size: 24px;
-	height: 55px;
-	line-height: 55px
-}
-.tabs-bar.tabs-sm li {
-	font-size: 16px;
-	height: 38px;
-	line-height: 38px
-}
-.top-list {
-	padding-left: 61px;
-	margin-left: -6px;
-	margin-top: 20px;
-	position: relative
-}
-.top-list li.item {
-	float: left;
-	width: 106px;
-	height: 124px;
-	padding: 17px;
-	margin-left: 6px;
-	background-color: #f0edf2
-}
-.top-list li.item a {
-	color: #5c5761
-}
-.top-list li.item a span {
-	display: block;
-	margin-top: 5px
-}
-.top-list li.item a:hover {
-	color: #ff6652
-}
-.top-list .top-title {
-	position: absolute;
-	width: 20px;
-	height: 118px;
-	padding: 20px 10px;
-	overflow: hidden;
-	top: 0;
-	left: 6px;
-	font-size: 20px;
-	color: #5c5761;
-	background-image: url(../img/spite.png);
-	background-repeat: no-repeat;
-	background-position: -2px -80px
-}
-.info-list {
-	display: none
-}
-.info-list.active {
-	display: block
-}
-.info-list li {
-	height: 90px;
-	padding: 20px 0;
-	overflow: hidden;
-	border-bottom: 1px dashed #d8c7e6
-}
-.info-list .xh {
-	width: 23px;
-	height: 23px;
-	line-height: 23px;
-	border: 1px solid #5c5761
-}
-.info-list .xh.n1 {
-	color: #ff6652;
-	border-color: #ff6652
-}
-.info-list .xh.n2 {
-	color: #fcb519;
-	border-color: #fcb519
-}
-.info-list .xh.n3 {
-	color: #46cf98;
-	border-color: #46cf98
-}
-.info-list .item-meg {
-	float: left;
-	width: 90px;
-	height: 90px
-}
-.info-list .item-info {
-	padding-left: 154px
-}
-.info-list .item-title {
-	font-size: 18px;
-	font-weight: 700;
-	color: #5c5761
-}
-.info-list .item-title:hover {
-	color: #ff6652
-}
-.info-list .btn-group {
-	float: right
-}
-.info-list .info {
-	font-size: 14px;
-	line-height: 30px;
-	height: 60px;
-	overflow: hidden;
-	clear: right;
-	margin-top: 5px;
-	color: #8d8594
-}
+
+
+
 .list-group li {
 	height: 150px;
 	padding: 20px 0;
@@ -1471,33 +1353,7 @@ hr {
 .nav-list li a:hover{
 	color: #ff6652;
 }
-.struct-srumbs{
-	height: 52px;
-	line-height: 52px;
-	background-color: white;
-	padding: 0 20px;
-	margin-top: 20px;
-	font-size: 14px;
-}
-.struct-srumbs a,.struct-srumbs b{
-	color: #5c5761;
-	font-weight: 400;
-}
-.struct-srumbs a:hover{
-	color: #ff6652;
-}
-.struct-srumbs span{
-	color: #8d8594;
-}
-.struct-srumbs i{
-	float: left;
-    width: 16px;
-    height: 19px;
-    background: url(../images/icons.png) -338px -795px no-repeat;
-    vertical-align: top;
-    margin-right: 10px;
-    margin-top: 15px;
-}
+
 .f-l {
 	float: left;
 	width: 750px;
