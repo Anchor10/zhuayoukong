@@ -3,9 +3,11 @@ $(function () {
     $("#t_home").addClass("curr");
 })
 //首页游戏tab
-$("#test_iqzt").on("mouseover", "li", function () {
-    $(this).addClass("last").siblings().removeClass("last");
-    $(".iqzt_list .iqzt").eq($(this).index()).show().siblings().hide();
+$(function(){
+    $("#test_iqzt").on("mouseover", "li", function () {
+        $(this).addClass("last").siblings().removeClass("last");
+        $(".iqzt_list .iqzt").eq($(this).index()).show().siblings().hide();
+    })
 })
 //排行榜
 $(function () {
@@ -13,20 +15,22 @@ $(function () {
         $(this).addClass("hover").siblings("dd").removeClass("hover")
     })
 })
-$(window).scroll(function () {
-    var position = $(window).scrollTop();
-    if (position > 50) {
-        $(".left-sidebar, .right-sidebar").addClass("show");
-    } else {
-        $(".left-sidebar, .right-sidebar").removeClass("show");
-    }
-});
-$(".back-top").click(function () {
-    $("body,html").animate({
-        scrollTop: 0
-    }, 1000);
-    return false;
-});
+$(function(){
+    $(window).scroll(function () {
+        var position = $(window).scrollTop();
+        if (position > 50) {
+            $(".left-sidebar, .right-sidebar").addClass("show");
+        } else {
+            $(".left-sidebar, .right-sidebar").removeClass("show");
+        }
+    });
+    $(".back-top").click(function () {
+        $("body,html").animate({
+            scrollTop: 0
+        }, 1000);
+        return false;
+    });
+})
 // 轮播图
 $(function () {
     $("#swiper1,#swiper2,#swiper3").hover(function () {

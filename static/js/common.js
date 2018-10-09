@@ -10,11 +10,13 @@ $(document).ready(function () {
 });
 
 //懒加载
-    $("img[data-original]").lazyload({
-        threshold: 500,
-        skip_invisible: false,
-        failurelimit: 2000,
-        effect:"fadeIn",
+    $(function(){
+        $("img[data-original]").lazyload({
+            threshold: 500,
+            skip_invisible: false,
+            failurelimit: 2000,
+            effect:"fadeIn",
+        })
     })
 
 // 侧边导航栏
