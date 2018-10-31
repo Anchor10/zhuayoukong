@@ -201,6 +201,7 @@
 .Min0_R .hot ul li {
     float: left;
     margin-right: 26px;
+    width: 100px;
 }
 .Min0_R .hot ul li:hover span{
     color: #f6505c;
@@ -213,12 +214,15 @@
     display: block;
     width: 100px;
     height: 100px;
+    border-radius: 15px;
 }
-
 .Min0_R .hot ul li span {
     display: block;
     text-align: center;
     margin-top: 7px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .Min0_R .hot .top-list .top-title {
