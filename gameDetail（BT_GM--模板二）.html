@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title> 大冒险世界_大冒险世界变态版_大冒险世界公益服/无限元宝/钻石/礼包_爪游控</title>
+    <meta name="keywords" content="大冒险世界,大冒险世界变态版,大冒险世界公益服,大冒险世界私服,大冒险世界官网" />
+    <meta name="description" content="大冒险世界官网为您提供最新大冒险世界私服,大冒险世界公益服,及大冒险世界游戏攻略,礼包激活码等，为喜爱大冒险世界手游玩家提供免费的无限元宝钻石公益服下载." />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="static/css/base.css" />
+    <link rel="stylesheet" href="static/css/gameDetail.css">
+    <script type="text/javascript" src="static/js/jquery.js"></script>
+    <script type="text/javascript" src="static/js/jquery.lazyload.js"></script>
+    <script type="text/javascript" src="static/js/imgSwitch.js"></script>
+    <script type="text/javascript" src="static/js/mobile.js"></script>
+</head>
+
+<body>
+    <!--topNav:begin-->
+    <div id="siteNav">
+        <div class="layout">
+            <ul class="siteNavMenu">
+                <li class="rb">
+                    <a href='//www.zhuayoukong.com' target='_blank'>爪游控 | 新锐综合资讯媒体</a> |
+                    <a href="http://app.zhuayoukong.com/" style="color:#f60" target="_blank" title="爪游控游戏盒" class="tb_downyxh">下载爪游控游戏盒</a>
+                </li>
+            </ul>
+            <ul class="siteNavMenu fr">
+                <samp id="show_userinfo">
+                    <li class="rb" id="logined_li">
+                        <div class="menuShow">
+                            <a href="javascript:void(0);" class="login">用户登录</a>
+                            <span class="arrDrop"></span>
+                        </div>
+                        <div class="menuHide" id="topDMainBox" style="display: none;">
+                            <ul class="log">
+                                <p class="tipsText"></p>
+                                <form name="login" method="post" action="/e/member/doaction.php">
+                                    <input type="hidden" name="enews" value="login">
+                                    <input type="hidden" name="ecmsfrom" value="9">帐号：
+                                    <input name="username" type="text" value="" placeholder="用户名/邮箱" class="inputText">密码：
+                                    <input name="password" placeholder="输入密码" type="password" value="" class="inputText">
+                                    <input type="submit" value="登录" class="submit">
+                                </form>
+                                <div class="remember">
+                                    <label>
+                                        <input class="check" type="checkbox" id="keeplogin" checked="">
+                                        <span>自动登录</span>
+                                    </label>
+                                    <a href="http://www.zhuayoukong.com/e/member/GetPassword/" target="_blank">忘记密码？</a>&nbsp;|&nbsp;
+                                    <a href="http://www.zhuayoukong.com/e/member/register/?groupid=1">注册帐号</a>
+                                </div>
+                                <div id="errmsg"></div>
+                            </ul>
+                            <div class="thirdP">
+                                <p>使用合作网站帐号登录：</p>
+                                <a class="qq" href="http://www.zhuayoukong.com/e/ikaimi/qq_api/enews.php?enews=qzonelogin"
+                                    target="_blank">QQ账号</a>
+                            </div>
+                        </div>
+                    </li>
+                </samp>
+                <li>
+                    <div class="menuShow">
+                        <span class="navIcon">
+                        </span>
+                        <span>网站导航
+                        </span>
+                        <span class="arrDrop">
+                        </span>
+                    </div>
+                    <!-- common menu adv start-->
+                    <div class="menuHide r0" style="display: none;">
+                        <ul class="guideList">
+                            <li>
+                                <h4>
+                                    <img src="static/images/navpic1.png" alt="">
+                                    <a href="javascript:;" target="_blank">资讯中心</a>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="/news/gonglue/" target="_blank">游戏攻略</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="/news/dongtai/" target="_blank">游戏动态</a>
+                                    </li>
+                                    <li>
+                                        <a href="/news/huodong/" target="_blank">游戏活动</a>丨
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/top/" target="_blank">游戏排行</a>
+                                        </strong>
+                                    </li>
+                                    <li>
+                                        <a href="/ent/" target="_blank">娱乐八卦</a>丨
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/video/" target="_blank">游戏视频</a>
+                                        </strong>
+                                    </li>
+                                    <li>
+                                        <a href="/news/pingce/" target="_blank">游戏评测</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="/news1/" target="_blank">社会万象</a>
+                                    </li>
+                                    <li>
+                                        <a href="/news/xingye/" target="_blank">游戏产业</a>丨
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/kaifu/" target="_blank">游戏开服</a>
+                                        </strong>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="secli">
+                                <h4>
+                                    <img src="static/images/navpic2.png" alt="">
+                                    <a href="javascript:;" target="_blank">精品栏目</a>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="/youxi/" target="_blank">免费游戏</a>
+                                    </li>
+                                    <li>
+                                        <a href="/btyouxi/" target="_blank">变态游戏</a>
+                                    </li>
+                                    <li>
+                                        <a href="/mvshouyou/" target="_blank">满Vip游戏</a>
+                                    </li>
+                                    <li>
+                                        <a href="/gmshouyou/" target="_blank">GM游戏</a>
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/zhuanti/" target="_blank">游戏专题</a>
+                                        </strong>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="secli">
+                                <h4>
+                                    <img src="static/images/navpic3.png" alt="">
+                                    <a href="javascript:;" target="_blank">礼包中心</a>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <strong>
+                                            <a href="/card/libao.html" target="_blank">独家礼包</a>
+                                        </strong>
+                                    </li>
+                                    <li>
+                                        <a href="/card/xinshouka.html" target="_blank">新手卡</a>
+                                    </li>
+                                    <li>
+                                        <a href="/card/jihuoma.html" target="_blank">激活码</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="danli">
+                                <h4>
+                                    <img src="static/images/navpic4.png" alt="">
+                                    <a href="javascript:;" target="_blank">游戏下载</a>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="/game/" target="_blank">网游库</a>&nbsp;&nbsp;|&nbsp;
+                                        <a class="typea" href="/game/0-1-1-0.html">即时</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/game/0-1-2-0.html">回合</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/game/0-1-3-0.html">策略</a>
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/vip/" target="_blank">满V手游</a>
+                                        </strong>&nbsp;&nbsp;|&nbsp;
+                                        <a class="typea" href="/vip/0-65-4-0.html">放置</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/vip/0-65-5-0.html">动作</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/vip/0-65-7-0.html">二次元</a>
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/gm/" target="_blank">GM手游</a>
+                                        </strong>&nbsp;&nbsp;|&nbsp;
+                                        <a class="typea" href="/gm/0-54-2-0.html">角色</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/gm/0-54-4-0.html">放置</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/gm/0-54-3-0.html">策略</a>
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/btgame/" target="_blank">变态手游</a>
+                                        </strong>&nbsp;&nbsp;|&nbsp;
+                                        <a class="typea" href="/btgame/0-61-2-0.html">角色</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/btgame/0-61-1-0.html">卡牌</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/btgame/0-61-9-0.html">传奇</a>
+                                    </li>
+                                    <li>
+                                        <a href="/pojie/" target="_blank">破解版游戏</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="topli">
+                                <h4>
+                                    <img src="static/images/navpic5.png" alt="">
+                                    <a href="javascript:;" target="_blank">排行榜</a>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="/top/bt.html" target="_blank">变态手游排行榜</a>
+                                    </li>
+                                    <li>
+                                        <a href="/top/gm.html" target="_blank">GM手游排行榜</a>
+                                    </li>
+                                    <li>
+                                        <a href="/top/pojie.html" target="_blank">破解版游戏排行榜</a>
+                                    </li>
+                                    <li>
+                                        <a href="/top/mv.html" target="_blank">满级VIP手游排行榜</a>
+                                    </li>
+                                    <li>
+                                        <a href="/top/" target="_blank">更多排行榜></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>
+                                    <img src="static/images/navpic6.png" alt="">
+                                    <strong>
+                                        <a href="javascript:;" target="_blank">热门游戏</a>
+                                    </strong>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/game/1828.html" target="_blank">第五人格</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/vip/dgtx.html" target="_blank">独孤天下</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/vip/cmxywxb.html" target="_blank">超梦西游无限版</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/vip/fyxl.html" target="_blank">扶摇仙灵</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/game/1474.html" target="_blank">3733游戏盒子</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/vip/xdhh.html" target="_blank">寻道回合</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/vip/xjqxchh.html" target="_blank">仙剑奇侠传回合</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/vip/sqbbxy.html" target="_blank">神奇宝贝XY</a>丨
+                                    </li>
+                                    <li style="width: 100%;">
+                                        <a href="http://app.zhuayoukong.com" target="_blank">3733游戏盒子</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="ewmli">
+                                <h4>
+                                    <strong>
+                                        <a href="http://app.zhuayoukong.com" target="_blank">游戏盒下载</a>
+                                    </strong>
+                                </h4>
+                                <ul>
+                                    <img src="static/images/zykewm.png" alt="">
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- common menu adv end-->
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--topNav:end-->
+    <!--header:begin-->
+    <div class="header">
+        <a href="/" class="siteLogo" title="爪游控">爪游控</a>
+        <div class="search">
+            <form action="/e/search/search.php" method="post" onsubmit="if(document.getElementById('searchword').value=='请输入搜索内容')return false;">
+                <input type="hidden" name="show" value="title,keyboard" />
+                <div class="searchBor">
+                    <input type="text" name="keyboard" id="q" value="" style="color: rgb(153, 153, 153);"
+                        onwebkitspeechchange="jQuery(this).closest('form').submit();" x-webkit-speech="" onclick="clearCname()"
+                        class="txt">
+                    <input onClick="return dosearch($('#q').val());" type="submit" class="submit" value="搜索" />
+                </div>
+            </form>
+            <p>
+                <div class="S_hot">
+                    <a href="https://www.zhuayoukong.com/game/2640.html" title="3733gm助手" target="_blank">3733gm助手</a>
+                    <a href="https://www.zhuayoukong.com/game/604.html" title="王者荣耀" target="_blank">王者荣耀</a>
+                    <a href="https://www.zhuayoukong.com/game/2467.html" title="神奇宝贝XY" target="_blank">神奇宝贝XY</a>
+                    <a href="https://www.zhuayoukong.com/game/2209.html" title="绝地求生：全军出击" target="_blank">绝地求生：全军出击</a>
+                    <a href="https://www.zhuayoukong.com/game/2107.html" title="火柴人联盟2" target="_blank">火柴人联盟2</a>
+                    <a href="https://www.zhuayoukong.com/game/1538.html" title="宠物小精灵" target="_blank">宠物小精灵</a>
+                    <a href="https://www.zhuayoukong.com/game/1706.html" title="蜀门" target="_blank">蜀门</a>
+                    <a href="https://www.zhuayoukong.com/game/2296.html" title="QQ飞车手游" target="_blank">QQ飞车手游</a>
+                </div>
+            </p>
+        </div>
+    </div>
+    <!--header:end-->
+    <!--nav:begin-->
+    <div class="nav">
+        <ul>
+            <li id="t_home">
+                <a href="/" title="网游首页">首页</a>
+            </li>
+            <li id="t_game">
+                <a href="/game/" title="网游库">网游库</a>
+            </li>
+            <li id="t_newgame">
+                <a href="/youxi/" title="免费游戏">
+                    <span class="navIcon">
+                    </span>免费游戏</a>
+                <p>
+                    <a href="/btyouxi/" target="_self">变态游戏</a>
+                    <a href="/mvshouyou/" target="_self">满Vip游戏</a>
+                    <a href="/gmshouyou/" target="_self">GM游戏</a>
+                </p>
+                <img src="static/images/df.png" style="float:right;margin-top:-30px;">
+            </li>
+            <li id="t_time">
+                <a href="/kaifu/" title="网游开服表">开服表</a>
+            </li>
+            <li id="t_top">
+                <a href="/top/" title="网游排行榜">排行榜</a>
+            </li>
+            <li id="t_card">
+                <a href="/card/" title="网游礼包" target="_blank">礼包</a>
+            </li>
+            <li id="t_news">
+                <a href="/news/" title="网游资讯">资讯</a>
+            </li>
+            <li id="t_video">
+                <a href="/video/" title="网游视频">视频</a>
+            </li>
+            <li id="t_zhuanti">
+                <a href="/zhuanti/" title="网游专题">专题</a>
+            </li>
+        </ul>
+    </div>
+    <!--nav:end-->
+    <!--main:begin-->
+    <div class="bggray">
+        <div class="position w1150">
+            <i class="icon-cur"></i>当前位置：
+            <a href="/">爪游控</a>&nbsp;&gt;&nbsp;
+            <a href="/zhuanti/">游戏专题</a>&nbsp;&gt;&nbsp;
+            <a href="javascript:;">2018回合制游戏排行榜</a>
+        </div>
+        <div class="game w1150">
+            <div class="game-left">
+                <img src="https://pic.zhuayoukong.com/d/file/caiji/2018-08-18/39609354624e19e54d58db7e3bc4dad6.png" alt="">
+            </div>
+            <div class="game-center">
+                <h3>独孤天下v1.0满V版</h3>
+                <div class="game-info">
+                    <span>大小: 324.25MB</span>
+                    <span>类型: 卡牌 回合</span>
+                    <span>平台: 安卓 | 苹果</span>
+                    <span>更新时间: 2018-10-17</span>
+                </div>
+                <div class="comment">小编点评: <span>经典大型3D仙侠类MMO手游</span></div>
+                <div class="edit">上线送V5,10元满V,绑元38888,银币300万</div>
+            </div>
+            <div class="game-right">
+                <img src="static/images/zykewm.png" alt="">
+                <div class="text">扫描二维码下载到手机</div>
+            </div>
+        </div>
+        <div class="game-down w1150">
+            <a href="" class="android"><i></i>安卓版下载</a>
+            <a href="" class="ios"><i></i>iOS版下载</a>
+            <a href="" class="gift"><i></i>礼包领取</a>
+            <a href="" class="box"><i></i>高速下载<span>(需先下载3733游戏盒子)</span></a>
+        </div>
+        <p class="down-no w1150"><a href="https://shouji.newyx.net/news/337740.html" target="_blank" class="wrong">安装不了？查看安装教程&gt;&gt;</a>如果游戏遇到问题欢迎加群讨论：527693434
+        </p>
+        <div class="content w1150">
+            <div class="con-left">
+                <!-- 游戏介绍 -->
+                <div class="game-intro">
+                    <div class="oTit clearfix">
+                        <h2>独孤天下游戏介绍</h2>
+                    </div>
+                    <p class="intro-detail">独孤天下是一款以玄幻仙侠类为题材的多人在线角色扮演类手游.架空的剧情,绝美的场景,既有沁人心脾的,也有激烈震撼上千人级别的大规模PK对抗,引领你进入一个拥有无限遐想的诗意武侠大江湖.</p>
+                    <ul class="inav">
+                        <li class="on">游戏截图</li>
+                        <li class="">充值返利<i></i></li>
+                        <li class="">游戏福利<i></i></li>
+                    </ul>
+                    <div class="tab-container">
+                        <div class="img-cut">
+                            <div id="imgpreviewWrap" class="cl">
+                                <div class="snapShotWrap" id="snapShotWrap"> <a id="shotNext" class="snap-shot-btn next"
+                                        title="下一张" href="javascript:void(0);"><i></i></a>
+                                    <a id="shotPrev" class="snap-shot-btn prev" title="上一张" href="javascript:void(0);"><i></i></a>
+                                    <ul class="snapShotCont">
+                                        <li class="snopshot"><img src="https://pic.zhuayoukong.com/d/file/game/2018-10-16/a5ea6ca62f3678df4b743a803630e8ca.jpg"><span
+                                                class="elementOverlay"></span></li>
+                                        <li class="snopshot"><img src="https://pic.zhuayoukong.com/d/file/game/2018-10-16/3dd636f3c0b9398784760c55df81397e.jpg"><span
+                                                class="elementOverlay"></span></li>
+                                        <li class="snopshot"><img src="https://pic.zhuayoukong.com/d/file/game/2018-10-16/0016d991c2b67bf0c86da6c5b7d8f008.jpg"><span
+                                                class="elementOverlay"></span></li>
+                                        <li class="snopshot"><img src="https://pic.zhuayoukong.com/d/file/game/2018-10-16/efa0531822e382dcc5365f3fb06d4e36.jpg"><span
+                                                class="elementOverlay"></span></li>
+                                        <li class="snopshot"><img src="https://pic.zhuayoukong.com/d/file/game/2018-10-16/db20cd4c03ae77a7105da42c1b342b7d.jpg"><span
+                                                class="elementOverlay"></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-container" style="display: none;">
+                        <div class="fanli">
+                        <p>返利仅限当日累计充值,每日24点清零,第二天重新计算累计:</p>
+                        <p>当日累计充值达100-599元返10%</p>
+                        <p>当日累计充值达600-1099元返20%</p>
+                        <p>当日累计充值达1100-3099元返30%</p>
+                        <p>当日累计充值达3100-5099元返50%</p>
+                        <p>当日累计充值达5100-10000元返80%</p>
+                        <p>当日累计充值达10000元以上,返利100%</p>
+                        <p>1、当日累计充值达到额度即可返利!只限一日累积,不能多日累积。</p>
+                        <p>2、达到充值返利条件的玩家请联系客服,登记领取奖励。</p>
+                        <p>3、游戏内不送任何装备和道具!</p>
+                        <p>PS:充值返利会在两个工作日内发放到玩家邮件内</p>
+                        </div>
+                    </div>
+                    <div class="tab-container" style="display: none;">
+                        <div class="fuli">
+                        <p>返利仅限当日累计充值,每日24点清零,第二天重新计算累计:</p>
+                        <p>当日累计充值达100-599元返10%</p>
+                        <p>当日累计充值达600-1099元返20%</p>
+                        <p>当日累计充值达1100-3099元返30%</p>
+                        <p>当日累计充值达3100-5099元返50%</p>
+                        <p>当日累计充值达5100-10000元返80%</p>
+                        <p>当日累计充值达10000元以上,返利100%</p>
+                        <p>1、当日累计充值达到额度即可返利!只限一日累积,不能多日累积。</p>
+                        <p>2、达到充值返利条件的玩家请联系客服,登记领取奖励。</p>
+                        <p>3、游戏内不送任何装备和道具!</p>
+                        <p>PS:充值返利会在两个工作日内发放到玩家邮件内</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 同类型游戏下载 -->
+                <div class="related-game">
+                    <div class="oTit clearfix">
+                        <h2>同类型游戏下载</h2>
+                    </div>
+                    <ul class="related-list">
+                        <li class="related-item">
+                            <div class="related-left">
+                                <img src="https://pic.zhuayoukong.com/d/file/caiji/2018-09-14/56f56a04f62664c336b84692fbf9b409.png"
+                                    alt="">
+                            </div>
+                            <div class="related-right">
+                                <div class="related-name">
+                                    <a href="" class="">王者荣耀前瞻版</a>
+                                    <a href="">礼包</a>
+                                </div>
+                                <p>角色扮演 | 45678人下载</p>
+                                <a href="" class="related-down">下载</a>
+                            </div>
+                        </li>
+                        <li class="related-item">
+                            <div class="related-left">
+                                <img src="https://pic.zhuayoukong.com/d/file/caiji/2018-09-14/56f56a04f62664c336b84692fbf9b409.png"
+                                    alt="">
+                            </div>
+                            <div class="related-right">
+                                <div class="related-name">
+                                    <a href="" class="">王者荣耀前瞻版</a>
+                                    <a href="">礼包</a>
+                                </div>
+                                <p>角色扮演 | 45678人下载</p>
+                                <a href="" class="related-down">下载</a>
+                            </div>
+                        </li>
+                        <li class="related-item">
+                            <div class="related-left">
+                                <img src="https://pic.zhuayoukong.com/d/file/caiji/2018-09-14/56f56a04f62664c336b84692fbf9b409.png"
+                                    alt="">
+                            </div>
+                            <div class="related-right">
+                                <div class="related-name">
+                                    <a href="" class="">王者荣耀前瞻版</a>
+                                    <a href="">礼包</a>
+                                </div>
+                                <p>角色扮演 | 45678人下载</p>
+                                <a href="" class="related-down">下载</a>
+                            </div>
+                        </li>
+                        <li class="related-item">
+                            <div class="related-left">
+                                <img src="https://pic.zhuayoukong.com/d/file/caiji/2018-09-14/56f56a04f62664c336b84692fbf9b409.png"
+                                    alt="">
+                            </div>
+                            <div class="related-right">
+                                <div class="related-name">
+                                    <a href="" class="">王者荣耀前瞻版</a>
+                                    <a href="">礼包</a>
+                                </div>
+                                <p>角色扮演 | 45678人下载</p>
+                                <a href="" class="related-down">下载</a>
+                            </div>
+                        </li>
+                        <li class="related-item">
+                            <div class="related-left">
+                                <img src="https://pic.zhuayoukong.com/d/file/caiji/2018-09-14/56f56a04f62664c336b84692fbf9b409.png"
+                                    alt="">
+                            </div>
+                            <div class="related-right">
+                                <div class="related-name">
+                                    <a href="" class="">王者荣耀前瞻版</a>
+                                    <a href="">礼包</a>
+                                </div>
+                                <p>角色扮演 | 45678人下载</p>
+                                <a href="" class="related-down">下载</a>
+                            </div>
+                        </li>
+                        <li class="related-item">
+                            <div class="related-left">
+                                <img src="https://pic.zhuayoukong.com/d/file/caiji/2018-09-14/56f56a04f62664c336b84692fbf9b409.png"
+                                    alt="">
+                            </div>
+                            <div class="related-right">
+                                <div class="related-name">
+                                    <a href="" class="">王者荣耀前瞻版</a>
+                                    <a href="">礼包</a>
+                                </div>
+                                <p>角色扮演 | 45678人下载</p>
+                                <a href="" class="related-down">下载</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="gift-ad">
+                    <a href=""><img src="static/images/gift-ad.jpg" alt=""></a>
+                </div>
+                <!-- 相关文章 -->
+                <div class="related-article">
+                    <div class="oTit clearfix">
+                        <h2>独孤天下相关文章</h2>
+                    </div>
+                    <ul id="ul_relatenews">
+                        <li>
+                            <a target="_blank" href="https://www.zhuayoukong.com/news/144514.html" title="圣斗士星矢手游教皇阵容怎么搭配_教皇阵容搭配攻略">
+                                圣斗士星矢手游教皇阵容怎么搭配_教皇阵容搭配攻略 </a><em>10-19</em></li>
+                        <li>
+                            <a target="_blank" href="https://www.zhuayoukong.com/news/144513.html" title="圣斗士星矢手游教皇小宇宙怎么搭配_教皇小宇宙搭配攻略">
+                                圣斗士星矢手游教皇小宇宙怎么搭配_教皇小宇宙搭配攻略 </a><em>10-19</em></li>
+                        <li>
+                            <a target="_blank" href="https://www.zhuayoukong.com/news/144512.html" title="圣斗士星矢手游童虎怎么用_童虎使用攻略">
+                                圣斗士星矢手游童虎怎么用_童虎使用攻略 </a><em>10-19</em></li>
+                        <li>
+                            <a target="_blank" href="https://www.zhuayoukong.com/news/144511.html" title="圣斗士星矢手游童虎小宇宙怎么搭配_童虎小宇宙搭配攻略">
+                                圣斗士星矢手游童虎小宇宙怎么搭配_童虎小宇宙搭配攻略 </a><em>10-19</em></li>
+                        <li>
+                            <a target="_blank" href="https://www.zhuayoukong.com/news/144477.html" title="圣斗士星矢手游魔铃搭配什么小宇宙_天鹰座魔铃小宇宙搭配推荐">
+                                圣斗士星矢手游魔铃搭配什么小宇宙_天鹰座魔铃小宇宙搭配推荐 </a><em>10-19</em></li>
+                        <li>
+                            <a target="_blank" href="https://www.zhuayoukong.com/news/144471.html" title="圣斗士星矢手游修罗如何搭配阵容_修罗阵容搭配推荐">
+                                圣斗士星矢手游修罗如何搭配阵容_修罗阵容搭配推荐 </a><em>10-19</em></li>
+                        <li>
+                            <a target="_blank" href="https://www.zhuayoukong.com/news/144469.html" title="圣斗士星矢手游修罗怎么搭配星魂_修罗星魂搭配推荐">
+                                圣斗士星矢手游修罗怎么搭配星魂_修罗星魂搭配推荐 </a><em>10-19</em></li>
+                        <li>
+                            <a target="_blank" href="https://www.zhuayoukong.com/news/144384.html" title="圣斗士星矢手游后期PVP怎么进阶_后期PVP进阶阵容打法攻略">
+                                圣斗士星矢手游后期PVP怎么进阶_后期PVP进阶阵容打法攻略 </a><em>10-18</em></li>
+                        <li>
+                            <a target="_blank" href="https://www.zhuayoukong.com/news/144384.html" title="圣斗士星矢手游后期PVP怎么进阶_后期PVP进阶阵容打法攻略">
+                                圣斗士星矢手游后期PVP怎么进阶_后期PVP进阶阵容打法攻略 </a><em>10-18</em></li>
+                        <li>
+                            <a target="_blank" href="https://www.zhuayoukong.com/news/144384.html" title="圣斗士星矢手游后期PVP怎么进阶_后期PVP进阶阵容打法攻略">
+                                圣斗士星矢手游后期PVP怎么进阶_后期PVP进阶阵容打法攻略 </a><em>10-18</em></li>
+                    </ul>
+                </div>
+                <!-- 相关游戏合集推荐 -->
+                <div class="related-recom">
+                    <div class="oTit clearfix">
+                        <h2>更多游戏合集推荐</h2>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="https://www.zhuayoukong.com/zhuanti/1083.html" class="img">
+                                <img src="https://pic.zhuayoukong.com/d/file/zhuanti/2018-10-16/1d64753770f8506c4fe0c8958ba3786e.jpg">
+                                <p><b>无限金币无限钻石的游戏</b></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.zhuayoukong.com/zhuanti/1082.html" class="img">
+                                <img src="https://pic.zhuayoukong.com/d/file/zhuanti/2018-10-16/c763c1bef2316b90b180c88baaba3101.jpg">
+                                <p><b>类似使命召唤15的射击手游</b></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.zhuayoukong.com/zhuanti/1081.html" class="img">
+                                <img src="https://pic.zhuayoukong.com/d/file/zhuanti/2018-10-16/f17bd719d491b59fcc6cc110964e42a0.jpg">
+                                <p><b>破解版h5游戏下载</b></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.zhuayoukong.com/zhuanti/1080.html" class="img">
+                                <img src="https://pic.zhuayoukong.com/d/file/zhuanti/2018-10-16/6dc6aed856b110a8d3eaa2e6bdead7bb.jpg">
+                                <p><b>满级vip无限钻石手游下载</b></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.zhuayoukong.com/zhuanti/1080.html" class="img">
+                                <img src="https://pic.zhuayoukong.com/d/file/zhuanti/2018-10-16/6dc6aed856b110a8d3eaa2e6bdead7bb.jpg">
+                                <p><b>满级vip无限钻石手游下载</b></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.zhuayoukong.com/zhuanti/1080.html" class="img">
+                                <img src="https://pic.zhuayoukong.com/d/file/zhuanti/2018-10-16/6dc6aed856b110a8d3eaa2e6bdead7bb.jpg">
+                                <p><b>满级vip无限钻石手游下载</b></p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="con-right">
+                <a href="" class="right-ad">
+                    <img src="static/images/right-ad.jpg" alt="">
+                </a>
+                <!-- 热门榜单 -->
+                <div class="rank">
+                    <div class="right-title">
+                        <h3><i></i>热门榜单</h3>
+                    </div>
+                    <ul class="rank-list">
+                        <li class="rank-item">
+                            <a href="" class="rank-left">
+                                <img src="http://i-3.yiwan.com/2018/9/13/f3c32338-51f9-48ae-b788-728a87286aa3.png?width=120&height=120" alt="">
+                            </a>
+                            <div class="rank-right">
+                                <h4><a href="">小黑卡贷款</a></h4>
+                                <div class="rank-info">24.08MB | 卡牌 回合</div>
+                                <p>上线送贵族20专属特权绑元18888</p>
+                            </div>
+                            <a class="rank-down" href="">下载</a>
+                        </li>
+                        <li class="rank-item">
+                            <a href="" class="rank-left">
+                                <img src="http://i-3.yiwan.com/2018/9/13/f3c32338-51f9-48ae-b788-728a87286aa3.png?width=120&height=120" alt="">
+                            </a>
+                            <div class="rank-right">
+                                <h4><a href="">小黑卡贷款</a></h4>
+                                <div class="rank-info">24.08MB | 卡牌 回合</div>
+                                <p>上线送贵族20专属特权绑元18888</p>
+                            </div>
+                            <a class="rank-down" href="">下载</a>
+                        </li>
+                        <li class="rank-item">
+                            <a href="" class="rank-left">
+                                <img src="http://i-3.yiwan.com/2018/9/13/f3c32338-51f9-48ae-b788-728a87286aa3.png?width=120&height=120" alt="">
+                            </a>
+                            <div class="rank-right">
+                                <h4><a href="">小黑卡贷款</a></h4>
+                                <div class="rank-info">24.08MB | 卡牌 回合</div>
+                                <p>上线送贵族20专属特权绑元18888</p>
+                            </div>
+                            <a class="rank-down" href="">下载</a>
+                        </li>
+                        <li class="rank-item">
+                            <a href="" class="rank-left">
+                                <img src="http://i-3.yiwan.com/2018/9/13/f3c32338-51f9-48ae-b788-728a87286aa3.png?width=120&height=120" alt="">
+                            </a>
+                            <div class="rank-right">
+                                <h4><a href="">小黑卡贷款</a></h4>
+                                <div class="rank-info">24.08MB | 卡牌 回合</div>
+                                <p>上线送贵族20专属特权绑元18888</p>
+                            </div>
+                            <a class="rank-down" href="">下载</a>
+                        </li>
+                        <li class="rank-item">
+                            <a href="" class="rank-left">
+                                <img src="http://i-3.yiwan.com/2018/9/13/f3c32338-51f9-48ae-b788-728a87286aa3.png?width=120&height=120" alt="">
+                            </a>
+                            <div class="rank-right">
+                                <h4><a href="">小黑卡贷款</a></h4>
+                                <div class="rank-info">24.08MB | 卡牌 回合</div>
+                                <p>上线送贵族20专属特权绑元18888</p>
+                            </div>
+                            <a class="rank-down" href="">下载</a>
+                        </li>
+                        <li class="rank-item">
+                            <a href="" class="rank-left">
+                                <img src="http://i-3.yiwan.com/2018/9/13/f3c32338-51f9-48ae-b788-728a87286aa3.png?width=120&height=120" alt="">
+                            </a>
+                            <div class="rank-right">
+                                <h4><a href="">小黑卡贷款</a></h4>
+                                <div class="rank-info">24.08MB | 卡牌 回合</div>
+                                <p>上线送贵族20专属特权绑元18888</p>
+                            </div>
+                            <a class="rank-down" href="">下载</a>
+                        </li>
+                        <li class="rank-item">
+                            <a href="" class="rank-left">
+                                <img src="http://i-3.yiwan.com/2018/9/13/f3c32338-51f9-48ae-b788-728a87286aa3.png?width=120&height=120" alt="">
+                            </a>
+                            <div class="rank-right">
+                                <h4><a href="">小黑卡贷款</a></h4>
+                                <div class="rank-info">24.08MB | 卡牌 回合</div>
+                                <p>上线送贵族20专属特权绑元18888</p>
+                            </div>
+                            <a class="rank-down" href="">下载</a>
+                        </li>
+                        <li class="rank-item">
+                            <a href="" class="rank-left">
+                                <img src="http://i-3.yiwan.com/2018/9/13/f3c32338-51f9-48ae-b788-728a87286aa3.png?width=120&height=120" alt="">
+                            </a>
+                            <div class="rank-right">
+                                <h4><a href="">小黑卡贷款</a></h4>
+                                <div class="rank-info">24.08MB | 卡牌 回合</div>
+                                <p>上线送贵族20专属特权绑元18888</p>
+                            </div>
+                            <a class="rank-down" href="">下载</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 最新开服推荐 -->
+                <div class="recom">
+                    <div class="right-title">
+                        <h3>最新开服推荐</h3>
+                    </div>
+                    <ul class="recom-list">
+                        <li class="recom-item">
+                            <div class="recom-left">
+                                <a href=""><img src="http://image.diyiyou.com/game/201809/06153943omkh.png" alt=""></a>
+                            </div>
+                            <div class="recom-center">
+                                <a href="" class="recom-title">独孤天下</a>
+                                <p>开服名称: 新服荣耀771服</p>
+                                <p>开服时间: 10-18 18:00</p>
+                            </div>
+                            <a href="" class="recom-right">下载</a>
+                        </li>
+                        <li class="recom-item">
+                            <div class="recom-left">
+                                <a href=""><img src="http://image.diyiyou.com/game/201809/06153943omkh.png" alt=""></a>
+                            </div>
+                            <div class="recom-center">
+                                <a href="" class="recom-title">独孤天下</a>
+                                <p>开服名称: 新服荣耀771服</p>
+                                <p>开服时间: 10-18 18:00</p>
+                            </div>
+                            <a href="" class="recom-right">下载</a>
+                        </li>
+                        <li class="recom-item">
+                            <div class="recom-left">
+                                <a href=""><img src="http://image.diyiyou.com/game/201809/06153943omkh.png" alt=""></a>
+                            </div>
+                            <div class="recom-center">
+                                <a href="" class="recom-title">独孤天下</a>
+                                <p>开服名称: 新服荣耀771服</p>
+                                <p>开服时间: 10-18 18:00</p>
+                            </div>
+                            <a href="" class="recom-right">下载</a>
+                        </li>
+                        <li class="recom-item">
+                            <div class="recom-left">
+                                <a href=""><img src="http://image.diyiyou.com/game/201809/06153943omkh.png" alt=""></a>
+                            </div>
+                            <div class="recom-center">
+                                <a href="" class="recom-title">独孤天下</a>
+                                <p>开服名称: 新服荣耀771服</p>
+                                <p>开服时间: 10-18 18:00</p>
+                            </div>
+                            <a href="" class="recom-right">下载</a>
+                        </li>
+                        <li class="recom-item">
+                            <div class="recom-left">
+                                <a href=""><img src="http://image.diyiyou.com/game/201809/06153943omkh.png" alt=""></a>
+                            </div>
+                            <div class="recom-center">
+                                <a href="" class="recom-title">独孤天下</a>
+                                <p>开服名称: 新服荣耀771服</p>
+                                <p>开服时间: 10-18 18:00</p>
+                            </div>
+                            <a href="" class="recom-right">下载</a>
+                        </li>
+                        <li class="recom-item">
+                            <div class="recom-left">
+                                <a href=""><img src="http://image.diyiyou.com/game/201809/06153943omkh.png" alt=""></a>
+                            </div>
+                            <div class="recom-center">
+                                <a href="" class="recom-title">独孤天下</a>
+                                <p>开服名称: 新服荣耀771服</p>
+                                <p>开服时间: 10-18 18:00</p>
+                            </div>
+                            <a href="" class="recom-right">下载</a>
+                        </li>
+                        <li class="recom-item">
+                            <div class="recom-left">
+                                <a href=""><img src="http://image.diyiyou.com/game/201809/06153943omkh.png" alt=""></a>
+                            </div>
+                            <div class="recom-center">
+                                <a href="" class="recom-title">独孤天下</a>
+                                <p>开服名称: 新服荣耀771服</p>
+                                <p>开服时间: 10-18 18:00</p>
+                            </div>
+                            <a href="" class="recom-right">下载</a>
+                        </li>
+                        <li class="recom-item">
+                            <div class="recom-left">
+                                <a href=""><img src="http://image.diyiyou.com/game/201809/06153943omkh.png" alt=""></a>
+                            </div>
+                            <div class="recom-center">
+                                <a href="" class="recom-title">独孤天下</a>
+                                <p>开服名称: 新服荣耀771服</p>
+                                <p>开服时间: 10-18 18:00</p>
+                            </div>
+                            <a href="" class="recom-right">下载</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 快捷导航 -->
+                <div class="f-nav">
+                    <div class="right-title">
+                        <h3>快捷导航</h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="/btgame/" class="a1" target="_blank">
+                                <p>变态手游</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/vip/" class="a2" target="_blank">
+                                <p>满Vip手游</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/pojie/" class="a3" target="_blank">
+                                <p>破解游戏</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/gm/" class="a4" target="_blank">
+                                <p>GM手游</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/zhuanti/" class="a5" target="_blank">
+                                <p>专区大全</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/top/" class="a6" target="_blank">
+                                <p>排行榜</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/kaifu/" class="a7" target="_blank">
+                                <p>开服表</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/card/" class="a8" target="_blank">
+                                <p>礼包中心</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/news/pingce/" class="a9" target="_blank">
+                                <p>游戏测评</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--底部:begin-->
+    <div id="footer">
+        <div class="siteMap">
+            <div class="map">
+                <p>
+                    <a href="/about/index.html" target="_blank">关于本站</a><em>|</em>
+                    <a href="/about/contact.html" target="_blank">联系我们</a><em>|</em>
+                    <a href="/about/job.html" target="_blank">加入我们</a><em>|</em>
+                    <a href="/about/adm.html" target="_blank">广告服务</a><em>|</em>
+                    <a href="/about/law.html" target="_blank">法律声明</a><em>|</em>
+                    <a href="/about/link.html" target="_blank">友情链接</a><em>|</em>
+                    <a href="/about/sitemap.html" target="_blank">网站地图</a><em>|</em>
+                    <a target="_blank" href="/about/jianhu.html">
+                        <font class="observe">未成年人家长监护服务</font>
+                    </a>
+                </p>
+                <p>作品版权归作者所有，如果侵犯了您的版权，请联系我们，本站将在3个工作日内删除。<br>
+                    温馨提示：抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防受骗上当，适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活。<br>
+                    文明办网文明上网举报、纠纷处理及不良内容举报电话：4000719997，举报邮箱：jubao@3733.com <br>
+                    版权所有 Copyright &copy; 2016
+                    <a href="/">www.zhuayoukong.com</a>
+                    All rights reserved&nbsp;
+                    <a href="http://www.miitbeian.gov.cn/" target="_blank">备案号：闽ICP备16002893号</a>
+                    &nbsp;<a href="http://sq.ccm.gov.cn:80/ccnt/sczr/service/business/emark/toDetail/58dcc7e1967c488381b1a88094618c70"><img
+                            style="display:inline;" src="static/images/wenhuajingying.png">闽网文[2016]2519-045号</a>
+                    <a href="/">爪游控</a>
+                    版权所有
+                </p>
+                <p>厦门悦游网络科技有限公司 地址：厦门市思明区软件园观日路30号之六
+                    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35020302024624"
+                        style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                        <img class="beian-pic" src="static/images/beian.png" />
+                        <span class="beian">闽公网安备 35020302024624号</span>
+                        <span class="cnzz">
+                            <script type="text/javascript">
+                                var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" :
+                                    " http://");
+                                document.write(unescape(
+                                    "%3Cspan id='cnzz_stat_icon_1259401503'%3E%3C/span%3E%3Cscript src='" +
+                                    cnzz_protocol +
+                                    "s95.cnzz.com/z_stat.php%3Fid%3D1259401503%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"
+                                ));
+                            </script>
+                        </span>
+                    </a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="erweipic" class="erweipic">
+        <img width="150" height="150" src="https://s.8979.com/share/qrcode?w=150&h=150&url=https://m.zhuayoukong.com/youxi/3751.html" />
+    </div>
+    <script src="static/js/gameDetail.js"></script>
+    <script src="static/js/common.js"></script>
+</body>
+
+</html>
