@@ -187,6 +187,96 @@
   display: inline-block;
   padding: 0 15px 0 20px;
 }
+/* 盒子下载弹出框 */
+#zzc {
+  background-color: rgb(0, 0, 0);
+  border-top: 1px solid rgb(230, 245, 255);
+  position: absolute;
+  height: 2849px;
+  z-index: 9998;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0.7;
+  display: none;
+}
+.zzc-download {
+  display: none;
+  visibility: visible;
+  position: fixed;
+  z-index: 9999;
+  left: 50%;
+  top: 50%;
+  margin-top: -146px;
+  margin-left: -290px;
+}
+.zzc-download .dia-con {
+  width: auto;
+  background: none;
+}
+.dia-download {
+  padding: 30px 76px 23px 48px;
+  background: #fff;
+}
+.zzc-download .code {
+  float: left;
+  margin-right: 36px;
+}
+.zzc-download .btnlist {
+  float: left;
+}
+.zzc-download .btnlist a {
+  width: 212px;
+  height: 46px;
+  display: block;
+  margin-bottom: 9px;
+  background: url(../images/down.png);
+}
+.zzc-download .dia-close {
+  width: 212px;
+  height: 46px;
+  display: block;
+  margin-bottom: 9px;
+  background: url(../images/close.png);
+}
+.zzc-download .btnlist .pc {
+  background-position: 0 -112px;
+}
+.zzc-download .btnlist .zzc-ios {
+  background-position: 0 -56px;
+  margin-top: 50px;
+}
+.zzc-download .btnlist .zzc-android {
+  background-position: 0 0;
+  margin-top: 30px;
+}
+.zzc-download .btnlist .android1 {
+  background-position: 0 -169px;
+}
+.zzc-download .dia-close {
+  position: absolute;
+  top: 10px;
+  right: 18px;
+  width: 36px;
+  height: 36px;
+  background-position: -264px -17px;
+}
+.dia-download .code img {
+  width: 197px;
+  margin-left: 13px;
+}
+.dia-download .code p {
+  color: #111;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.dia-download .btnlist p {
+  font-size: 15px;
+  color: red;
+  cursor: pointer;
+}
+
+
 .content {
   margin: 0 auto;
   background: #fff;

@@ -11,7 +11,15 @@ $(function () {
         $(".tab-container").eq($(this).index()).show().siblings(".tab-container").hide();
     })
 })
-
+// 盒子下载弹出框
+$(function () {
+    $('.box').click(function () {
+        $('#zzc,#zzc-download').show();
+    })
+    $('.dia-close').click(function () {
+        $('#zzc,#zzc-download').hide();
+    })
+})
 // 截图
 window.onload = function () {
     $(".artimglists img").each(function () {
