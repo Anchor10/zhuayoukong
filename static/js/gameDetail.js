@@ -29,7 +29,7 @@ window.onload = function () {
             $(this).css("height", "130px");
         }
     });
-
+    
     if ($('.snopshot').length > 0) {
         var sst = $(".snopshot");
         if (sst.length == 1) {

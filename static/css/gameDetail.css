@@ -316,6 +316,7 @@
   line-height: 39px;
   border-bottom: 1px solid #e3e3e3;
   position: relative;
+  margin-top: 20px;
 }
 .content .con-left .inav li {
   float: left;
@@ -496,6 +497,9 @@
   color: #999999;
   font-size: 12px;
   line-height: 30px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .related-list .related-item .related-right .related-down {
   font-size: 13px;
