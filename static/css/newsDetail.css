@@ -864,3 +864,467 @@ a.linhao:hover {
     position: relative;
     top: -1px;
 }
+
+#xq_crn {
+    border: 1px solid #e7e7e7;
+    padding: 20px 15px 15px 15px;
+    overflow: hidden;
+    margin: 15px 0px 15px 0px;
+}
+
+#xq_crn span {
+    display: block;
+    overflow: hidden;
+    height: 95px;
+}
+
+#xq_crn b {
+    display: block;
+    width: 185px;
+    margin: 0px 6px;
+    font-weight: normal;
+    float: left;
+    height: 81px;
+    overflow: hidden;
+}
+
+#xq_crn b.pic {
+    width: 215px;
+}
+
+#xq_crn b.pic img {
+    width: 72px;
+    height: 72px;
+    border-radius: 10px;
+    float: left;
+}
+
+#xq_crn s {
+    display: block;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 90px;
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+}
+
+#xq_crn s.title {
+    font-size: 14px;
+    color: #333;
+    height: 30px;
+    line-height: 30px;
+    width: 140px;
+    overflow: hidden;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#xq_crn s.title a {
+    color: #ff7800;
+}
+
+#xq_crn .star0 {
+    background: url(../images/litterStar.png) 0px 4px no-repeat;
+}
+
+#xq_crn .star1 {
+    background: url(../images/litterStar.png) 0px -23px no-repeat;
+}
+
+#xq_crn .star2 {
+    background: url(../images/litterStar.png) 0px -48px no-repeat;
+}
+
+#xq_crn .star3 {
+    background: url(../images/litterStar.png) 0px -74px no-repeat;
+}
+
+#xq_crn .star4 {
+    background: url(../images/litterStar.png) 0px -100px no-repeat;
+}
+
+#xq_crn .star5 {
+    background: url(../images/litterStar.png) 0px -126px no-repeat;
+}
+
+#xq_crn b u {
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    width: 190px;
+    height: 31px;
+    line-height: 31px;
+    color: #333;
+    margin: 5px 0px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#xq_crn b u i {
+    position: absolute;
+    left: 60px;
+    top: 2px;
+    height: 20px;
+    width: 100px;
+    line-height: 26px;
+    z-index: 9999;
+    color: #333;
+}
+
+#xq_crn a.down {
+    float: left;
+    height: 35px;
+    width: 100px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 25px;
+    background-color: #3385FF;
+    display: inline-block;
+    text-align: center;
+}
+
+#xq_crn a.down:hover {
+    background: #5B9DFE;
+}
+
+#xq_crn span.pingyu {
+    border-top: 1px dashed #e7e7e7;
+    height: auto;
+    display: block;
+    clear: both;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 25px;
+    color: #666;
+    padding-top: 15px;
+    word-wrap: break-word;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    -ms-text-justify: inter-ideograph;
+}
+
+#gamebox2 {
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    border: 1px solid #e3e3e3;
+    padding: 10px 10px 10px 80px;
+    height: 60px;
+    position: relative;
+}
+
+#gamebox2 .img {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+#gamebox2 .img img {
+    max-width: 100%;
+}
+
+#gamebox2 .title {
+    max-width: 260px;
+    margin: 5px 0!important;
+    line-height: 25px;
+}
+
+#gamebox2 .title a {
+    color: #0cc6c6;
+}
+
+#gamebox2 .type {
+    margin: 0!important;
+    font-size: 12px;
+    color: #bbb;
+    line-height: 20px;
+}
+
+#gamebox2 .type span {
+    opacity: 0.4;
+    font-size: 10px;
+    padding: 0 0.5em;
+    font-family: Tahoma;
+}
+
+#gamebox2 .type span.red {
+    color: red;
+    opacity: 1;
+}
+
+#gamebox2 .gamedownload {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 12px;
+}
+
+#gamebox2 .gamedownload a {
+    background: #3385FF;
+    display: inline-block;
+    margin: 10px 0 0 5px;
+    line-height: 40px;
+    padding: 0 10px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+#gamebox2 .gamedownload a:hover {
+    background: #5B9DFE;
+}
+
+.article .m-similar-games {
+    width: 773px;
+    height: 112px;
+    overflow: hidden;
+    margin-left: -12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.article .m-similar-games li {
+    width: 128px;
+    overflow: hidden;
+    float: left;
+}
+
+.article .m-similar-games li img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 11px;
+    display: block;
+}
+
+.article .m-similar-games li span {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.softjs3 {
+    width: 756px;
+    margin: 30px auto;
+    border: 2px solid #288bde;
+    font-size: 14px;
+}
+
+.softjs3 .softjs3-hd {
+    background: #288bde;
+    padding: 0 20px;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+}
+
+.softjs3 .softjs3-bd {
+    padding: 0 20px;
+    overflow: hidden;
+    zoom:1;}
+
+.softjs3 .cmsLink {
+    border-bottom: 1px dashed #003388;
+}
+
+.softjs3 .softjs3-bd ul {
+    margin-top: -1px;
+}
+
+.softjs3 .softjs3-bd ul li {
+    border-top: 1px dashed #e5e5e5;
+    padding: 10px 0;
+    overflow: hidden;
+    zoom:1;}
+
+.softjs3 .softjs3-logo {
+    float: left;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    vertical-align: top;
+}
+
+.softjs3 .softjs3-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.softjs3 .softjs3-name {
+    float: left;
+    width: 130px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 40px;
+}
+
+.softjs3 .softjs3-name a {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    zoom:1;text-overflow: ellipsis;
+}
+
+.softjs3 .softjs3-boon {
+    float: left;
+    margin-left: 20px;
+    width: 425px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.softjs3 .softjs3-boon span {
+    line-height: 40px;
+}
+
+.softjs3 .softjs3-dl {
+    float: right;
+    width: 80px;
+}
+
+.softjs3 .softjs3-dl a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background: #288bde;
+    border-radius: 3px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.overview {
+    background: url(../images/overview.png) top center repeat;
+    margin: 20px 0;
+    padding: 2px 0;
+    line-height: 28px;
+    text-align: center;
+    text-indent: 2em;
+    color: #b96b6b;
+    clear: both;
+}
+
+.overview a {
+    position: relative;
+    top: -1px;
+}
+
+.insert-list {
+    width: 762px;
+    overflow: hidden;
+    margin: 5px auto;
+  }
+  .insert-list .insert-item {
+    width: 349px;
+    float: left;
+    border: 1px solid #ebebeb;
+    padding: 7px 12px 0px;
+    margin-bottom: 18px;
+  }
+  .insert-list .insert-item:nth-of-type(even) {
+    margin-left: 12px;
+  }
+  .insert-list .insert-item .insert-info {
+    border-bottom: 1px dotted #ebebeb;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 8px;
+  }
+  .insert-list .insert-item .insert-info .insert-pic {
+    width: 90px;
+    height: 90px;
+    float: left;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-right: 9px;
+  }
+  .insert-list .insert-item .insert-info .insert-pic img {
+    width: 90px;
+    height: 90px;
+    display: block;
+  }
+  .insert-list .insert-item .insert-info .insert-detail {
+    float: left;
+    width: 250px;
+  }
+  .insert-list .insert-item .insert-info .insert-detail h4 {
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: 300;
+    padding-right: 86px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .insert-list .insert-item .insert-info .insert-detail h4 a {
+    color: #303030;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+  }
+  .insert-list .insert-item .insert-info .insert-detail h4 a:hover {
+    color: #ff7f27;
+  }
+  .insert-list .insert-item .insert-info .insert-detail p {
+    font-size: 14px;
+    color: #7f7f7f;
+    margin: 10px 0 3px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .insert-list .insert-item .insert-info .insert-detail span {
+    font-size: 14px;
+    color: #ff7f27;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .insert-list .insert-item .insert-info .insert-down {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 6px;
+    border: 1px solid #cccccc;
+    width: 86px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    color: #333333;
+    font-size: 14px;
+    border-radius: 5px;
+    background: #fefefe;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+  }
+  .insert-list .insert-item .insert-info .insert-down:hover {
+    color: #fff;
+    background: #ff622b;
+    border: 1px solid #ff622b;
+  }
+  .insert-list .insert-item .insert-wel {
+    font-size: 14px;
+    color: #ff7f27;
+    line-height: 42px;
+    text-indent: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin:0;
+  }
+  .insert-list .insert-item .insert-wel span {
+    color: #7f7f7f;
+  }
