@@ -951,6 +951,10 @@ a:hover.topMore {
     width: 56px;
     height: 160px;
     overflow: hidden;
+    right: 30px;
+    /* left: 50%;
+    transform: translateX(640px); */
+    bottom: 280px;
 }
 
 .backtotop a {
@@ -1013,8 +1017,12 @@ a:hover.topMore {
     width: 170px;
     height: 184px;
     display: none;
-    position: absolute;
+    position: fixed;
     z-index: 9999;
+    right: 94px;
+    /* left: 50%;
+    transform: translateX(450px); */
+    bottom: 280px;
 }
 
 .erweipic img {

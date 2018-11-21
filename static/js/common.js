@@ -33,16 +33,6 @@ if ($.browser.msie) {
 }
 var $backtotop = function () {
     if ($(this).scrollTop() > 44) {
-        var _bw = 1400,
-            _wt = document.body.clientWidth;
-        $("#backtotop").css('right', ((_wt - _bw) / 2) - 64);
-        $("#erweipic").css('right', ((_wt - _bw) / 2) - 0);
-        var st = $(document).scrollTop(),
-            winh = $(window).height();
-        if (ieVersion != 6) {
-            $("#backtotop").css('top', (winh / 2) - 44);
-        }
-        $("#erweipic").css('top', st + 350);
         $("#backtotop").css({
             "display": "block"
         });
