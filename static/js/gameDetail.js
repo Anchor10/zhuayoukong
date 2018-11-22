@@ -66,6 +66,7 @@ window.onload = function () {
             }
             var snapShotWrap = new posterTvGrid(
                 'snapShotWrap', {
+                    width:700,
                     imgHeight: imgHeight, //图片宽高，来调整框架样式
                     imgWidth: imgWidth,
                     imgP: parseInt(imgWidth / 1.2) //小图与大图比例暂定1比1.2

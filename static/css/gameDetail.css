@@ -348,14 +348,15 @@
 }
 .content .con-left .tab-container .img-cut {
   overflow: hidden;
-  width: 800px;
+  width: 700px;
+  margin: 0 auto;
 }
 .content .con-right {
   width: 304px;
 }
 /*截图*/
 .snapShotWrap {
-  width: 800px;
+  width: 700px;
   position: relative;
   margin: 30px auto 30px;
   overflow: hidden;
@@ -393,7 +394,7 @@
   margin: -20px 0 0 0;
 }
 .snapShotCont {
-  width: 800px;
+  width: 700px;
   position: relative;
   overflow: hidden;
 }
