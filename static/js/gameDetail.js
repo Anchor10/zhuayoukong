@@ -61,8 +61,8 @@ window.onload = function () {
                 imgHeight = 300;
                 imgWidth = 500;
             } else {
-                imgHeight = 600;
-                imgWidth = 343;
+                imgHeight = 500;
+                imgWidth = 300;
             }
             var snapShotWrap = new posterTvGrid(
                 'snapShotWrap', {
