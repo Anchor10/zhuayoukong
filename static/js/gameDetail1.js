@@ -100,3 +100,33 @@ $(function(){
     $(this).parent().parent().removeClass('aniBlow').addClass('aniHide').fadeOut();
   })
 })
+
+// 盒子下载弹出框
+$(function () {
+  $('.box-btn').click(function () {
+      $('#zzc,#zzc-download').show();
+  })
+  $('.dia-close').click(function () {
+      $('#zzc,#zzc-download').hide();
+  })
+
+})
+// 下载按钮修改
+$(function(){
+  $('.zzc-ios').click(function(e){
+    e.stopPropagation();    
+    $('.eight-ewm.box3').slideToggle(200);
+  })
+  $('.az-btn .a').click(function(e){
+    e.stopPropagation();
+    $('.eight-ewm.box1').slideToggle(200);
+    $('.eight-ewm.box2').slideUp(200);
+  })
+  $('.ios-btn .a').click(function(e){
+      e.stopPropagation();
+      $('.eight-ewm.box2').slideToggle(200);
+      $('.eight-ewm.box1').slideUp(200);
+    })
+  
+  $('body').click(function(){$('.eight-ewm').slideUp(200);})
+})

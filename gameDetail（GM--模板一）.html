@@ -383,26 +383,51 @@
                         </div>
                         <div class="down-btn">
                             <div class="az-btn btn">
-                                <a title="" href="">安卓版下载</a><i></i>
-                                <div class="az-code qr-code">
-                                    <img src="static/images/jwwx.jpg" title="" alt="">
-                                </div>
+                                <a title="" href="javascript:;" class="a">安卓版下载
+                                    <div class="eight-ewm box1" style="display: none;">
+                                        <p>1、安装到电脑<object><a href="/game/downs_az_{$navinfor['classid']}_{$navinfor['id']}.html">（点击下载）</a></object></p>
+                                        <p>2、安装到手机（扫描下载）</p>
+                                        <p><img src="https://s.8979.com/share/qrcode?w=150&h=150&url=<?= $public_r['add_www_92game_net_file']?><?=game_real_url($navinfor['titleurl'])?>"></p>
+                                    </div>
+                                </a>
                             </div>
                             <div class="ios-btn btn">
-                                <a title="" href="">苹果版下载</a><i></i>
-                                <div class="az-code qr-code">
-                                    <img src="static/images/jwwx.jpg" title="" alt="">
-                                </div>
+                                <a title="" href="javascript:;" class="a">苹果版下载
+                                    <div class="eight-ewm box2" style="display: none;">
+                                        <p>安装到手机（扫描下载）</p>
+                                        <p><img src="https://s.8979.com/share/qrcode?w=150&h=150&url=<?= $public_r['add_www_92game_net_file']?><?=game_real_url($navinfor['titleurl'])?>"></p>
+                                    </div>
+                                </a>
                             </div>
                             <div class="box-btn btn">
-                                <a title="" href="">3733游戏盒</a><i></i>
-                                <div class="az-code qr-code">
-                                    <img src="static/images/jwwx.jpg" title="" alt="">
-                                </div>
+                                <a title="" href="javascript:;" class="a">3733游戏盒</a>
                             </div>
                         </div>
                     </div>
 
+                </div>
+                <!-- 盒子下载弹出框 -->
+                <div id="zzc"></div>
+                <div class="zzc-download" id="zzc-download">
+                    <div class="dia-con">
+                        <div class="dia-download clearfix">
+                            <div class="code"><img data-original="https://s.8979.com/share/qrcode?w=150&h=150&url=https://www.zhuayoukong.com/btgame/2023.html">
+                                <p>手机浏览器扫描二维码，下载更方便</p>
+                            </div>
+                            <div class="btnlist">
+                                <a href="javascript:;" target="_blank"
+                                    class="zzc-ios">
+                                    <div class="eight-ewm box3" style="display: none;">
+                                        <p>安装到手机（扫描下载）</p>
+                                        <p><img src="https://s.8979.com/share/qrcode?w=150&h=150&url=https://www.zhuayoukong.com/btgame/2023.html"></p>
+                                    </div>
+                                </a>
+                                <a href="//www.zhuayoukong.com/game/downs_apk_1440.html" target="_blank" class="zzc-android"></a>
+                                <p onclick="window.open('http://www.zhuayoukong.com/news/113737.html');">如何安装？查看教程&gt;&gt;&gt;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="dia-close" href="javascript:;" title="关闭"></a>
                 </div>
                 <div class="left-p">
                     <p class="dp">需同时下载【<a title="" href="">3733游戏盒子</a>】方可获得GM权限!更有海量精品GM权限手游,安全高速下载!</p>

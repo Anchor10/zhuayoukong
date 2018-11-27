@@ -46,7 +46,7 @@ a:hover {
 /* 游戏信息 */
 .game-info {
   background: #fff;
-  overflow: hidden;
+  height: 171px;
   padding: 10px 18px 11px 26px;
 }
 .game-info .game-pic {
@@ -120,13 +120,14 @@ a:hover {
   margin-right: 19px;
   background: url(../images/azspr.png) no-repeat;
 }
-.game-info .game-right .down-btn .btn a {
+.game-info .game-right .down-btn .btn .a {
   display: block;
   color: #fff;
   text-indent: 43px;
-  width: 132px;
+  width: 175px;
   float: left;
 }
+
 .game-info .game-right .down-btn .btn i {
   width: 42px;
   height: 40px;
@@ -196,6 +197,7 @@ a:hover {
   width: 100%;
   border-bottom: 1px solid #ddd;
   overflow: hidden;
+  height: 42px;
 }
 .game-nav .nav-item {
   line-height: 20px;
@@ -540,7 +542,7 @@ a:hover {
 .topic-down .topic-box .topic-con .topic-right h4 a {
   font-size: 18px;
   font-weight: 300;
-  color: #565656;
+  color: #333;
 }
 .topic-down .topic-box .topic-con .topic-right h4 a:hover {
   color: #17b1f2;
@@ -655,10 +657,16 @@ a:hover {
   font-weight: 300;
 }
 .related-article .article-list .article-item .article-right p.article-detail {
-  font-size: 14px;
-  line-height: 26px;
-  padding: 3px 0;
-  padding-right: 5px;
+  font-size: 12px;
+    line-height: 22px;
+    padding: 3px 0;
+    padding-right: 5px;
+    height: 40px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    margin-top: 7px;
+    -webkit-box-orient: vertical;
 }
 .related-article .article-list .article-item .article-right .date {
   color: #999;
@@ -702,6 +710,15 @@ a:hover {
 .gift {
   margin-top: 12px;
   background: #fff;
+}
+.gift a.gift-more{
+  position: absolute;
+  display: block;
+  right: 10px;
+  top: 0px;
+  height: 44px;
+  line-height: 44px;
+  font-size: 12px;
 }
 .gift .gift-list {
   padding: 0 8px;
@@ -1053,3 +1070,104 @@ a:hover {
 #GMquanxian .table-container .game-num {
   padding: 30px;
 }
+
+/* 盒子下载弹出框 */
+#zzc {
+  background-color: rgb(0, 0, 0);
+  border-top: 1px solid rgb(230, 245, 255);
+  position: fixed;
+  height: 2849px;
+  z-index: 9998;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0.7;
+  display: none;
+}
+.zzc-download {
+  display: none;
+  visibility: visible;
+  position: fixed;
+  z-index: 9999;
+  left: 50%;
+  top: 50%;
+  margin-top: -146px;
+  margin-left: -290px;
+}
+.zzc-download .dia-con {
+  width: auto;
+  background: none;
+}
+.dia-download {
+  padding: 30px 76px 23px 48px;
+  background: #fff;
+}
+.zzc-download .code {
+  float: left;
+  margin-right: 36px;
+}
+.zzc-download .btnlist {
+  float: left;
+}
+.zzc-download .btnlist a {
+  width: 212px;
+  height: 46px;
+  display: block;
+  margin-bottom: 9px;
+  background: url(../images/down.png);
+}
+.zzc-download .dia-close {
+  width: 212px;
+  height: 46px;
+  display: block;
+  margin-bottom: 9px;
+  background: url(../images/close.png);
+}
+.zzc-download .btnlist .pc {
+  background-position: 0 -112px;
+}
+.zzc-download .btnlist .zzc-ios {
+  background-position: 0 -56px;
+  margin-top: 50px;
+  position: relative;
+}
+.zzc-download .btnlist .zzc-android {
+  background-position: 0 0;
+  margin-top: 30px;
+}
+.zzc-download .btnlist .android1 {
+  background-position: 0 -169px;
+}
+.zzc-download .dia-close {
+  position: absolute;
+  top: 10px;
+  right: 18px;
+  width: 36px;
+  height: 36px;
+  background-position: -264px -17px;
+}
+.dia-download .code img {
+  width: 197px;
+  margin-left: 13px;
+}
+.dia-download .code p {
+  color: #111;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.dia-download .btnlist p {
+  font-size: 16px;
+  color: red;
+  cursor: pointer;
+}
+
+/* 下载按钮 */
+.eight-ewm{text-indent:0;position: absolute; width: 202px;background:#fff;box-shadow:0 0 2px rgba(0,0,0,0.5);text-align:center;padding:15px 0px;border-radius:4px;left: 5px;top: 46px;z-index:9999;display:none;}
+.eight-ewm.box1{height: 200px;left: -13px;top: 40px;}
+.eight-ewm.box2{height: 178px;left: -13px;top: 40px;}
+.eight-ewm p{font-size:14px;color:#333;line-height:22px;}
+.eight-ewm img{width:130px;height:130px;margin:10px auto;float:none;}
+.eight-ewm a{ color:#ff0000; font-size:14px; cursor:pointer;} 
+.eight-ewm button{display:inline-block;width:100%;background:#ff4b4b;color:#fff;text-align:center;line-height:45px;border-radius:6px;font-size:14px;border:none;cursor:pointer;}
+.android{position: relative;}
+.ios{position: relative;}
