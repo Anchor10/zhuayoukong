@@ -540,7 +540,7 @@ a:hover {
   margin-top: 8px;
 }
 .topic-down .topic-box .topic-con .topic-right h4 a {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   color: #333;
 }
@@ -549,7 +549,7 @@ a:hover {
 }
 .topic-down .topic-box .topic-con .topic-right h4 span {
   margin-left: 10px;
-  font-size: 14px;
+  font-size: 12px;
   color: #565656;
 }
 .topic-down .topic-box .topic-con .topic-right h4 span i {
@@ -557,7 +557,7 @@ a:hover {
   color: #ffa519;
 }
 .topic-down .topic-box .topic-con .topic-right p {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 20px;
   height: 60px;
   color: #6f7777;
@@ -641,14 +641,20 @@ a:hover {
   float: left;
   width: 570px;
 }
+.related-article .article-list .article-item .article-right .article-title{
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
 .related-article .article-list .article-item .article-right .article-title span {
   display: inline-block;
-  width: 38px;
-  height: 20px;
+  width: 33px;
+  height: 16px;
   border: 1px solid #74a901;
   color: #74a901;
-  line-height: 20px;
+  line-height: 16px;
   text-align: center;
+  font-size: 12px;
 }
 .related-article .article-list .article-item .article-right .article-title h3 {
   display: inline-block;
@@ -761,14 +767,13 @@ a:hover {
   text-overflow: ellipsis;
 }
 .gift .gift-list .gift-info h4 a {
-  color: #666666;
   transition: all 0.1s ease-in;
 }
 .gift .gift-list .gift-info h4 a:hover {
   color: #17b1f2;
 }
 .gift .gift-list .gift-info p {
-  font-size: 14px;
+  font-size: 12px;
   color: #777777;
   overflow: hidden;
   white-space: nowrap;
@@ -908,6 +913,7 @@ a:hover {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  color: #333;
 }
 .rank .rank-list .rank-item .info-on {
   display: none;
@@ -940,7 +946,6 @@ a:hover {
 }
 .rank .rank-list .rank-item .info-on .g-info p .g-n {
   font-size: 16px;
-  color: #565656;
 }
 .rank .rank-list .rank-item .info-on .g-info p .g-n:hover {
   color: #17b1f2;
