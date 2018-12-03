@@ -827,7 +827,7 @@ a:hover {
   background: #fff;
 }
 .news .news-list {
-  padding: 0 7px;
+  padding: 5px 7px;
 }
 .news .news-list .news-item {
   height: 32px;
@@ -838,6 +838,9 @@ a:hover {
   transition: all 0.1s ease-in;
   vertical-align: middle;
   border-top: 1px dashed #dddddd;
+}
+.news .news-list .news-item:nth-of-type(1){
+  border-top:0;
 }
 .news .news-list .news-item a {
   display: block;
