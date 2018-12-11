@@ -230,7 +230,6 @@ a:hover {
 }
 .tab-con p.intro {
   font-size: 14px;
-  color: #666;
   line-height: 26px;
   padding: 10px 14px;
 }
@@ -560,7 +559,7 @@ a:hover {
   font-size: 12px;
   line-height: 20px;
   height: 60px;
-  color: #6f7777;
+  color: #777;
   margin-top: 10px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -594,7 +593,7 @@ a:hover {
 }
 .topic-down .topic-box .topic-con .topic-list .topic-item .item-info h4 {
   font-size: 14px;
-  color: #565656;
+  color: #555;
   font-weight: 300;
 }
 .topic-down .topic-box .topic-con .topic-list .topic-item .item-info span {
@@ -605,6 +604,7 @@ a:hover {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: #777;
 }
 /*相关文章*/
 .related-article {
@@ -673,6 +673,7 @@ a:hover {
     -webkit-line-clamp: 2;
     margin-top: 7px;
     -webkit-box-orient: vertical;
+    color: #777;
 }
 .related-article .article-list .article-item .article-right .date {
   color: #999;
@@ -844,7 +845,7 @@ a:hover {
 }
 .news .news-list .news-item a {
   display: block;
-  color: #565656;
+  color: #555;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -911,7 +912,7 @@ a:hover {
 .rank .rank-list .rank-item .info span {
   display: block;
   line-height: 30px;
-  font-size: 16px;
+  font-size: 14px;
   margin-right: 60px;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -960,6 +961,7 @@ a:hover {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  color: #777;
 }
 .rank .rank-list .rank-item .down {
   display: block;
