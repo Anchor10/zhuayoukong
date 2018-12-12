@@ -840,6 +840,8 @@ a:hover.topMore {
     background: url(../images/S_hot.gif) no-repeat 0px -3px;
     position: relative;
     z-index: 4;
+    height: 22px;
+    line-height: 22px;
 }
 
 .nav,

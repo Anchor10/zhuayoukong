@@ -339,13 +339,13 @@
     background: #fff;
     color: #333;
     border: 1px solid #d7d7d7;
-    height: 33px;
-    line-height: 33px;
+    height: 25px;
+    line-height: 25px;
     text-align: center;
     vertical-align: top;
     zoom: 1;
-    padding: 0 14px;
-    margin: 0 4px;
+    padding: 0 10px;
+    margin: 0 2px;
 }
 .pag a:hover,
 a.p_hov,
@@ -359,8 +359,8 @@ a.p_hov:hover {
     display: inline-block;
     vertical-align: top;
     zoom: 1;
-    height: 32px;
-    line-height: 32px;
+    height: 25px;
+    line-height: 25px;
     color: #666;
     margin: 0 4px 0 10px;
 }
@@ -372,12 +372,13 @@ a.p_hov:hover {
     border-color: #f60;
     color: #fff;
     text-decoration: none;
-    height: 33px;
-    line-height: 33px;
+    height: 25px;
+    line-height: 25px;
     text-align: center;
-    padding: 0px 14px;
-    margin: 0 4px;
+    padding: 0px 10px;
+    margin: 0 2px;
     display: inline-block;
+    border: 1px solid #f60;
 }
 .newsLeft {
     width: 795px;
