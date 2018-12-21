@@ -40,8 +40,8 @@ this.parent.find(".snopshot:nth-child("+this.pageNow+")").css({width:this.option
 var pre = this.pageNow > 1 ? this.pageNow-1 : this.total;
 var next = this.pageNow == this.total ? 1 : this.pageNow+1;
 //只变宽度，让高度自己去等比压缩
-this.parent.find(".snopshot:nth-child("+pre+")").css({opacity: 1, left: this.preLeft+'px', width: this.options.imgP+'px', zIndex: 0, marginTop: this.options.imgHeight/12+'px'});
-this.parent.find(".snopshot:nth-child("+next+")").css({opacity: 1, left: this.nextLeft+'px',width: this.options.imgP+'px', zIndex: 0, marginTop: this.options.imgHeight/12+'px'});
+this.parent.find(".snopshot:nth-child("+pre+")").css({opacity: 1, left: this.preLeft+'px',height: this.options.imgH+'px', width: this.options.imgP+'px', zIndex: 0, marginTop: this.options.imgHeight/12+'px'});
+this.parent.find(".snopshot:nth-child("+next+")").css({opacity: 1, left: this.nextLeft+'px',height: this.options.imgH+'px',width: this.options.imgP+'px', zIndex: 0, marginTop: this.options.imgHeight/12+'px'});
 this.bind();
 //this.start();
 },

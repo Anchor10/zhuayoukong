@@ -259,7 +259,7 @@ ol,ul,dl{list-style:none}
 .help{font-size: 14px; color:#4db848; margin-left: 10px;display: block;margin-top:130px;}
 .help .icon{width: 16px; height: 16px; margin-right: 5px;display: inline-block;background: url(../images/bg-version2.png) no-repeat;vertical-align: middle;text-align: center; background-position:-326px -437px;margin-top:-3px;}
 
-
+/* 截图展示 */
 .snapShotWrap{width:800px;position:relative;margin:30px auto 30px; overflow:hidden;}
 #shotNext{top:0;right:0;}
 #shotPrev{top:0;left:0;}
