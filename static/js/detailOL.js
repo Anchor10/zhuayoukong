@@ -16,7 +16,7 @@ $(function(){
           var img = new Image();
                             
        img.src =  $(".snapShotCont li").eq(0).find("img").attr("src");
-          //window.onload=function(){
+          img.onload=function(){
             var imgWidth = img.width;
             var imgHeight = img.height;
             if(imgWidth > imgHeight){
@@ -33,7 +33,7 @@ $(function(){
                 imgH : parseInt(imgHeight/1.2),
               }
             );
-          //}; 
+          }; 
         }
       }
     } )
