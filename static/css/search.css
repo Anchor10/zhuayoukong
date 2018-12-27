@@ -154,8 +154,11 @@
   overflow: hidden;
   padding: 16px 0;
 }
-.content .content-left .related-gift .gift-list .gift-item:nth-of-type(1) {
-  border-bottom: 1px solid #e2e2e2;
+.content .content-left .related-gift .gift-list .gift-item {
+  border-top: 1px solid #e2e2e2;
+}
+.content .content-left .related-gift .gift-list .gift-item:nth-of-type(1){
+  border-top:0;
 }
 .content .content-left .related-gift .gift-list .gift-item:hover .gift-detail h3 {
   color: #ff7f27;
@@ -177,7 +180,7 @@
 }
 .content .content-left .related-gift .gift-list .gift-item .gift-detail {
   float: left;
-  max-width: 630px;
+  width: 500px;
 }
 .content .content-left .related-gift .gift-list .gift-item .gift-detail h3 {
   font-size: 18px;
@@ -276,16 +279,17 @@
   border-top: 0;
 }
 .content .content-left .related-article .article-list .article-item .strate {
-  float: left;
+  /* float: left; */
   padding: 2px 20px;
   color: #fff;
   background: #ff8a0c;
   font-size: 16px;
+  margin-right: 10px;
 }
 .content .content-left .related-article .article-list .article-item .article-info {
   margin-left: 8px;
-  float: left;
-  width: 690px;
+  /* float: left; */
+  width: 770px;
   overflow: hidden;
 }
 .content .content-left .related-article .article-list .article-item .article-info .article-name {
