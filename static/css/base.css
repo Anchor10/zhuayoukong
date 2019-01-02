@@ -778,6 +778,10 @@ a:hover.topMore {
     text-indent: -999em;
     overflow: hidden;
 }
+.header .siteLogo-gift{
+    background: url(../images/mall_logo.png) no-repeat;
+    margin-top: 15px;
+}
 
 .search {
     float: right;
@@ -904,6 +908,9 @@ a:hover.topMore {
     font-size: 18px;
     text-align: center;
     line-height: 40px;
+}
+.nav2 li{
+    width: 14.28%;
 }
 
 .nav a,

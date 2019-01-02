@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>礼包详情</title>
+    <meta name="keywords" content="手机网游开服表,手游开服表,爪游控" />
+    <meta name="description" content="爪游控手机网游开服表为玩家提供最新最全的手机网游今日开服时间表,热门新服推荐,还有劲爆好玩的手机网游免费下载等服务。" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <script type="text/javascript" src="static/js/jquery.js"></script>
+    <script type="text/javascript" src="static/js/jquery.lazyload.js"></script>
+    <script type="text/javascript" src="static/js/mobile.js"></script>
+    <script type="text/javascript" src="static/js/beta-giftDetail.js"></script>
+</head>
+
+<body>
+    <div id="siteNav">
+        <div class="layout">
+            <ul class="siteNavMenu">
+                <li class="rb">
+                    <a href='//www.zhuayoukong.com' target='_blank'>爪游控 | 新锐综合资讯媒体</a> |
+                    <a href="http://app.zhuayoukong.com/" style="color:#f60" target="_blank" title="爪游控游戏盒" class="tb_downyxh">下载爪游控游戏盒</a>
+                </li>
+            </ul>
+            <ul class="siteNavMenu fr">
+                <samp id="show_userinfo">
+                    <li class="rb" id="logined_li">
+                        <div class="menuShow">
+                            <a href="javascript:void(0);" class="login">用户登录</a>
+                            <span class="arrDrop"></span>
+                        </div>
+                        <div class="menuHide" id="topDMainBox" style="display: none;">
+                            <ul class="log">
+                                <p class="tipsText"></p>
+                                <form name="login" method="post" action="/e/member/doaction.php">
+                                    <input type="hidden" name="enews" value="login">
+                                    <input type="hidden" name="ecmsfrom" value="9">帐号：
+                                    <input name="username" type="text" value="" placeholder="用户名/邮箱" class="inputText">密码：
+                                    <input name="password" placeholder="输入密码" type="password" value="" class="inputText">
+                                    <input type="submit" value="登录" class="submit">
+                                </form>
+                                <div class="remember">
+                                    <label>
+                                        <input class="check" type="checkbox" id="keeplogin" checked="">
+                                        <span>自动登录</span>
+                                    </label>
+                                    <a href="http://www.zhuayoukong.com/e/member/GetPassword/" target="_blank">忘记密码？</a>&nbsp;|&nbsp;
+                                    <a href="http://www.zhuayoukong.com/e/member/register/?groupid=1">注册帐号</a>
+                                </div>
+                                <div id="errmsg"></div>
+                            </ul>
+                            <div class="thirdP">
+                                <p>使用合作网站帐号登录：</p>
+                                <a class="qq" href="http://www.zhuayoukong.com/e/ikaimi/qq_api/enews.php?enews=qzonelogin"
+                                    target="_blank">QQ账号</a>
+                            </div>
+                        </div>
+                    </li>
+                </samp>
+                <li>
+                    <div class="menuShow">
+                        <span class="navIcon">
+                        </span>
+                        <span>网站导航
+                        </span>
+                        <span class="arrDrop">
+                        </span>
+                    </div>
+                    <!-- common menu adv start-->
+                    <div class="menuHide r0" style="display: none;">
+                        <ul class="guideList">
+                            <li>
+                                <h4>
+                                    <img src="static/images/navpic1.png" alt="">
+                                    <a href="javascript:;" target="_blank">资讯中心</a>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="/news/gonglue/" target="_blank">游戏攻略</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="/news/dongtai/" target="_blank">游戏动态</a>
+                                    </li>
+                                    <li>
+                                        <a href="/news/huodong/" target="_blank">游戏活动</a>丨
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/top/" target="_blank">游戏排行</a>
+                                        </strong>
+                                    </li>
+                                    <li>
+                                        <a href="/ent/" target="_blank">娱乐八卦</a>丨
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/video/" target="_blank">游戏视频</a>
+                                        </strong>
+                                    </li>
+                                    <li>
+                                        <a href="/news/pingce/" target="_blank">游戏评测</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="/news1/" target="_blank">社会万象</a>
+                                    </li>
+                                    <li>
+                                        <a href="/news/xingye/" target="_blank">游戏产业</a>丨
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/kaifu/" target="_blank">游戏开服</a>
+                                        </strong>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="secli">
+                                <h4>
+                                    <img src="static/images/navpic2.png" alt="">
+                                    <a href="javascript:;" target="_blank">精品栏目</a>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="/youxi/" target="_blank">免费游戏</a>
+                                    </li>
+                                    <li>
+                                        <a href="/btyouxi/" target="_blank">变态游戏</a>
+                                    </li>
+                                    <li>
+                                        <a href="/mvshouyou/" target="_blank">满Vip游戏</a>
+                                    </li>
+                                    <li>
+                                        <a href="/gmshouyou/" target="_blank">GM游戏</a>
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/zhuanti/" target="_blank">游戏专题</a>
+                                        </strong>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="secli">
+                                <h4>
+                                    <img src="static/images/navpic3.png" alt="">
+                                    <a href="javascript:;" target="_blank">礼包中心</a>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <strong>
+                                            <a href="/card/libao.html" target="_blank">独家礼包</a>
+                                        </strong>
+                                    </li>
+                                    <li>
+                                        <a href="/card/xinshouka.html" target="_blank">新手卡</a>
+                                    </li>
+                                    <li>
+                                        <a href="/card/jihuoma.html" target="_blank">激活码</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="danli">
+                                <h4>
+                                    <img src="static/images/navpic4.png" alt="">
+                                    <a href="javascript:;" target="_blank">游戏下载</a>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="/game/" target="_blank">网游库</a>&nbsp;&nbsp;|&nbsp;
+                                        <a class="typea" href="/game/0-1-1-0.html">即时</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/game/0-1-2-0.html">回合</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/game/0-1-3-0.html">策略</a>
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/vip/" target="_blank">满V手游</a>
+                                        </strong>&nbsp;&nbsp;|&nbsp;
+                                        <a class="typea" href="/vip/0-65-4-0.html">放置</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/vip/0-65-5-0.html">动作</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/vip/0-65-7-0.html">二次元</a>
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/gm/" target="_blank">GM手游</a>
+                                        </strong>&nbsp;&nbsp;|&nbsp;
+                                        <a class="typea" href="/gm/0-54-2-0.html">角色</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/gm/0-54-4-0.html">放置</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/gm/0-54-3-0.html">策略</a>
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a href="/btgame/" target="_blank">变态手游</a>
+                                        </strong>&nbsp;&nbsp;|&nbsp;
+                                        <a class="typea" href="/btgame/0-61-2-0.html">角色</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/btgame/0-61-1-0.html">卡牌</a>&nbsp;&nbsp;
+                                        <a class="typea" href="/btgame/0-61-9-0.html">传奇</a>
+                                    </li>
+                                    <li>
+                                        <a href="/pojie/" target="_blank">破解版游戏</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="topli">
+                                <h4>
+                                    <img src="static/images/navpic5.png" alt="">
+                                    <a href="javascript:;" target="_blank">排行榜</a>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="/top/bt.html" target="_blank">变态手游排行榜</a>
+                                    </li>
+                                    <li>
+                                        <a href="/top/gm.html" target="_blank">GM手游排行榜</a>
+                                    </li>
+                                    <li>
+                                        <a href="/top/pojie.html" target="_blank">破解版游戏排行榜</a>
+                                    </li>
+                                    <li>
+                                        <a href="/top/mv.html" target="_blank">满级VIP手游排行榜</a>
+                                    </li>
+                                    <li>
+                                        <a href="/top/" target="_blank">更多排行榜></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>
+                                    <img src="static/images/navpic6.png" alt="">
+                                    <strong>
+                                        <a href="javascript:;" target="_blank">热门游戏</a>
+                                    </strong>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/game/1828.html" target="_blank">第五人格</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/vip/dgtx.html" target="_blank">独孤天下</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/vip/cmxywxb.html" target="_blank">超梦西游无限版</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/vip/fyxl.html" target="_blank">扶摇仙灵</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/game/1474.html" target="_blank">3733游戏盒子</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/vip/xdhh.html" target="_blank">寻道回合</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/vip/xjqxchh.html" target="_blank">仙剑奇侠传回合</a>丨
+                                    </li>
+                                    <li>
+                                        <a href="https://www.zhuayoukong.com/vip/sqbbxy.html" target="_blank">神奇宝贝XY</a>丨
+                                    </li>
+                                    <li style="width: 100%;">
+                                        <a href="http://app.zhuayoukong.com" target="_blank">3733游戏盒子</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="ewmli">
+                                <h4>
+                                    <strong>
+                                        <a href="http://app.zhuayoukong.com" target="_blank">游戏盒下载</a>
+                                    </strong>
+                                </h4>
+                                <ul>
+                                    <img src="static/images/zykewm.png" alt="">
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- common menu adv end-->
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--topNav:end-->
+    <!--header:begin-->
+    <div class="header">
+        <a href="/" class="siteLogo siteLogo-gift" title="爪游控">爪游控</a>
+        <div class="search">
+            <form action="/e/search/search.php" method="post" onsubmit="if(document.getElementById('searchword').value=='请输入搜索内容')return false;">
+                <input type="hidden" name="show" value="title,keyboard" />
+                <div class="searchBor">
+                    <input type="text" name="keyboard" id="q" value="" style="color: rgb(153, 153, 153);"
+                        onwebkitspeechchange="jQuery(this).closest('form').submit();" x-webkit-speech="" onclick="clearCname()"
+                        class="txt">
+                    <input onClick="return dosearch($('#q').val());" type="submit" class="submit" value="搜索" />
+                </div>
+            </form>
+            <p>
+                <div class="S_hot">
+                    <a href="https://www.zhuayoukong.com/game/2640.html" title="3733gm助手" target="_blank">3733gm助手</a>
+                    <a href="https://www.zhuayoukong.com/game/604.html" title="王者荣耀" target="_blank">王者荣耀</a>
+                    <a href="https://www.zhuayoukong.com/game/2467.html" title="神奇宝贝XY" target="_blank">神奇宝贝XY</a>
+                    <a href="https://www.zhuayoukong.com/game/2209.html" title="绝地求生：全军出击" target="_blank">绝地求生：全军出击</a>
+                    <a href="https://www.zhuayoukong.com/game/2107.html" title="火柴人联盟2" target="_blank">火柴人联盟2</a>
+                    <a href="https://www.zhuayoukong.com/game/1538.html" title="宠物小精灵" target="_blank">宠物小精灵</a>
+                    <a href="https://www.zhuayoukong.com/game/1706.html" title="蜀门" target="_blank">蜀门</a>
+                    <a href="https://www.zhuayoukong.com/game/2296.html" title="QQ飞车手游" target="_blank">QQ飞车手游</a>
+                </div>
+            </p>
+        </div>
+    </div>
+    <!--header:end-->
+    <!--nav:begin-->
+    <div class="nav2">
+        <ul>
+            <li id="g_home">
+                <a href="/" title="礼包首页">礼包首页</a>
+            </li>
+            <li id="g_gift">
+                <a href="/game/" title="独家礼包">独家礼包</a>
+            </li>
+            <li id="g_card">
+                <a href="/kaifu/" title="新手卡">新手卡</a>
+            </li>
+            <li id="g_code">
+                <a href="/top/" title="激活码">激活码</a>
+            </li>
+            <li id="g_find">
+                <a href="/card/" title="找游戏">找游戏</a>
+            </li>
+            <li id="g_kaifu">
+                <a href="/news/" title="开服表">开服表</a>
+            </li>
+            <li id="g_guide">
+                <a href="/video/" title="新手指南">新手指南</a>
+            </li>
+        </ul>
+    </div>
+    <!--nav:end-->
+    <!--main:begin-->
+    <div class="bg">
+        <div class="position">
+            <i class="icon-cur"></i>当前位置：
+            <a title="" href="">爪游控</a>&nbsp;&gt;&nbsp;
+            <a title="" href="">礼包中心</a>&nbsp;&gt;&nbsp;
+            <a title="" href="">独家礼包</a>&nbsp;&gt;&nbsp;
+            <a title="" href="javascript:;">三国封魔传礼包</a>
+        </div>
+        <div class="content">
+            <div class="con-left">
+                <div class="gift-info">
+                    <div class="gift-pic">
+                        <img title="" data-original="https://pic.zhuayoukong.com/d/file/game/2016-11-07/fcb34c2d97664d9fc0d98622888c8a36.png"
+                            alt="">
+                    </div>
+                    <div class="gift-data">
+                        <h2>三国封魔传新手礼包</h2>
+                        <span>剩余：
+                            <dl class="progress-dl">
+                                <dt class="progressbar">
+                                    <p style="width:56%;"></p>
+                                </dt>
+                                <dd>56%</dd>
+                            </dl>
+                        </span>
+                        <span>发布会时间：2019-10-09</span>
+                        <span>适用平台：<i class="system-android"></i></span>
+                        <div class="btn">
+                            <a title="" href="javascript:;" class="box-btn"><i></i>到3733游戏盒领取</a>
+                            <a title="" href="javascript:;" class="none-btn btn-hide"><i></i>暂无礼包</a>
+                            <a title="" href="" class="down-btn"><i></i>游戏下载</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 盒子下载弹出框 -->
+                <div id="zzc"></div>
+                <div class="zzc-download" id="zzc-download">
+                    <div class="dia-con">
+                        <div class="dia-download clearfix">
+                            <div class="code"><img data-original="https://s.8979.com/share/qrcode?w=150&h=150&url=https://www.zhuayoukong.com/btgame/2023.html">
+                                <p>手机浏览器扫描二维码，下载更方便</p>
+                            </div>
+                            <div class="btnlist">
+                                <a href="javascript:;" target="_blank"
+                                    class="zzc-ios">
+                                    <div class="eight-ewm box3" style="display: none;">
+                                        <p>安装到手机（扫描下载）</p>
+                                        <p><img src="https://s.8979.com/share/qrcode?w=150&h=150&url=https://www.zhuayoukong.com/btgame/2023.html"></p>
+                                    </div>
+                                </a>
+                                <a href="//www.zhuayoukong.com/game/downs_apk_1440.html" target="_blank" class="zzc-android"></a>
+                                <p onclick="window.open('http://www.zhuayoukong.com/news/113737.html');">如何安装？查看教程&gt;&gt;&gt;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="dia-close" href="javascript:;" title="关闭"></a>
+                </div>
+                <!-- 礼包详情 -->
+                <div class="gift-detail">
+                    <div class="section-title2">
+                        <h3>礼包详情</h3>
+                    </div>
+                    <div class="tab_main m-giftsInfo" style="display: block;">
+                        <ul class="w-infoList">
+                            <li class="first">
+                                <div class="icons ico30_outer hd">领取条件</div>
+                                <div class="dian"><i class="icons ico23_outer"></i></div>
+                                <div class="txt">
+                                    <p>
+                                        <a title="" href="" title="3733游戏盒">
+                                            <span class="app-need">使用 3733游戏盒领取</span>
+                                        </a>
+                                    </p>
+                                    <div class="line"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icons ico30_outer hd">有效时间</div>
+                                <div class="dian"><i class="icons ico23_outer"></i></div>
+                                <div class="txt">
+                                    <p>2018.12.27 - 2019.12.27</p>
+                                    <div class="line"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icons ico30_outer hd">礼包内容</div>
+                                <div class="dian"><i class="icons ico23_outer"></i></div>
+                                <div class="txt">
+                                    <p>蟾月兔挂件(限时)*1,高效灵力符(100万)*3,金灵仙灵草*1,仙灵口粮*100</p>
+                                    <div class="line"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icons ico30_outer hd">礼包使用</div>
+                                <div class="dian"><i class="icons ico23_outer"></i></div>
+                                <div class="txt">
+                                    <div class="gift-txt">
+                                        <p>从本站下载安装《<a title="" href="">三国封魔传说</a>》到手机上</p>
+                                        <p>进入游戏-点击福利按钮-点击礼包码兑换活动-输入礼包码兑换礼包</p>
+                                    </div>
+                                    <div class="line"></div>
+                                </div>
+                            </li>
+                            <li class="last">
+                                <div class="icons ico30_outer hd">注意事项</div>
+                                <div class="dian"><i class="icons ico23_outer"></i></div>
+                                <div class="txt">
+                                    <p>礼包每个角色只限使用一次:每个激活码只限使用一次;每个ID限领一次</p>
+                                    <div class="line"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 相关礼包 -->
+                <div class="related-gift">
+                    <div class="section-title2">
+                        <h3>相关礼包</h3>
+                    </div>
+                    <ul class="related-list">
+                        <li class="related-item">
+                            <a title="" href="" class="related-pic">
+                                <img title="" data-original="https://pic.zhuayoukong.com/d/file/caiji/2018-12-14/5bfdb405f829b12aa98cfe2bce61ac6f.png"
+                                    alt="">
+                            </a>
+                            <div class="related-info">
+                                <h4><a title="" href="">三国封魔传新手礼包</a></h4>
+                                <p>普通硝碳*6、高级硝碳*3、锻造精华*99</p>
+                                <a title="" href="" class="related-get">领取</a>
+                            </div>
+                        </li>
+                        <li class="related-item">
+                            <a title="" href="" class="related-pic">
+                                <img title="" data-original="https://pic.zhuayoukong.com/d/file/caiji/2018-12-14/5bfdb405f829b12aa98cfe2bce61ac6f.png"
+                                    alt="">
+                            </a>
+                            <div class="related-info">
+                                <h4><a title="" href="">三国封魔传新手礼包</a></h4>
+                                <p>普通硝碳*6、高级硝碳*3、锻造精华*99</p>
+                                <a title="" href="" class="related-get">领取</a>
+                            </div>
+                        </li>
+                        <li class="related-item">
+                            <a title="" href="" class="related-pic">
+                                <img title="" data-original="https://pic.zhuayoukong.com/d/file/caiji/2018-12-14/5bfdb405f829b12aa98cfe2bce61ac6f.png"
+                                    alt="">
+                            </a>
+                            <div class="related-info">
+                                <h4><a title="" href="">三国封魔传新手礼包</a></h4>
+                                <p>普通硝碳*6、高级硝碳*3、锻造精华*99</p>
+                                <a title="" href="" class="related-get">领取</a>
+                            </div>
+                        </li>
+                        <li class="related-item">
+                            <a title="" href="" class="related-pic">
+                                <img title="" data-original="https://pic.zhuayoukong.com/d/file/caiji/2018-12-14/5bfdb405f829b12aa98cfe2bce61ac6f.png"
+                                    alt="">
+                            </a>
+                            <div class="related-info">
+                                <h4><a title="" href="">三国封魔传新手礼包</a></h4>
+                                <p>普通硝碳*6、高级硝碳*3、锻造精华*99</p>
+                                <a title="" href="" class="related-get">领取</a>
+                            </div>
+                        </li>
+                        <li class="related-item">
+                            <a title="" href="" class="related-pic">
+                                <img title="" data-original="https://pic.zhuayoukong.com/d/file/caiji/2018-12-14/5bfdb405f829b12aa98cfe2bce61ac6f.png"
+                                    alt="">
+                            </a>
+                            <div class="related-info">
+                                <h4><a title="" href="">三国封魔传新手礼包</a></h4>
+                                <p>普通硝碳*6、高级硝碳*3、锻造精华*99</p>
+                                <a title="" href="" class="related-get">领取</a>
+                            </div>
+                        </li>
+                        <li class="related-item">
+                            <a title="" href="" class="related-pic">
+                                <img title="" data-original="https://pic.zhuayoukong.com/d/file/caiji/2018-12-14/5bfdb405f829b12aa98cfe2bce61ac6f.png"
+                                    alt="">
+                            </a>
+                            <div class="related-info">
+                                <h4><a title="" href="">三国封魔传新手礼包</a></h4>
+                                <p>普通硝碳*6、高级硝碳*3、锻造精华*99</p>
+                                <a title="" href="" class="related-get">领取</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 相关攻略和小编推荐 -->
+                <div class="strate-recom">
+                    <div class="zttit5">
+                        <div class="hd cl"><span class="active">小编推荐</span><span class="">新游推荐</span></div>
+                    </div>
+                    <div class="two-box">
+                        <ul class="tab-list">
+                            <li class="tab-item">
+                                <a title="" href="">
+                                    <div class="tab-pic">
+                                        <img title="" data-original="https://img.newyx.net/tj/201608/12/7a26784216.jpg" alt="">
+                                    </div>
+                                    <p>蓝月传奇</p>
+                                </a>
+                            </li>
+                            <li class="tab-item">
+                                <a title="" href="">
+                                    <div class="tab-pic">
+                                        <img title="" data-original="https://img.newyx.net/tj/201608/12/7a26784216.jpg" alt="">
+                                    </div>
+                                    <p>蓝月传奇</p>
+                                </a>
+                            </li>
+                            <li class="tab-item">
+                                <a title="" href="">
+                                    <div class="tab-pic">
+                                        <img title="" data-original="https://img.newyx.net/tj/201608/12/7a26784216.jpg" alt="">
+                                    </div>
+                                    <p>蓝月传奇</p>
+                                </a>
+                            </li>
+                            <li class="tab-item">
+                                <a title="" href="">
+                                    <div class="tab-pic">
+                                        <img title="" data-original="https://img.newyx.net/tj/201608/12/7a26784216.jpg" alt="">
+                                    </div>
+                                    <p>蓝月传奇</p>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="tab-list" style="display: none;">
+                                <li class="tab-item">
+                                    <a title="" href="">
+                                        <div class="tab-pic">
+                                            <img title="" data-original="https://img.newyx.net/tj/201608/12/99533183ed.jpg" alt="">
+                                        </div>
+                                        <p>蓝月传奇</p>
+                                    </a>
+                                </li>
+                                <li class="tab-item">
+                                    <a title="" href="">
+                                        <div class="tab-pic">
+                                            <img title="" data-original="https://img.newyx.net/tj/201608/12/99533183ed.jpg" alt="">
+                                        </div>
+                                        <p>蓝月传奇</p>
+                                    </a>
+                                </li>
+                                <li class="tab-item">
+                                    <a title="" href="">
+                                        <div class="tab-pic">
+                                            <img title="" data-original="https://img.newyx.net/tj/201608/12/99533183ed.jpg" alt="">
+                                        </div>
+                                        <p>蓝月传奇</p>
+                                    </a>
+                                </li>
+                                <li class="tab-item">
+                                    <a title="" href="">
+                                        <div class="tab-pic">
+                                            <img title="" data-original="https://img.newyx.net/tj/201608/12/99533183ed.jpg" alt="">
+                                        </div>
+                                        <p>蓝月传奇</p>
+                                    </a>
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 右侧 -->
+            <div class="con-right">
+                <div class="box3733">
+                    <div class="box-desc">
+                        <img title="" data-original="static/images/adword.png" alt="">
+                    </div>
+                    <div class="QR-code-outer">
+                        <div class="QR-code">
+                            <img title="" data-original="static/images/box-3733.png" alt="">
+                        </div>
+                        <div class="down-btn">
+                            <a href="" class="btn-ios" rel="nofollow" target="_blank">IOS版下载</a>
+                            <a href="" class="btn-az" rel="nofollow" target="_blank">Android下载</a>
+                            <div class="info-tips">
+                                <span class="size">大小：10.30M</span>
+                                <span class="version">版本：8.0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="new-kaifu">
+                        <div class="section-title2">
+                            <h3>最新开服</h3>
+                        </div>
+                        <div class="kfkc_list kfkc_list_1">
+                            <dl>
+                                <dt>
+                                    <ul>
+                                        <li class="time">时间</li>
+                                        <li class="name">游戏名称</li>
+                                        <li class="fwq">服务器</li>
+                                        <li class="lb">礼包</li>
+                                    </ul>
+                                </dt>
+                                <dd>
+                                    <ul>
+                                        <li class="time">
+                                            12-29 </li>
+                                        <li class="name">
+                                            <a title="" href="/card/3163.html" target="_blank">
+                                                逍遥侠客 </a>
+                                        </li>
+                                        <li class="fwq">
+                                            机关要塞65区 </li>
+                                        <li class="lb">
+    
+                                            <a title="" href="/card/3163.html" target="_blank">领</a>
+    
+                                        </li>
+                                    </ul>
+                                </dd>
+                                <dd>
+                                    <ul>
+                                        <li class="time">
+                                            12-29 </li>
+                                        <li class="name">
+                                            <a title="" href="/card/3478.html" target="_blank">
+                                                少年封神 </a>
+                                        </li>
+                                        <li class="fwq">
+                                            二次元.246 </li>
+                                        <li class="lb">
+    
+                                            <a title="" href="/card/3478.html" target="_blank">领</a>
+    
+                                        </li>
+                                    </ul>
+                                </dd>
+                                <dd>
+                                    <ul>
+                                        <li class="time">
+                                            12-29 </li>
+                                        <li class="name">
+                                            <a title="" href="/card/4275.html" target="_blank">
+                                                枪之轨迹：刺激战地 </a>
+                                        </li>
+                                        <li class="fwq">
+                                            武装突袭 </li>
+                                        <li class="lb">
+    
+                                            <a title="" href="/card/4275.html" target="_blank">领</a>
+    
+                                        </li>
+                                    </ul>
+                                </dd>
+                                <dd>
+                                    <ul>
+                                        <li class="time">
+                                            12-29 </li>
+                                        <li class="name">
+                                            <a title="" href="/card/3538.html" target="_blank">
+                                                百战神魔 </a>
+                                        </li>
+                                        <li class="fwq">
+                                            屠鲲100服 </li>
+                                        <li class="lb">
+    
+                                            <a title="" href="/card/3538.html" target="_blank">领</a>
+    
+                                        </li>
+                                    </ul>
+                                </dd>
+                                <dd>
+                                    <ul>
+                                        <li class="time">
+                                            12-29 </li>
+                                        <li class="name">
+                                            <a title="" href="/card/4140.html" target="_blank">
+                                                毒王华佗传 </a>
+                                        </li>
+                                        <li class="fwq">
+                                            40区 </li>
+                                        <li class="lb">
+    
+                                            <a title="" href="/card/4140.html" target="_blank">领</a>
+    
+                                        </li>
+                                    </ul>
+                                </dd>
+                                <dd>
+                                        <ul>
+                                            <li class="time">
+                                                12-29 </li>
+                                            <li class="name">
+                                                <a title="" href="/card/4275.html" target="_blank">
+                                                    枪之轨迹：刺激战地 </a>
+                                            </li>
+                                            <li class="fwq">
+                                                武装突袭 </li>
+                                            <li class="lb">
+        
+                                                <a title="" href="/card/4275.html" target="_blank">领</a>
+        
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                    <dd>
+                                        <ul>
+                                            <li class="time">
+                                                12-29 </li>
+                                            <li class="name">
+                                                <a title="" href="/card/3538.html" target="_blank">
+                                                    百战神魔 </a>
+                                            </li>
+                                            <li class="fwq">
+                                                屠鲲100服 </li>
+                                            <li class="lb">
+        
+                                                <a title="" href="/card/3538.html" target="_blank">领</a>
+        
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                    <dd>
+                                        <ul>
+                                            <li class="time">
+                                                12-29 </li>
+                                            <li class="name">
+                                                <a title="" href="/card/4140.html" target="_blank">
+                                                    毒王华佗传 </a>
+                                            </li>
+                                            <li class="fwq">
+                                                40区 </li>
+                                            <li class="lb">
+        
+                                                <a title="" href="/card/4140.html" target="_blank">领</a>
+        
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                <dd class="last">
+                                    <ul>
+                                        <li class="time">
+                                            12-29 </li>
+                                        <li class="name">
+                                            <a title="" href="/card/1950.html" target="_blank">
+                                                天天点西游 </a>
+                                        </li>
+                                        <li class="fwq">
+                                            西游55区 </li>
+                                        <li class="lb">
+    
+                                            <a title="" href="/card/1950.html" target="_blank">领</a>
+    
+                                        </li>
+                                    </ul>
+                                </dd>
+    
+                            </dl>
+                        </div>
+                    </div>
+                    <!-- 热门礼包 -->
+                <div class="hot-gift">
+                        <div class="section-title2">
+                            <h3>热门礼包</h3>
+                        </div>
+                        <ul class="hot-gift-list">
+                            <li class="on">
+                                <div class="prediv"><span>超梦西游海量版新手礼包</span>
+                                    <a title="" href="/card/3186.html" target="_blank">领取</a></div>
+                                <div class="hoverdiv">
+                                    <div class="imgdiv"><a title="" href="/card/3186.html" target="_blank">
+                                            <img title="" data-original="http://pic5.3733.com/icon/201812/5c6df58781d9a33aa99488f8727e02ba.png"
+                                                alt="超梦西游海量版新手礼包"></a></div>
+                                    <div class="txtdiv">
+                                        <p class="ptitle"><a title="" href="/card/3186.html" target="_blank">超梦西游海量版新手礼包</a><a title="" href="/card/3186.html"
+                                                class="qh" target="_blank">领取</a></p>
+                                        <p class="psl">蟠桃*4500、副本挑战符*20、追风挑战符*100</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="prediv"><span>超梦西游海量版新手礼包</span>
+                                    <a title="" href="/card/3186.html" target="_blank">领取</a></div>
+                                <div class="hoverdiv">
+                                    <div class="imgdiv"><a title="" href="/card/3186.html" target="_blank">
+                                            <img title="" data-original="http://pic5.3733.com/icon/201812/5c6df58781d9a33aa99488f8727e02ba.png"
+                                                alt="超梦西游海量版新手礼包"></a></div>
+                                    <div class="txtdiv">
+                                        <p class="ptitle"><a title="" href="/card/3186.html" target="_blank">超梦西游海量版新手礼包</a><a title="" href="/card/3186.html"
+                                                class="qh" target="_blank">领取</a></p>
+                                        <p class="psl">蟠桃*4500、副本挑战符*20、追风挑战符*100</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="prediv"><span>超梦西游海量版新手礼包</span>
+                                    <a title="" href="/card/3186.html" target="_blank">领取</a></div>
+                                <div class="hoverdiv">
+                                    <div class="imgdiv"><a title="" href="/card/3186.html" target="_blank">
+                                            <img title="" data-original="http://pic5.3733.com/icon/201812/5c6df58781d9a33aa99488f8727e02ba.png"
+                                                alt="超梦西游海量版新手礼包"></a></div>
+                                    <div class="txtdiv">
+                                        <p class="ptitle"><a title="" href="/card/3186.html" target="_blank">超梦西游海量版新手礼包</a><a title="" href="/card/3186.html"
+                                                class="qh" target="_blank">领取</a></p>
+                                        <p class="psl">蟠桃*4500、副本挑战符*20、追风挑战符*100</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="prediv"><span>超梦西游海量版新手礼包</span>
+                                    <a title="" href="/card/3186.html" target="_blank">领取</a></div>
+                                <div class="hoverdiv">
+                                    <div class="imgdiv"><a title="" href="/card/3186.html" target="_blank">
+                                            <img title="" data-original="http://pic5.3733.com/icon/201812/5c6df58781d9a33aa99488f8727e02ba.png"
+                                                alt="超梦西游海量版新手礼包"></a></div>
+                                    <div class="txtdiv">
+                                        <p class="ptitle"><a title="" href="/card/3186.html" target="_blank">超梦西游海量版新手礼包</a><a title="" href="/card/3186.html"
+                                                class="qh" target="_blank">领取</a></p>
+                                        <p class="psl">蟠桃*4500、副本挑战符*20、追风挑战符*100</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="prediv"><span>超梦西游海量版新手礼包</span>
+                                    <a title="" href="/card/3186.html" target="_blank">领取</a></div>
+                                <div class="hoverdiv">
+                                    <div class="imgdiv"><a title="" href="/card/3186.html" target="_blank">
+                                            <img title="" data-original="http://pic5.3733.com/icon/201812/5c6df58781d9a33aa99488f8727e02ba.png"
+                                                alt="超梦西游海量版新手礼包"></a></div>
+                                    <div class="txtdiv">
+                                        <p class="ptitle"><a title="" href="/card/3186.html" target="_blank">超梦西游海量版新手礼包</a><a title="" href="/card/3186.html"
+                                                class="qh" target="_blank">领取</a></p>
+                                        <p class="psl">蟠桃*4500、副本挑战符*20、追风挑战符*100</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="prediv"><span>超梦西游海量版新手礼包</span>
+                                    <a title="" href="/card/3186.html" target="_blank">领取</a></div>
+                                <div class="hoverdiv">
+                                    <div class="imgdiv"><a title="" href="/card/3186.html" target="_blank">
+                                            <img title="" data-original="http://pic5.3733.com/icon/201812/5c6df58781d9a33aa99488f8727e02ba.png"
+                                                alt="超梦西游海量版新手礼包"></a></div>
+                                    <div class="txtdiv">
+                                        <p class="ptitle"><a title="" href="/card/3186.html" target="_blank">超梦西游海量版新手礼包</a><a title="" href="/card/3186.html"
+                                                class="qh" target="_blank">领取</a></p>
+                                        <p class="psl">蟠桃*4500、副本挑战符*20、追风挑战符*100</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="prediv"><span>超梦西游海量版新手礼包</span>
+                                    <a title="" href="/card/3186.html" target="_blank">领取</a></div>
+                                <div class="hoverdiv">
+                                    <div class="imgdiv"><a title="" href="/card/3186.html" target="_blank">
+                                            <img title="" data-original="http://pic5.3733.com/icon/201812/5c6df58781d9a33aa99488f8727e02ba.png"
+                                                alt="超梦西游海量版新手礼包"></a></div>
+                                    <div class="txtdiv">
+                                        <p class="ptitle"><a title="" href="/card/3186.html" target="_blank">超梦西游海量版新手礼包</a><a title="" href="/card/3186.html"
+                                                class="qh" target="_blank">领取</a></p>
+                                        <p class="psl">蟠桃*4500、副本挑战符*20、追风挑战符*100</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="prediv"><span>超梦西游海量版新手礼包</span>
+                                    <a title="" href="/card/3186.html" target="_blank">领取</a></div>
+                                <div class="hoverdiv">
+                                    <div class="imgdiv"><a title="" href="/card/3186.html" target="_blank">
+                                            <img title="" data-original="http://pic5.3733.com/icon/201812/5c6df58781d9a33aa99488f8727e02ba.png"
+                                                alt="超梦西游海量版新手礼包"></a></div>
+                                    <div class="txtdiv">
+                                        <p class="ptitle"><a title="" href="/card/3186.html" target="_blank">超梦西游海量版新手礼包</a><a title="" href="/card/3186.html"
+                                                class="qh" target="_blank">领取</a></p>
+                                        <p class="psl">蟠桃*4500、副本挑战符*20、追风挑战符*100</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="prediv"><span>超梦西游海量版新手礼包</span>
+                                    <a title="" href="/card/3186.html" target="_blank">领取</a></div>
+                                <div class="hoverdiv">
+                                    <div class="imgdiv"><a title="" href="/card/3186.html" target="_blank">
+                                            <img title="" data-original="http://pic5.3733.com/icon/201812/5c6df58781d9a33aa99488f8727e02ba.png"
+                                                alt="超梦西游海量版新手礼包"></a></div>
+                                    <div class="txtdiv">
+                                        <p class="ptitle"><a title="" href="/card/3186.html" target="_blank">超梦西游海量版新手礼包</a><a title="" href="/card/3186.html"
+                                                class="qh" target="_blank">领取</a></p>
+                                        <p class="psl">蟠桃*4500、副本挑战符*20、追风挑战符*100</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="prediv"><span>超梦西游海量版新手礼包</span>
+                                    <a title="" href="/card/3186.html" target="_blank">领取</a></div>
+                                <div class="hoverdiv">
+                                    <div class="imgdiv"><a title="" href="/card/3186.html" target="_blank">
+                                            <img title="" data-original="http://pic5.3733.com/icon/201812/5c6df58781d9a33aa99488f8727e02ba.png"
+                                                alt="超梦西游海量版新手礼包"></a></div>
+                                    <div class="txtdiv">
+                                        <p class="ptitle"><a title="" href="/card/3186.html" target="_blank">超梦西游海量版新手礼包</a><a title="" href="/card/3186.html"
+                                                class="qh" target="_blank">领取</a></p>
+                                        <p class="psl">蟠桃*4500、副本挑战符*20、追风挑战符*100</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+    
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!--main:end-->
+    <!--footer:begin-->
+    <div id="footer">
+        <div class="siteMap">
+            <div class="map">
+                <p>
+                    <a href="/about/index.html" target="_blank">关于本站</a><em>|</em>
+                    <a href="/about/contact.html" target="_blank">联系我们</a><em>|</em>
+                    <a href="/about/job.html" target="_blank">加入我们</a><em>|</em>
+                    <a href="/about/adm.html" target="_blank">广告服务</a><em>|</em>
+                    <a href="/about/law.html" target="_blank">法律声明</a><em>|</em>
+                    <a href="/about/link.html" target="_blank">友情链接</a><em>|</em>
+                    <a href="/about/sitemap.html" target="_blank">网站地图</a><em>|</em>
+                    <a target="_blank" href="/about/jianhu.html">
+                        <font class="observe">未成年人家长监护服务</font>
+                    </a>
+                </p>
+                <p>作品版权归作者所有，如果侵犯了您的版权，请联系我们，本站将在3个工作日内删除。<br>
+                    温馨提示：抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防受骗上当，适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活。<br>
+                    文明办网文明上网举报、纠纷处理及不良内容举报电话：4000719997，举报邮箱：jubao@3733.com <br>
+                    版权所有 Copyright &copy; 2016
+                    <a href="/">www.zhuayoukong.com</a>
+                    All rights reserved&nbsp;
+                    <a href="http://www.miitbeian.gov.cn/" target="_blank">备案号：闽ICP备16002893号</a>
+                    &nbsp;<a href="http://sq.ccm.gov.cn:80/ccnt/sczr/service/business/emark/toDetail/58dcc7e1967c488381b1a88094618c70"><img
+                            style="display:inline;" src="static/images/wenhuajingying.png">闽网文[2016]2519-045号</a>
+                    <a href="/">爪游控</a>
+                    版权所有
+                </p>
+                <p>厦门悦游网络科技有限公司 地址：厦门市思明区软件园观日路30号之六
+                    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35020302024624"
+                        style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                        <img class="beian-pic" src="static/images/beian.png" />
+                        <span class="beian">闽公网安备 35020302024624号</span>
+                        <span class="cnzz">
+                            <script type="text/javascript">
+                                var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" :
+                                    " http://");
+                                document.write(unescape(
+                                    "%3Cspan id='cnzz_stat_icon_1259401503'%3E%3C/span%3E%3Cscript src='" +
+                                    cnzz_protocol +
+                                    "s95.cnzz.com/z_stat.php%3Fid%3D1259401503%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"
+                                ));
+                            </script>
+                        </span>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="erweipic" class="erweipic">
+        <script src="/e/code/?data=https://m.zhuayoukong.com/kf.html" language="javascript"></script>
+    </div>
+</body>
+
+</html>
