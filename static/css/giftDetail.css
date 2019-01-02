@@ -613,9 +613,15 @@
 .box3733 .QR-code-outer .down-btn .btn-ios {
   background: #37b6ea;
 }
+.box3733 .QR-code-outer .down-btn .btn-ios:hover {
+  background: #0595ce;
+}
 .box3733 .QR-code-outer .down-btn .btn-az {
   background: #4dcd70;
   margin-top: 20px;
+}
+.box3733 .QR-code-outer .down-btn .btn-az:hover {
+  background: #04b934;
 }
 .box3733 .QR-code-outer .down-btn .info-tips {
   margin-top: 5px;
