@@ -428,6 +428,7 @@
   overflow: hidden;
   padding: 0 12px;
   margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 .new-gift .new-gift-list .new-gift-item:hover {
   background: #f8f8f8;
@@ -621,11 +622,11 @@
 }
 .wel-activity .wel-content .wel-list .wel-item {
   box-sizing: border-box;
-  height: 35px;
+  height: 40px;
   border-top: 1px dashed #eee;
-  line-height: 35px;
+  line-height: 40px;
   padding-left: 10px;
-  background: url(../images/li_arrow.gif) 0 12px no-repeat;
+  background: url(../images/li_arrow.gif) 0 16px no-repeat;
   transition: 0.2s;
 }
 .wel-activity .wel-content .wel-list .wel-item:hover {
