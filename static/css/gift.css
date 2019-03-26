@@ -565,6 +565,10 @@
 .hot-game-list .hot-game-item .game-info span {
   font-size: 14px;
   color: #aaa;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
 }
 .hot-game-list .hot-game-item .game-info .btn {
   margin-top: 10px;

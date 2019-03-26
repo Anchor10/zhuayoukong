@@ -208,14 +208,14 @@ h3 {
 
 .game_top {
     height: 110px;
-    padding: 16px 17px;
+    padding: 16px 10px;
     overflow: hidden;
     position: relative;
 }
 
 .game_icon {
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
     position: absolute;
     top: 16px;
     left: 17px;
@@ -234,7 +234,7 @@ h3 {
 }
 
 .game_intro {
-    padding-left: 130px;
+    padding-left: 110px;
     margin-top: -5px
 }
 
@@ -244,6 +244,12 @@ h3 {
     color: #636363;
     height: 30px;
     overflow: hidden;
+}
+.game_intro .p_red{
+    color: #999;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
 }
 
 .game_intro .p_name a {
@@ -262,7 +268,7 @@ a.linhao {
     background: #fff;
     border: 1px solid #f60;
     position: absolute;
-    right: 50px;
+    right: 90px;
     top: 90px;
     text-align: center;
     font-size: 14px;
@@ -1328,3 +1334,49 @@ a.linhao:hover {
   .insert-list .insert-item .insert-wel span {
     color: #7f7f7f;
   }
+/*海豚网游加速器*/
+.haituan{
+    display: block;
+    box-sizing: border-box;
+    max-width: 1200px;
+    width: 100%;
+    height: 236px;
+    background: #c4f1d4;
+    margin: 20px auto;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.haituan .haituan_pic{
+    width: 380px;
+    height: 212px;
+}
+.haituan .haituan_pic img{
+    display: block;
+    width: 380px;
+    height: 212px;
+}
+.haituan .haitun_info{
+    flex: 1;
+}
+.haituan .haitun_info_con{
+    line-height: 2;
+    box-sizing: border-box;
+    width: 250px;
+    padding-top: 25px;
+    letter-spacing: 3px;
+    margin: 0 auto;
+}
+.haituan .haitun_info .pp{
+    font-size: 16px;
+    color: #2b2f25;
+    font-weight: bolder;
+}
+.haituan .haitun_info .big_p{
+    font-size: 24px;
+}
+.haituan .haitun_info img{
+    display: block;
+    width: 166px;
+    margin-top: 10px;
+}

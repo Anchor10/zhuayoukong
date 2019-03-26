@@ -103,16 +103,27 @@ ol,ul,dl{list-style:none}
 .downWrap .icon .showCode{position: absolute; width: 50px; height: 45px;top: 0px; right: 0px; z-index: 9; background: transparent;}
 .downWrap .android{background-position:0px -49px;}
 .downWrap .ios{background-position:0px -100px;}
+.downWrap .rightnow{background:url(../images/down_haitun.png) no-repeat; background-position:0px -49px;}
+.downWrap .haitun{background:url(../images/down_haitun.png) no-repeat; background-position:0px -100px;}
 .downWrap .shuowan{background-position: -0px -151px;}
 .downWrap .pc{background-position:0px 0px;}
 .downWrap .android[href]:hover{background-position: -203px -49px;}
 .downWrap .ios[href]:hover{background-position: -203px -100px;}
+.downWrap .rightnow[href]:hover{background-position: -203px -49px;}
+.downWrap .haitun:hover{ background-position:-203px -100px;}
 .downWrap .shuowan[href]:hover{background-position: -203px -151px;}
 .downWrap .pc[href]:hover{background-position:-203px 0px;}
 .downWrap .android.ban{background-position:0px -382px;}
 .downWrap .ios.ban{background-position:0px -436px;cursor: default;}
+
 .downWrap .shuowan.ban{background-position:-213px -382px;}
+.downWrap .rightnow.ban{background-position:0px -382px;}
 .downWrap .pc.ban{background-position:-213px -436px;}
+.downWrap .android.ban:hover{background-position: 0px -382px;cursor: not-allowed;}
+.downWrap .rightnow.ban:hover{background-position: 0px -382px;cursor: not-allowed;}
+.downWrap .ios.ban:hover{background-position: 0px -436px;cursor: not-allowed;}
+.downWrap .shuowan.ban:hover{background-position: -213px -382px;cursor: not-allowed;}
+.downWrap .pc.ban:hover{background-position:-213px -436px;cursor: not-allowed;}
 .codeWrap{width: 120px; height: 120px; padding: 15px; background: #fff; border: 1px solid #ccc; position: absolute;display: none;z-index: 2; right: 0px; margin-right: -20px; margin-top: 8px;}
 .codeWrap::after{content: "";position: absolute; width: 10px; height: 10px; border: 1px solid #ccc; border-bottom: 0; border-right: 0; transform: rotate(45deg); left: 50px;top: -6px; background: #fff; z-index: 3;}
 .codeWrap img{width: 100%; height: 100%;}

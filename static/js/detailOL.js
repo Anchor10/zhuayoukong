@@ -111,12 +111,12 @@ $(function(){
           e.stopPropagation();    
           $('.eight-ewm.box3').slideToggle(200);
         })
-        $('.android').click(function(e){
+        $('.android:not(.ban)').click(function(e){
           e.stopPropagation();
           $('.eight-ewm.box1').slideToggle(200);
           $('.eight-ewm.box2').slideUp(200);
         })
-        $('.ios').click(function(e){
+        $('.ios:not(.ban)').click(function(e){
             e.stopPropagation();
             $('.eight-ewm.box2').slideToggle(200);
             $('.eight-ewm.box1').slideUp(200);
