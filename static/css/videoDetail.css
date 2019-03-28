@@ -1095,3 +1095,215 @@
 .insert-list .insert-item .insert-wel span {
     color: #7f7f7f;
 }
+
+#gamebox2 {
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    border: 1px solid #e3e3e3;
+    padding: 10px 10px 10px 80px;
+    height: 60px;
+    position: relative;
+}
+
+#gamebox2 .img {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+#gamebox2 .img img {
+    max-width: 100%;
+}
+
+#gamebox2 .title {
+    max-width: 260px;
+    margin: 5px 0!important;
+    line-height: 25px;
+}
+
+#gamebox2 .title a {
+    color: #0cc6c6;
+}
+
+#gamebox2 .type {
+    margin: 0!important;
+    font-size: 12px;
+    color: #bbb;
+    line-height: 20px;
+}
+
+#gamebox2 .type span {
+    opacity: 0.4;
+    font-size: 10px;
+    padding: 0 0.5em;
+    font-family: Tahoma;
+}
+
+#gamebox2 .type span.red {
+    color: red;
+    opacity: 1;
+}
+
+#gamebox2 .gamedownload {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 12px;
+}
+
+#gamebox2 .gamedownload a {
+    background: #3385FF;
+    display: inline-block;
+    margin: 10px 0 0 5px;
+    line-height: 40px;
+    padding: 0 10px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+#gamebox2 .gamedownload a:hover {
+    background: #5B9DFE;
+}
+#xq_crn {
+    border: 1px solid #e7e7e7;
+    padding: 20px 15px 15px 15px;
+    overflow: hidden;
+    margin: 15px 0px 15px 0px;
+}
+
+#xq_crn span {
+    display: block;
+    overflow: hidden;
+    height: 95px;
+}
+
+#xq_crn b {
+    display: block;
+    width: 185px;
+    margin: 0px 6px;
+    font-weight: normal;
+    float: left;
+    height: 81px;
+    overflow: hidden;
+}
+
+#xq_crn b.pic {
+    width: 215px;
+}
+
+#xq_crn b.pic img {
+    width: 72px;
+    height: 72px;
+    border-radius: 10px;
+    float: left;
+}
+
+#xq_crn s {
+    display: block;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 90px;
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+}
+
+#xq_crn s.title {
+    font-size: 14px;
+    color: #333;
+    height: 30px;
+    line-height: 30px;
+    width: 140px;
+    overflow: hidden;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#xq_crn s.title a {
+    color: #ff7800;
+}
+
+#xq_crn .star0 {
+    background: url(../images/litterStar.png) 0px 4px no-repeat;
+}
+
+#xq_crn .star1 {
+    background: url(../images/litterStar.png) 0px -23px no-repeat;
+}
+
+#xq_crn .star2 {
+    background: url(../images/litterStar.png) 0px -48px no-repeat;
+}
+
+#xq_crn .star3 {
+    background: url(../images/litterStar.png) 0px -74px no-repeat;
+}
+
+#xq_crn .star4 {
+    background: url(../images/litterStar.png) 0px -100px no-repeat;
+}
+
+#xq_crn .star5 {
+    background: url(../images/litterStar.png) 0px -126px no-repeat;
+}
+
+#xq_crn b u {
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    width: 190px;
+    height: 31px;
+    line-height: 31px;
+    color: #333;
+    margin: 5px 0px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#xq_crn b u i {
+    position: absolute;
+    left: 60px;
+    top: 2px;
+    height: 20px;
+    width: 75px;
+    line-height: 26px;
+    z-index: 9999;
+    color: #333;
+}
+
+#xq_crn a.down {
+    float: left;
+    height: 35px;
+    width: 100px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 25px;
+    background-color: #3385FF;
+    display: inline-block;
+    text-align: center;
+}
+
+#xq_crn a.down:hover {
+    background: #5B9DFE;
+}
+
+#xq_crn span.pingyu {
+    border-top: 1px dashed #e7e7e7;
+    height: auto;
+    display: block;
+    clear: both;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 25px;
+    color: #666;
+    padding-top: 15px;
+    word-wrap: break-word;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    -ms-text-justify: inter-ideograph;
+}
