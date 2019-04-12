@@ -1302,3 +1302,160 @@
     text-justify: inter-ideograph;
     -ms-text-justify: inter-ideograph;
 }
+.softjs3 {
+    width: 756px;
+    margin: 30px auto;
+    border: 2px solid #288bde;
+    font-size: 14px;
+}
+
+.softjs3 .softjs3-hd {
+    background: #288bde;
+    padding: 0 20px;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+}
+
+.softjs3 .softjs3-bd {
+    padding: 0 20px;
+    overflow: hidden;
+    zoom:1;}
+
+.softjs3 .cmsLink {
+    border-bottom: 1px dashed #003388;
+}
+
+.softjs3 .softjs3-bd ul {
+    margin-top: -1px;
+}
+
+.softjs3 .softjs3-bd ul li {
+    border-top: 1px dashed #e5e5e5;
+    padding: 10px 0;
+    overflow: hidden;
+    zoom:1;}
+
+.softjs3 .softjs3-logo {
+    float: left;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    vertical-align: top;
+}
+
+.softjs3 .softjs3-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.softjs3 .softjs3-name {
+    float: left;
+    width: 130px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 40px;
+}
+
+.softjs3 .softjs3-name a {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    zoom:1;text-overflow: ellipsis;
+}
+
+.softjs3 .softjs3-boon {
+    float: left;
+    margin-left: 20px;
+    width: 425px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.softjs3 .softjs3-boon span {
+    line-height: 40px;
+}
+
+.softjs3 .softjs3-dl {
+    float: right;
+    width: 80px;
+}
+
+.softjs3 .softjs3-dl a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background: #288bde;
+    border-radius: 3px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.overview {
+    background: url(../images/overview.png) top center repeat;
+    margin: 20px 0;
+    padding: 2px 0;
+    line-height: 28px;
+    text-align: center;
+    text-indent: 2em;
+    color: #b96b6b;
+    clear: both;
+}
+
+.overview a {
+    position: relative;
+    top: -1px;
+}
+
+/*海豚网游加速器*/
+.haituan{
+    display: block;
+    box-sizing: border-box;
+    max-width: 1200px;
+    width: 100%;
+    height: 236px;
+    background: #c4f1d4;
+    margin: 20px auto;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.haituan .haituan_pic{
+    width: 380px;
+    height: 212px;
+}
+.haituan .haituan_pic img{
+    display: block;
+    width: 380px;
+    height: 212px;
+}
+.haituan .haitun_info{
+    flex: 1;
+}
+.haituan .haitun_info_con{
+    line-height: 2;
+    box-sizing: border-box;
+    width: 250px;
+    padding-top: 25px;
+    letter-spacing: 3px;
+    margin: 0 auto;
+}
+.haituan .haitun_info .pp{
+    font-size: 16px;
+    color: #2b2f25;
+    font-weight: bolder;
+}
+.haituan .haitun_info .big_p{
+    font-size: 24px;
+}
+.haituan .haitun_info img{
+    display: block;
+    width: 166px;
+    margin-top: 10px;
+}
