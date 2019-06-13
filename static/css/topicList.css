@@ -101,6 +101,28 @@
 .topic-list .topic-item:hover .Min0_L{
     border-color: #ff6600;
 }
+.topic-list .topic-item .Min0_L a{
+    position: relative;
+    display: block;
+    height: 100%;
+}
+.topic-list .topic-item .Min0_L a .topic-title{
+    display: block;
+    width: 70%;
+    height: 100%;
+    line-height: 255px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: url(../images/title-bg.png) center center no-repeat;
+    background-size: 100% 28%;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 10px #fff;
+    /* font-weight: bold; */
+}
 .topic-list .topic-item:hover .Min0_R{
     border-color: #ff6600;
 }

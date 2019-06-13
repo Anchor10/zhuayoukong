@@ -1,6 +1,6 @@
-$(function(){
-    $("#t_video").addClass("curr");
-})
+// $(function(){
+//     $("#t_video").addClass("curr");
+// })
 
 $(function(){
     $('.down-link').hover(
